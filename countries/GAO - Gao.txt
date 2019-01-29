@@ -1,4 +1,0 @@
-government = monarchy
-religion = sunni
-capital = 1133
-technology_group = sub_saharan
