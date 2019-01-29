@@ -1,0 +1,13 @@
+union = {
+	first = SUN
+	second = GAU
+	start_date = 1355.1.1
+	end_date = 1400.1.1
+}
+
+vassal = {
+	first = SUN
+	second = PBG
+	start_date = 1379.1.1
+	end_date = 1400.1.1
+}
