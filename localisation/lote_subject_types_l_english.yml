@@ -1,0 +1,5 @@
+﻿l_english:
+ holy_order_title: "Holy Order"
+ holy_order_title_plural: "Holy Orders"
+ holy_order_long_desc: "Holy orders, normally only found in the Baltic with the resurgence of the Mamluk Sultanate crushing any hopes of a Levantine crusade, function very similar to marches, but with more thematic interactions."
+ holy_order_is_our:0 "$NAME|Y$ is our Holy Order."

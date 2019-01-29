@@ -1,0 +1,18 @@
+﻿l_english:
+ flavor_dan.2.t:0 "Icelandic Fishers Move West"
+ flavor_dan.2.d:0 "The Icelandic fishing industry has been supplying most of northern Europe with much needed food, however it cannot be denied that the fish is running out. The fishers in response have travelled west to build new fisheries, and it seems they have stumbled upon some sort of new landmass."
+ flavor_dan.2.a:0 "Interesting."
+ flavor_dan.3.t:0 "The Swedish Pretender"
+ flavor_dan.3.d:0 "The nobles of Sweden have come to us with a simple request. Rid the Swedes of their king, and ensure their loyalty. The prospect of a united Scandinavia is too good to pass up, but it's up to you to decide what to do."
+ flavor_dan.3.a:0 "Let's help these nobles!"
+ flavor_dan.3.b:0 "We cannot provide any assistance."
+ flavor_dan.4.t:0 "The Sound Toll"
+ flavor_dan.4.d:0 "King Eric of Pomerania has decided to make use of our strategic position in the Baltic, and has created a "Sound Toll", where all trade going in and out of the Baltic must pay a tax to the Danish crown. This will make the Hansa very angry, but it will make us very, very rich."
+ flavor_dan.4.a:0 "An excellent idea!"
+ flavor_dan.5.t:0 "The Kalmar Union and Margaret I"
+ flavor_dan.5.d:0 "Queen Margaret I has united Scandinavia into one crown - our crown. Her reign proves to be very beneficial, and her reforms have ensured that our lesser partners will not rebel - for the time being."
+ flavor_dan.5.a:0 "Brilliant!"
+ 
+ #modifiers
+ dan_margaret_i:0 "Margaret I"
+ dan_sound_toll:0 "The Sound Toll"
