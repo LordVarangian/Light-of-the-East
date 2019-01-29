@@ -1,0 +1,12 @@
+bookmark = {
+	name = "LIGHT_OF_THE_EAST"
+	desc = "LIGHT_OF_THE_EAST_DESC"
+	date = 1380.7.6
+	country = MAM
+	default = yes
+	country = GEO
+	country = ABS	
+	country = RUM
+	country = KWM
+	easy_country = MAM
+}

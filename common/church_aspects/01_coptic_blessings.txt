@@ -1,0 +1,153 @@
+legitimize_government = {
+	is_blessing = yes
+
+	modifier = {
+		legitimacy = 0.5
+		horde_unity = 0.5
+		republican_tradition = 0.2
+		devotion = 0.5
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			NOT = {
+				OR = {
+					legitimacy = 70
+					republican_tradition = 70
+					devotion = 70
+				}
+			}
+		}
+	}
+}
+
+encourage_warriors_of_the_faith = {
+	is_blessing = yes
+
+	modifier = {
+		manpower_recovery_speed = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			NOT = {
+				manpower = 4
+			}
+		}
+	}
+}
+
+send_monks_to_establish_monasteries = {
+	is_blessing = yes
+
+	modifier = {
+		global_missionary_strength = 0.015
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.9
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.7
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.5
+			}
+		}
+	}
+}
+
+promote_territorial_rights = {
+	is_blessing = yes
+
+	modifier = {
+		core_creation = -0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			overextension_percentage = 0.7
+		}
+		modifier = {
+			factor = 3
+			overextension_percentage = 0.5
+		}
+	}
+}
+
+will_of_the_martyrs = {
+	is_blessing = yes
+
+	modifier = {
+		discipline = 0.025
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+cremate_the_dead = {
+	is_blessing = yes
+	
+	modifier = {
+		global_unrest = -3
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+promote_oral_tradition = {
+	is_blessing = yes 
+	
+	modifier = {
+		tolerance_own = 3
+		culture_conversion_cost = -0.2
+	}
+}
+
+promote_syncretic_religion = {
+	is_blessing = yes 
+	
+	modifier = {		
+		core_creation = -0.2
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+ancestor_worship = {
+	is_blessing = yes
+	
+	modifier = {
+		land_morale = 0.1
+		discipline = 0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+preserve_sacred_forests = {	
+	is_blessing = yes
+	
+	modifier = {
+		religious_unity = 0.25
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
