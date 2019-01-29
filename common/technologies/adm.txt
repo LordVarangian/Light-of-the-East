@@ -1,0 +1,369 @@
+monarch_power = ADM
+
+# applied when a country is ahead of time in this technology
+ahead_of_time = {
+	production_efficiency = 0.2
+	yearly_corruption = -0.05
+}
+
+# Pre-era techs
+technology = { #Tribal Government
+	# Tech 0
+	year = 800
+	
+	tribal_despotism_legacy = yes 	
+	tribal_federation_legacy = yes 
+	
+	native_earthwork = yes
+	native_palisade = yes
+	native_fortified_house = yes
+	native_three_sisters_field = yes
+	native_irrigation = yes
+	native_storehouse = yes
+	native_longhouse = yes
+	native_sweat_lodge = yes
+	native_great_trail = yes
+	native_ceremonial_fire_pit = yes
+}
+
+technology = { #United People
+	# Tech 1
+	year = 1
+	
+	tribal_democracy_legacy = yes
+	tribal_kingdom_legacy = yes
+}
+
+technology = { #Basic Despotism
+	# Tech 2
+	year = 1000
+	
+
+	#Monarchies
+	despotic_monarchy = yes	
+	feudal_monarchy = yes
+	oligarchic_republic = yes
+}
+
+# The 30 big techs from here on
+
+technology = { #Feudal Monarchy
+	# Tech 3
+	year = 1300
+	
+	feudal_monarchy = yes
+	oligarchic_republic = yes
+
+}
+ 
+technology = { #Written History
+	# Tech 4
+	year = 1350
+	
+	production_efficiency = 0.03
+	may_support_rebels = yes
+}
+
+technology = { #Organized Worship
+	# Tech 5
+	year = 1379
+
+	production_efficiency	 =	0.02
+	temple = yes
+}
+
+technology = { #Civil Service
+	# Tech 6
+	year = 1392
+	
+	allowed_idea_groups = 1
+}
+
+technology = { #Guilds
+	# Tech 7
+	year = 1405
+	
+	set_country_flag = guilds_enabled
+	guild_hall = yes
+	theocratic_government = yes
+}
+
+technology = { #Autocratic Monarchy 
+	year = 1418
+	
+	max_states = 3
+
+}
+
+technology = { #Public Libraries
+	# Tech 9
+	year = 1431
+	
+	library = yes 
+}
+
+technology = { #The Waterwheel
+	# Tech 10
+	year = 1444
+	
+	workshop = yes
+	production_efficiency = 0.03
+}
+
+technology = { #Textile Manufactory
+	# Tech 11
+	year = 1453
+	
+	textile = yes  
+}
+
+technology = { #Theological Renaissance
+	# Tech 12
+	year = 1466
+	
+	allowed_idea_groups = 2
+}
+
+technology = { #The Scythe
+	# Tech 13
+	year = 1479
+	
+	production_efficiency 	=	0.02
+}
+
+technology = { #Improved Production
+	# Tech 14
+	year = 1492
+	
+	plantations = yes
+	allowed_idea_groups	= 4
+}
+
+technology = { #Glassblowing
+	# Tech 15
+	year = 1505
+	
+	mills = yes 
+	may_force_march = yes
+	
+}
+
+technology = { #Reformed Feudalism
+	# Tech 16
+	year = 1518
+	
+	production_efficiency 	=	0.02
+}
+
+technology = { #Reformed Legal Code
+	# Tech 17
+	year = 1531
+	
+	courthouse = yes	
+	max_states = 5
+	
+	administrative_efficiency = 0.1
+	development_efficiency = 0.1
+}
+
+technology = { #Reformist Ideas
+	# Tech 18
+	year = 1544
+	
+	allowed_idea_groups	= 3
+}
+
+technology = { #Il Rinascita
+	# Tech 19
+	year = 1557
+	
+	production_efficiency = 0.02
+	development_efficiency = 0.02
+}
+
+technology = { #Sewage Systems
+	# Tech 20
+	year = 1570
+	
+	republican_dictatorship = yes
+	development_efficiency = 0.02
+}
+
+technology = { #Gothic Architecture
+	# Tech 21
+	year = 1583
+	
+	cathedral = yes
+}
+
+technology = { #New Manufactories
+	# Tech 22
+	year = 1596
+	
+	production_efficiency = 0.02
+}
+
+technology = { #Crop Rotation
+	# Tech 23
+	year = 1609
+	
+	administrative_efficiency = 0.1
+	development_efficiency = 0.1
+}
+
+technology = { #Controlled Experiments
+	# Tech 24
+	year = 1622
+	
+	allowed_idea_groups = 4
+}
+
+technology = { #The University
+	# Tech 25
+	year = 1635
+	
+	university = yes
+	production_efficiency 	=	0.02
+}
+
+technology = { #Central Monarchies
+	# Tech 26
+	year = 1648
+	
+}
+
+technology = { #Metallurgy
+	# Tech 27
+	year = 1661
+
+	steel_factory = yes
+	administrative_efficiency = 0.1
+	development_efficiency = 0.1	
+	max_states = 5
+}
+
+technology = { #Geometry
+	# Tech 28
+	year = 1674
+	
+	production_efficiency 	=	0.02
+}
+
+technology = { #Liberal Thought
+	# Tech 29
+	year = 1687
+	
+	enlightened_despotism = yes
+	bureaucratic_despotism = yes
+}
+
+technology = { #Civl Liberty
+	# Tech 30
+	year = 1700
+	
+	allowed_idea_groups = 5
+}
+
+technology = { #The Constitution
+	# Tech 31
+	year = 1713
+	
+	revolutionary_republic = yes
+	revolutionary_empire = yes
+	max_states = 5
+}
+
+technology = { #Scientific Method
+	# Tech 32
+	year = 1726
+	
+	development_efficiency = 0.1
+}
+
+technology = { #Stock Exchange
+	#Tech 33
+	year = 1739
+	
+	counting_house = yes
+	town_hall = yes 
+}
+
+technology = { #Modern Guilds
+	#Tech 34
+	year = 1752
+	
+	production_efficiency = 0.02
+}
+
+technology = { #Cultural Identity
+	#Tech 35
+	year = 1775
+	
+	
+}
+
+technology = { #National Awakening
+	#Tech 36
+	year = 1788
+	
+	allowed_idea_groups = 6
+}
+
+technology = { #Liberal Revolutions
+	#Tech 37
+	year = 1801
+	
+	max_states = 10
+}
+
+technology = { #Measurement Innovations
+	#Tech 38
+	year = 1814
+	
+	development_efficiency = 0.03
+}
+
+technology = { #Watermill Factories
+	#Tech 39
+	year = 1827
+	
+	watermill_factory = yes 
+}
+
+technology = { #Rubber Plantations
+	#Tech 40
+	year = 1840
+	
+	rubber_factory = yes 
+}
+
+technology = { #Mass Produced Steel
+	#Tech 41
+	year = 1853
+	
+	production_efficiency = 0.15
+	development_efficiency = 0.15
+	railroad = yes 
+}
+
+technology = { #Empircism
+	#Tech 42
+	year = 1876
+	
+	allowed_idea_groups = 7
+	max_states = 15
+}
+
+technology = { #Psychology
+	#Tech 43
+	year = 1889
+	
+	set_country_flag = enabled_ideologies
+}
+
+technology = { #Ideological Thought
+	#Tech 44
+	year = 1902
+	
+	allowed_idea_groups = 8
+}

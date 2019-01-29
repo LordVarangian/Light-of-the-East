@@ -1,0 +1,47 @@
+SNG_ideas = {
+	start = {
+		naval_morale = 0.15
+		range = 0.3
+	}
+	bonus = {
+		global_trade_power = 0.15
+	}
+	
+	trigger = {
+		tag = SNG
+	}
+	free = yes
+	
+	sng_the_celestial_republic = {
+		republican_tradition = 1
+		prestige = 0.5
+	}
+	
+	sng_imperial_examinations = {
+		advisor_pool = 1
+		diplomatic_upkeep = 1
+	}
+	
+	sng_artillery_innovations = {
+		artillery_power = 0.1
+		artillery_cost = -0.1
+	}
+	
+	sng_imperial_navy = {
+		heavy_ship_power = 0.1
+	}
+	
+	sng_maritime_expeditions = {
+		colonists = 1
+		global_colonial_growth = 20
+	}
+	
+	sng_early_industry = {
+		production_efficiency = 0.2
+	}
+	
+	sng_wu_and_wen = {
+		technology_cost = -0.1
+		discipline = 0.05
+	}
+}

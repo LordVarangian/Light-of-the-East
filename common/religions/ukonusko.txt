@@ -1,0 +1,30 @@
+pagan = {
+	ukonusko = {
+
+		color = { 83 104 120 }
+		icon = 14
+		country = {
+			land_morale = 0.1
+			tolerance_heathen = 2
+		}
+		country_as_secondary = {
+			land_attrition = -0.1
+			global_unrest = -2
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { DEVIL_WORSHIPPERS }
+		
+		holy_sites = { 4422 18 4124 35 1842 }
+		
+		blessings = {
+			cremate_the_dead
+			promote_oral_tradition
+			promote_syncretic_religion
+			ancestor_worship
+			preserve_sacred_forests
+		}
+	}
+}

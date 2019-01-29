@@ -1,0 +1,104 @@
+#Scandinavia
+DNO = "countries/DenmarkNorway.txt"
+
+#Balkans
+LTN = "countries/Rhomaniae.txt"
+BKG = "countries/byzrevolt.txt"
+
+#British Isles
+
+#Colonies
+
+#Eastern Europe
+VLO = "countries/Volyhnia.txt"
+GLA = "countries/Galicia_Red.txt"
+MSK = "countries/Minsk.txt"
+
+#France
+ANJ = "countries/Anjou.txt"
+COB = "countries/County_of_Burgundy.txt"
+OCC = "countries/Occitanie.txt"
+LRE = "countries/Loire.txt"
+AQI = "countries/Aquitaine.txt"
+
+#HRE
+BAM = "countries/Bamberg.txt"
+
+#Spain
+
+#Italy
+ANC = "countries/Ancona.txt"
+PIE = "countries/Piedmont.txt"
+
+#Low Countries
+BEL = "countries/Belgium.txt"
+
+#Russia
+VLG = "countries/Vologda.txt"
+GLC = "countries/Galich.txt"
+KAI = "countries/Kasimov.txt"
+SRT = "countries/Saratov.txt"
+KHZ = "countries/Khazaria.txt"
+CUM = "countries/Cumans.txt"
+VLB = "countries/Volga_Bulgaria.txt"
+VLA = "countries/Vladimir.txt"
+
+#Arabia
+BSA = "countries/Basrah.txt"
+
+#Asia Minor
+RAQ = "countries/Raqqa.txt"
+LAM = "countries/Lesser_Armenia.txt"
+DIY = "countries/Diyarbekir.txt"
+
+#Maghreb
+ABS = "countries/Abbasids.txt"
+AYY = "countries/Ayyubids.txt"
+ASY = "countries/Assyria.txt"
+
+#Central Asia
+QRA = "countries/Qara_Khitai.txt"
+KIP = "countries/Kipchaks.txt"
+
+#Persia
+SAS = "countries/Sassanids.txt"
+KWM = "countries/Khwarezm.txt"
+SPR = "countries/Sparseti.txt"
+
+#Americas
+
+#Africa
+RHO = "countries/Rhodesia.txt"
+ZIB = "countries/Zimbabwe.txt"
+GHA = "countries/Ghana.txt"
+IFA = "countries/Ifat.txt"
+GAO = "countries/Gao.txt"
+MDG = "countries/Madagascar.txt"
+
+#Far Eastern
+SNG = "countries/Song.txt"
+XIX = "countries/Xixia.txt"
+ZHJ = "countries/Zhejiang.txt"
+SUZ = "countries/Suzhou.txt"
+GNX = "countries/Guangxi.txt"
+HNI = "countries/Hainan.txt"
+CNT = "countries/Canton.txt"
+JSU = "countries/Jiangsu.txt"
+HNN = "countries/Hunan.txt"
+
+#India and Burma
+IND = "countries/India.txt"
+BAG = "countries/Pagan.txt"
+LHO = "countries/Lahore.txt"
+
+#East Indies
+INO = "countries/Indonesia.txt"
+PHI = "countries/Phitsanuloke.txt"
+LAV = "countries/Lavo.txt"
+FRM = "countries/Formosa.txt"
+LIU = "countries/Liusung.txt"
+SRI = "countries/Srivijaya.txt"
+PAH = "countries/Pahang.txt"
+SIN = "countries/Singhasari.txt"
+GAU = "countries/Galuh.txt"
+KEI = "countries/Kediri.txt"

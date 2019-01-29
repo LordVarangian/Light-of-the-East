@@ -1,0 +1,307 @@
+DNO_ideas = {
+	start = {
+		prestige = 1
+		naval_morale = 0.15
+	}
+	bonus = {	
+		global_trade_goods_size_modifier = 0.15
+	}
+	trigger = {
+		tag = DNO
+	}
+	free = yes
+	two_peoples_united = {
+		global_unrest = -3
+	}
+	danish_south_india_company = {
+		colonists = 1
+		infantry_power = 0.1
+	}
+	colonial_wars = {
+		blockade_efficiency = 0.15
+		province_warscore_cost = -0.1
+	}
+	danish_enlightenment = {
+		global_institution_spread = 0.2
+		max_states = 3
+	}
+	danish_code = {
+		administrative_efficiency = 0.05
+	}
+	agricultural_revolution = {
+		production_efficiency = 0.15
+	}
+	danish_golden_age = {
+		technology_cost = -0.15
+	}
+}
+
+VLB_ideas = {
+	start = {
+		cavalry_power = 0.15
+		tolerance_own = 3
+	}
+	bonus = {	
+		culture_conversion_cost = -0.15
+	}
+	trigger = {
+		tag = VLB
+	}
+	free = yes
+	islamic_russian_state = {
+		global_missionary_strength = 0.02
+	}
+	border_fortresses = {
+		defensiveness = 0.2
+	}
+	volga_river_trade = {
+		trade_efficiency = 0.15
+	}
+	pearl_of_the_volga = {
+		development_cost = -0.1
+		build_cost = -0.1
+	}
+	defend_against_rus = {
+		land_morale = 0.15
+	}
+	fine_craftsmanship = {
+		production_efficiency = 0.15
+		prestige = 0.5
+	}
+	turkic_heritage = {
+		cavalry_cost = -0.1
+		cavalry_flanking = 0.1
+	}
+}
+
+RAQ_ideas = {
+	start = {
+		defensiveness = 0.1
+		enemy_core_creation = 0.2
+	}
+	bonus = {
+		global_institution_spread = 0.1
+	}
+	trigger = {
+		tag = RAQ 
+	}
+	free = yes
+	raq_anatolian_claims = {
+		fabricate_claims_cost = -0.1
+	}
+	raq_chronicle_of_the_world = {
+		technology_cost = -0.1
+	}
+	raq_defend_against_rum = {
+		discipline = 0.05
+	}
+	raq_mamluk_ties = {
+		diplomatic_reputation = 2
+	}
+	raq_fortress_of_diyarbekir = {
+		garrison_size = 0.1
+		hostile_attrition = 0.1
+	}
+	raq_marriages = {
+		heir_chance = 0.5
+		legitimacy = 1
+	}
+	raq_moderate_islam = {
+		global_unrest = -2
+		idea_cost = -0.1
+	}
+}
+
+RHO_ideas = {
+	start = {
+		leader_land_shock = 1
+		num_accepted_cultures = 1
+	}
+	bonus = {
+		advisor_cost = -0.25
+	}
+	trigger = {
+		tag = RHO 
+	}
+	free = yes
+	rho_independent_nation = {
+		global_unrest = -3
+	}
+	rho_thunder_and_lightning = {
+		leader_land_manuever = 1
+		shock_damage = 0.15
+	}
+	rho_liberation_wars = {
+		ae_impact = -0.1
+	}
+	rho_policeman_of_africa = {
+		spy_offence = 0.15
+	}
+	rho_european_tech = {
+		technology_cost = -0.15
+	}
+	rho_defense_against_colonizers = {
+		fire_damage_received = -0.1
+		land_attrition = -0.1
+	}
+	rho_defensive_diplomacy = {
+		diplomatic_reputation = 2
+		diplomatic_upkeep = 1
+	}
+}
+ASY_ideas = {
+	start = {
+		land_morale = 0.1
+		core_creation = -0.1
+	}
+	bonus = {
+		global_autonomy = -0.05
+	}
+	trigger = {
+		tag = ASY 
+	}
+	free = yes
+	
+	asy_unite_the_tribes = {
+		culture_conversion_cost = -0.25
+	}
+	asy_euphrates_river_trade = {
+		trade_efficiency = 0.15
+		caravan_power = 0.1
+	}
+	asy_navigate_the_mountains = {
+		land_attrition = -0.1
+	}
+	asy_master_ironworkers = {
+		infantry_cost = -0.1
+		infantry_power = 0.1
+	}
+	asy_royal_library = {
+		technology_cost = -0.1
+	}
+	asy_code_of_abbas = {
+		global_unrest = -3
+	}
+	asy_claim_our_legacy = {
+		prestige = 1
+		legitimacy = 1
+	}
+}
+KWM_ideas = {
+	start = {
+		global_tax_modifier = 0.1
+		state_maintenance_modifier = -0.15
+	}
+	bonus = {
+		infantry_power = 0.2
+	}
+	
+	trigger = {
+		tag = KWM
+	}
+	free = yes
+	
+	kwm1 = {
+		core_creation = -0.15
+	}
+	kwm2 = {
+		cavalry_power = 0.1
+		cavalry_flanking = 0.1
+	}
+	kwm3 = {
+		land_attrition = -0.15
+	}
+	kwm4 = {
+		prestige = 1
+		legitimacy = 1
+	}
+	kwm5 = {
+		war_exhaustion = -0.1
+	}
+	kwm6 = {
+		tolerance_heretic = 2
+		tolerance_heathen = 2
+	}
+	kwm7 = {
+		global_unrest = -3
+		land_morale = 0.2
+	}
+}
+assyrian_minor_ideas = {
+	start = {
+		defensiveness = 0.15
+		global_manpower_modifier = 0.1
+	}
+	bonus = {
+		num_accepted_cultures = 1
+	}
+	
+	trigger = {
+		primary_culture = assyrian 
+		NOT = {
+			tag = ASY
+		}
+	}
+	
+	free = yes
+	asy_assyrian_church = {
+		tolerance_own = 2
+	}
+	asy_diasporic_communities = {
+		diplomatic_reputation = 2
+	}
+	asy_defend_against_islam = {
+		hostile_attrition = 0.15
+	}
+	asy_ancient_traditions = {
+		discipline = 0.05
+	}
+	asy_assyrian_scholars = {
+		idea_cost = -0.1
+	}
+	asy_hakkari_mines = {
+		production_efficiency = 0.1
+	}
+	asy_legacy_of_assur = {
+		land_morale = 0.1
+	}
+}
+BAG_ideas = {
+	start = {
+		land_attrition = -0.1
+		production_efficiency = 0.1
+	}
+	bonus = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	trigger = {
+		tag = BAG
+	}
+	free = yes
+	
+	bag_granary_of_south_asia = {
+		global_trade_power = 0.1
+	}
+	bag_grand_temples = {
+		build_cost = -0.1
+		development_cost = -0.1
+	}
+	bag_royal_armed_forces = {
+		infantry_power = 0.15
+		land_maintenance_modifier = -0.1
+	}
+	bag_burmese_patronage = {
+		num_accepted_cultures = 1
+		prestige = 1
+	}
+	bag_curb_the_clergymen = {
+		stability_cost_modifier = -0.15
+		global_unrest = -2
+	}
+	bag_reconquer_the_homeland = {
+		land_morale = 0.15
+	}
+	bag_restore_the_golden_age = {	
+		core_creation = -0.1
+	}
+}

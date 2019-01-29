@@ -1,0 +1,7 @@
+type = transport
+
+hull_size = 110
+base_cannons = 30
+sail_speed = 18
+
+sprite_level = 3

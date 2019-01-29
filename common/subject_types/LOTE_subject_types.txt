@@ -1,0 +1,20 @@
+holy_order = {
+	copy_from = march
+	
+	sprite = GFX_icon_march
+	diplomacy_overlord_sprite = GFX_diplomacy_leadmarch
+	diplomacy_subject_sprite = GFX_diplomacy_weakmarch
+	
+	pays_overlord = 0.0
+	military_focus = 1.5
+	base_liberty_desire = -20.0
+	can_be_annexed = yes 
+	forcelimit_to_overlord = 0.2
+	
+	scutage = no
+	subsidize_armies = yes
+	fortify_march = yes
+}
+
+	
+	
