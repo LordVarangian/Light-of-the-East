@@ -1,7 +1,0 @@
-government = monarchy
-government_rank = 3
-primary_culture = danish
-religion = reformed
-technology_group = western
-add_accepted_culture = norwegian
-capital = 12
