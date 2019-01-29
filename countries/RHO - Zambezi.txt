@@ -1,5 +1,0 @@
-government = republic
-government_rank = 3
-primary_culture = mutapan
-technology_group = east_african
-religion = totemism
