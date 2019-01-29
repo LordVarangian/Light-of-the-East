@@ -1,0 +1,6 @@
+government = monarchy
+government_rank = 1
+primary_culture = oirats
+technology_group = chinese
+religion = confucianism
+capital = 699

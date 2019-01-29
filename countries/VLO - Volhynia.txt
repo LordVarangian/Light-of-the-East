@@ -1,0 +1,17 @@
+government = monarchy
+government_rank = 1
+primary_culture = ruthenian
+religion = orthodox
+technology_group = eastern
+capital = 279
+
+1380.4.01 = {
+	monarch = {
+		name = "Aleksander"
+		dynasty = "Trevich"
+		birth_date = 1358.4.01
+		adm = 3
+		dip = 0
+		mil = 4
+	}
+}

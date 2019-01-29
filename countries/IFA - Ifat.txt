@@ -1,0 +1,4 @@
+government = monarchy
+primary_culture = ifati
+religion = sunni
+technology_group = east_african

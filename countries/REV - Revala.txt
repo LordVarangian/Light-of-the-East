@@ -1,0 +1,18 @@
+government = tribal
+government_rank = 1
+capital = 36
+religion = ukonusko
+primary_culture = estonian
+technology_group = western
+
+
+1351.6.25 = {
+	monarch = {
+		name = "Aabraham"
+		dynasty = "Saaremaa"
+		birth_date = 1350.11.30
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+}

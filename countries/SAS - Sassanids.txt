@@ -1,0 +1,5 @@
+government = monarchy
+government_rank = 3
+primary_culture = farsi
+religion = zoroastrian
+technology_group = muslim

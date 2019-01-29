@@ -1,0 +1,28 @@
+government = monarchy
+government_rank = 1
+primary_culture = ruthenian
+religion = orthodox
+technology_group = eastern
+capital = 2961
+
+
+1343.4.01 = {
+	monarch = {
+		name = "Semen"
+		dynasty = Rurikovich
+		birth_date = 1328.4.01
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+}
+1378.8.27 = {
+	heir = {
+		name = "Pyotr"
+		dynasty = Rurikovich
+		birth_date = 1378.8.27
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}

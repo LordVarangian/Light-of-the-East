@@ -1,0 +1,4 @@
+government = republic
+primary_culture = javanese
+technology_group = indian
+religion = sunni

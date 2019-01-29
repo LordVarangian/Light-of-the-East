@@ -1,0 +1,4 @@
+government = republic
+primary_culture = madagascan
+technology_group = east_african
+religion = totemism

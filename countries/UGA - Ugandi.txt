@@ -1,0 +1,29 @@
+government = tribal
+government_rank = 1
+capital = 4427
+religion = ukonusko
+primary_culture = estonian
+technology_group = western
+
+1370.6.25 = {
+	monarch = {
+		name = "Priidu"
+		dynasty = "Himbii"
+		birth_date = 1340.5.1
+		adm = 6
+		dip = 2
+		mil = 3
+	}
+}
+1379.12.27 = {
+	heir = {
+		name = "Priidu II"
+		monarch_name = "Jan I Olbracht"
+		dynasty = "Himbii"
+		birth_date = 1356.4.12
+		claim = 100
+		adm = 4
+		dip = 0
+		mil = 0
+	}
+}

@@ -1,0 +1,17 @@
+government = monarchy
+government_rank = 1
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 303
+
+1380.7.5 = {
+	monarch = {
+		name = "Yaroslavl"
+		dynasty = "Voeikov"
+		birth_date = 1345.6.15
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+}

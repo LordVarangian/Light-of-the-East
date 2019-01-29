@@ -1,0 +1,6 @@
+government = monarchy
+government_rank = 1
+capital = 4424
+religion = catholic
+primary_culture = latvian
+technology_group = western
