@@ -1,0 +1,8 @@
+government = monarchy
+government_rank = 3
+primary_culture = burmese
+religion = hinduism
+technology_group = chinese
+capital = 2399
+
+

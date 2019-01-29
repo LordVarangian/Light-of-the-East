@@ -1,0 +1,17 @@
+government = monarchy
+government_rank = 1
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 1778
+
+1380.7.5 = {
+	monarch = {
+		name = "Ivan II"
+		dynasty = "Sudeikin"
+		birth_date = 1340.6.13
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}

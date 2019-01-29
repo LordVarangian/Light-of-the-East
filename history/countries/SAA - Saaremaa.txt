@@ -1,0 +1,17 @@
+government = tribal
+government_rank = 1
+capital = 35
+religion = ukonusko
+primary_culture = estonian
+technology_group = western
+
+1376.6.25 = {
+	monarch = {
+		name = "Kauri I"
+		dynasty = "Saaremaa"
+		birth_date = 1347.11.30
+		adm = 1
+		dip = 4
+		mil = 3
+	}
+}

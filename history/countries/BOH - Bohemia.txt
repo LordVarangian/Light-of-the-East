@@ -1,0 +1,19 @@
+government = monarchy
+primary_culture = czech
+religion = catholic
+elector = yes
+capital = 266 # Praha
+technology_group = western
+add_accepted_culture = saxon
+add_army_professionalism = 0.1
+
+1378.11.29 = {
+	monarch = {
+		name = "Václav IV"
+		dynasty = "von Luxemburg"
+		birth_date = 1361.2.26
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}

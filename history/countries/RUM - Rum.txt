@@ -1,0 +1,18 @@
+government = monarchy
+government_rank = 2
+primary_culture = turkish
+religion = sunni
+religious_school = shafii_school
+technology_group = muslim
+capital = 326	# Ankara
+
+1380.1.1 = {
+	monarch = {
+		name = "Ahmed I"
+		dynasty = "Dervisid"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1348.2.16
+	}
+}

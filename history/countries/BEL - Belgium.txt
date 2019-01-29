@@ -1,0 +1,4 @@
+government = republic
+primary_culture = flemish
+technology_group = western
+religion = reformed

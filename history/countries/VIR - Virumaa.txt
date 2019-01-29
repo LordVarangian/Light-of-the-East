@@ -1,0 +1,17 @@
+government = tribal
+government_rank = 1
+religion = ukonusko
+capital = 1842
+primary_culture = estonian
+technology_group = western
+
+1367.6.25 = {
+	monarch = {
+		name = "Priidu"
+		dynasty = "Virumaa"
+		birth_date = 1336.7.1
+		adm = 2
+		dip = 5
+		mil = 1
+	}
+}

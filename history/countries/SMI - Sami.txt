@@ -1,0 +1,5 @@
+government = tribal
+government_rank = 1
+religion = ukonusko
+primary_culture = sapmi
+technology_group = western
