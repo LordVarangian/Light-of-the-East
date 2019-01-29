@@ -1,0 +1,197 @@
+namespace = byzop
+country_event = {
+		id = byzop.1 
+		title = byzop.1.t
+		desc = byzop.1.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+		tag = BKG
+		dynasty = "Stratiotikos"
+		151 = {
+		controlled_by = BKG
+			}
+		}
+		
+		option = {
+		name = byzop.1.a
+		inherit = BYZ
+		change_tag = BYZ
+		151 = {
+				move_capital_effect = yes
+			}
+		swap_non_generic_missions = yes
+		country_event = { id = ideagroups.1 }
+		add_country_modifier = {
+		name = pretender_emperor
+		duration = -1
+				}
+			}
+		}
+		
+		country_event = {
+		id = byzop.2
+		title = byzop.2.t
+		desc = byzop.2.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+		tag = BKG
+		}
+		
+		
+		
+		option = {
+		name = byzop.2.a
+			}
+		}
+		
+		country_event = {
+		id = byzop.3
+		title = byzop.3.t
+		desc = byzop.3.d
+		
+		trigger = {
+		tag = BYZ
+		dynasty = Stratiotikos
+		has_country_modifier = pretender_emperor
+		}
+		
+		mean_time_to_happen = {
+		months = 300
+	}
+		
+		option = {
+		name = byzop.3.a
+		random_owned_province = {
+				spawn_rebels = {
+				type = pretender_rebels
+				size = 1
+					}
+				}
+			}
+		}
+		
+		country_event = {
+		id = byzop.4
+		title = byzop.4.t
+		desc = byzop.4.d
+		
+		fire_only_once = yes
+		
+		trigger = {
+		NOT = { war_with = RUM }
+		tag = BYZ
+		hudavendigar_area = {
+			type = all
+			country_or_non_sovereign_subject_holds = BYZ
+		}
+		has_country_modifier = pretender_emperor
+		}
+		option = {
+		name = byzop.4.a
+		hudavendigar_area = {
+		type = all
+		cede_province = RUM
+			}
+		}
+		option = {
+		name = byzop.4.b
+		RUM = {
+		declare_war_with_cb = {
+		who = BYZ
+		casus_belli = cb_annex
+					}
+				}
+		set_country_flag = defend_byz
+			}
+		}
+		
+		country_event = {
+		id = byzop.5
+		title = byzop.5.t
+		desc = byzop.5.d
+		
+		trigger = {
+		NOT = { dynasty = Stratiotikos }
+		has_country_modifier = pretender_emperor
+		}
+		
+		option = {
+		name = byzop.5.a
+		remove_country_modifier = pretender_emperor
+			}
+		}
+		
+		country_event = {
+		id = byzop.6
+		title = byzop.6.t
+		desc = byzop.6.d
+		
+		trigger = {
+		tag = BYZ
+		RUM = {
+		exists = no
+			}
+		}
+		
+		option = {
+		name = byzop.6.a
+		add_country_modifier = {
+		name = no_rum
+		duration = -1
+				}
+			}
+		}
+		
+		country_event = {
+		id = byzop.7
+		title = byzop.7.t
+		desc = byzop.7.d
+		
+		trigger = {
+		tag = BYZ
+		SER = {
+		exists = no
+			}
+		}
+		
+		option = {
+		name = byzop.7.a
+		add_country_modifier = {
+		name = no_serbs
+		duration = -1
+				}
+			}
+		}
+		
+		country_event = {
+		id = byzop.8
+		title = byzop.8.t
+		desc = byzop.8.d
+		
+		trigger = {
+		tag = BYZ
+		NOT = {
+		has_country_modifier = pretender_emperor
+		}
+		has_country_modifier = no_rum
+		has_country_modifier = no_serbs
+		has_country_modifier = the_senate
+		has_country_modifier = true_rome
+		OR = {
+		has_country_modifier = yes_icons
+		has_country_modifier = no_icons
+			}
+		}
+		
+		option = {
+		name = byzop.8.a
+		add_country_modifier = {
+		name = pp
+		duration = 7300
+				}
+			}
+		}
