@@ -1,0 +1,16 @@
+#4348 - Ifugao
+
+owner = LIU
+controller = LIU
+add_core = LIU
+culture = daomin
+religion = daozong
+capital = "Ifugao"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = chinese
+
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
