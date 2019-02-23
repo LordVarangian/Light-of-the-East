@@ -1,6 +1,0 @@
-government = monarchy
-government_rank = 1
-religion = catholic
-capital = 1935
-primary_culture = latvian
-technology_group = western

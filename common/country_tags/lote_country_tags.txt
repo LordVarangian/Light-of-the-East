@@ -4,6 +4,8 @@ DNO = "countries/DenmarkNorway.txt"
 #Balkans
 LTN = "countries/Rhomaniae.txt"
 BKG = "countries/byzrevolt.txt"
+RMS = "countries/RomanState.txt"
+RMK = "countries/RomanKingdom.txt"
 
 #British Isles
 
@@ -85,6 +87,7 @@ HNI = "countries/Hainan.txt"
 CNT = "countries/Canton.txt"
 JSU = "countries/Jiangsu.txt"
 HNN = "countries/Hunan.txt"
+GHN = "countries/Han.txt"
 
 #India and Burma
 IND = "countries/India.txt"

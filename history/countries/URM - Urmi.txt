@@ -1,6 +1,0 @@
-government = tribal
-government_rank = 1
-primary_culture = assyrian
-technology_group = muslim
-religion = assyrian_religion
-capital = 2206
