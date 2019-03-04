@@ -1,4 +1,5 @@
 government = monarchy
+add_government_reform = feudalism_reform
 primary_culture = czech
 religion = catholic
 elector = yes
@@ -7,13 +8,26 @@ technology_group = western
 add_accepted_culture = saxon
 add_army_professionalism = 0.1
 
-1378.11.29 = {
+1380.1.1 = {
 	monarch = {
-		name = "Václav IV"
-		dynasty = "von Luxemburg"
+		name = "Jindrich I"
+		dynasty = "Piast"
 		birth_date = 1361.2.26
 		adm = 2
 		dip = 2
 		mil = 0
+	}
+}
+
+1380.1.1 = {
+	heir = {
+		name = "Vaclav"
+		monarch_name = "Vaclav III"
+		dynasty = "Piast"
+		birth_date = 1378.1.9
+		claim = 50
+		adm = 3
+		dip = 3
+		mil = 3
 	}
 }
