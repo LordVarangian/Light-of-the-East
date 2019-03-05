@@ -141,3 +141,75 @@ country_event = {
 		name = LOTE_POL.4.a
 	}
 }
+country_event = {
+	id = LOTE_POL.5
+	title = LOTE_POL.5.t 
+	desc = LOTE_POL.4.d 
+	fire_only_once = yes 
+	major = yes 
+	
+	trigger = {
+		AND = {
+			tag = POL
+			NOT = { war_with = BOH }
+			BOH = {
+				was_player = no 
+				ai = yes 
+				exists = yes 
+				is_subject = no 
+				NOT = { is_in_war = { attacker_leader = BOH } }
+				NOT = { is_in_war = { defender_leader = BOH } }
+			}
+			NOT = {
+				is_year = 1385
+			}
+			is_subject = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = LOTE_POL.5.a 
+		ai_chance = { factor = 90 }
+		create_union = BOH 
+		BOH = {
+			add_opinion = {
+				who = ROOT
+				modifier = pol_piast_united
+			}
+		}
+		POL = {
+			add_opinion = {
+				who = BOH 
+				modifier = pol_piast_united
+			}
+		}
+		every_known_country = {
+			limit = {
+				hre = yes
+			}
+			add_opinion = {
+				who = ROOT 
+				pol_piast_united_negative
+			}
+		}
+		set_country_flag = pol_bohemian_union_taken
+	}
+	
+	option = {
+		name = LOTE_POL.5.b 
+		ai_chance = { factor = 10 }
+		add_stability_or_adm_power = yes
+		add_prestige = 20
+		BOH = {
+			remove_heir = yes
+			define_heir = {
+				male = yes
+				claim = 100
+			}
+		}
+	}
+}

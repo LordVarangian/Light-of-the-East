@@ -30,5 +30,6 @@ capital = 262 # Krakow
 		mil = 3
 		claim = 95
 		birth_date = 1378.1.9
+		death_date = 1452.3.21
 	}
 }
