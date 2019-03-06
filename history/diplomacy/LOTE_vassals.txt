@@ -1,0 +1,6 @@
+union = {
+	first = SWE
+	second = MKL
+	start_date = 1380.1.1
+	end_date = 1821.1.1
+}

@@ -1,0 +1,11 @@
+LOTE_upset_nobles_swe = {
+}
+
+LOTE_upset_peasants_swe = {
+}
+
+LOTE_recent_civilwar_swe = {
+	legitimacy = -0.5
+	prestige = -1
+	land_morale = -0.05
+}
