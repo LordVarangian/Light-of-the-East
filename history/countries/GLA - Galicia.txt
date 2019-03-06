@@ -26,3 +26,15 @@ capital = 2961
 		mil = 4
 	}
 }
+1379.06.06 = {
+	IF = {
+		limit = {
+			GLA = {
+				is_ai = no
+			}
+		}
+		create_general = {
+			tradition = 100
+		}
+	}
+}
