@@ -1,0 +1,14 @@
+boh_elected_piast_modifier = {
+	opinion = 100
+	yearly_decay = 5
+}
+
+boh_elected_own_king_modifier = {
+	opinion = -50
+	yearly_decay = 3
+}
+
+boh_poles_meddled_election_modifier = {
+	opinion = -150
+	yearly_decay = 5
+}
