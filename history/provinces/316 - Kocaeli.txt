@@ -1,7 +1,7 @@
 #316 - Izmit
 
-owner = RUM
-controller = RUM
+owner = BYZ
+controller = BYZ
 culture = greek
 religion = orthodox
 capital = "Izmit"
@@ -13,7 +13,7 @@ base_manpower = 3
 is_city = yes
 fort_15th = yes
 estate = estate_burghers
-add_core = RUM
+add_core = BYZ
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -1,7 +1,7 @@
 #147 - Salonica
 
-owner = SER
-controller = SER
+owner = LTN
+controller = LTN
 culture = greek
 religion = orthodox
 capital = "Larissa"
@@ -11,7 +11,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 2
 is_city = yes
-add_core = SER
+add_core = LTN
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -1,7 +1,7 @@
 #273 - Livland
-owner = LIV
-controller = LIV
-add_core = LIV
+owner = EST
+controller = EST
+add_core = EST
 culture = latvian
 religion = catholic
 capital = "Valmiera"

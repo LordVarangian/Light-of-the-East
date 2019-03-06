@@ -1,7 +1,7 @@
 #146 - Athens
 
-owner = BKG
-controller = BKG
+owner = LTN
+controller = LTN
 culture = greek
 religion = orthodox
 capital = "Athens"
@@ -11,9 +11,9 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = SER
+add_core = LTN
 add_core = ATH
-add_core = BKG
+
 
 
 discovered_by = muslim

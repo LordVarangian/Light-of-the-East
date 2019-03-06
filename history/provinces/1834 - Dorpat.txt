@@ -1,8 +1,7 @@
 #Dorpat
 
-owner = LIV
-controller = LIV
-add_core = LIV
+owner = EST
+controller = EST
 add_core = EST
 culture = estonian
 religion = catholic
