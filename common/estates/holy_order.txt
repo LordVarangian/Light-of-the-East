@@ -1,0 +1,372 @@
+estate_holy_order = {
+	icon = 13
+	
+	color = { 200 50 38 }
+	
+	keep_on_conquest = no
+	
+	trigger = {
+		government = theocracy
+	}
+	
+	province_trigger = {
+		religion = catholic
+	}
+	
+	start_territory_weight = 50
+	min_territory = 0.5
+	min_autonomy = 20
+	autonomy_does_not_affect = local_manpower_modifier
+	autonomy_does_not_affect = land_forcelimit_modifier
+	
+	country_modifier_happy = {
+		discipline = 0.05
+		global_missionary_strength = 0.02
+	}
+	
+	country_modifier_neutral = {
+		global_missionary_strength = 0.02
+	}
+	
+	country_modifier_angry = {
+		discipline = -0.05
+		tolerance_own = -1
+	}
+	
+	province_modifier_happy = {
+		local_manpower_modifier = 0.2
+	}
+	
+	province_modifier_neutral = {
+		local_manpower_modifier = 0.1
+	}
+	
+	province_modifier_angry = {
+		local_unrest = 5
+		local_manpower_modifier = -0.1
+	}
+	
+	influence_modifier = {
+		desc = EST_VAL_STATE_RELIGIOUS_MINORITY
+		trigger = {
+			NOT = { dominant_religion = ROOT }
+		}	
+		influence = -15
+	}
+	
+	influence_modifier = {
+		desc = EST_VAL_LOW_TTF
+		trigger = {
+			NOT = {
+				has_global_modifier_value = {
+					which = tolerance_own
+					value = 0.4
+					extra_shortcut = yes
+				}
+			}	
+		influence = -20
+		}
+	}
+	
+	influence_modifier = {
+		desc = EST_VAL_LOW_TTF
+		trigger = {
+			NOT = {
+				has_global_modifier_value = {
+					which = tolerance_own
+					value = 0.4
+					extra_shortcut = yes
+				}
+			}	
+		influence = -20
+		}
+	}
+	
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			OR = {
+				has_disaster = estate_nobility_disaster
+				has_disaster = estate_burghers_disaster
+				has_disaster = estate_brahmins_disaster
+				has_disaster = estate_vaisyas_disaster
+				has_disaster = estate_jains_disaster
+			}
+		}
+		influence = -40
+	}
+	
+	influence_modifier = {
+		desc = EST_VAL_THEOCRACY
+		trigger = {
+			government = theocracy
+			NOT = { tag = PAP }
+		}	
+		influence = 15
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			OR = {
+				has_disaster = estate_nobility_disaster
+				has_disaster = estate_burghers_disaster
+				has_disaster = estate_brahmins_disaster
+				has_disaster = estate_vaisyas_disaster
+				has_disaster = estate_jains_disaster
+			}
+		}
+		loyalty = -20
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_FULL_RELIGIOUS
+		trigger = {
+			full_idea_group = religious_ideas
+		}
+		loyalty = 10
+	}
+	
+	interaction = {
+		name = "purge_heretics"
+		icon = 1
+		
+		years_between_use = 3
+		
+		trigger = {
+			always = yes
+		}
+		
+		effect = {
+			random_owned_province = {
+				limit = {
+					NOT = {
+						religion = catholic
+					}
+				}
+				add_province_modifier = {
+					name = purge_the_heretics
+					duration = 1095
+				}
+			}
+			add_estate_influence_modifier = {
+				estate = estate_holy_order
+				desc = EST_PURGING
+				influence = 20
+				duration = 10950
+			}
+		}
+	}
+	
+	interaction = {
+		name = "RECRUIT_MINISTER"
+		icon = 10
+		
+		years_between_use = 30
+		
+		potential = {
+			NOT = { has_disaster = estate_church_disaster }
+			NOT = { has_disaster = estate_burghers_disaster }
+		}
+		
+		trigger = {
+			estate_influence = {
+				estate = estate_holy_order
+				influence = 40
+			}
+		}
+		
+		effect = {
+			define_advisor = {
+				type = commandant
+				skill = 2
+				culture = event_target:nobles_estate_province
+				religion = event_target:nobles_estate_province
+				location = event_target:nobles_estate_province
+				cost_multiplier = 0.5
+			}
+		}
+		
+		add_estate_influence_modifier = {
+				estate = estate_holy_order
+				desc = EST_VAL_HOLY_COMANDER
+				influence = 15
+				duration = 10950
+		}
+	}
+	
+	interaction = {
+		name = "start_holy_war"
+		icon = 12
+		
+		years_between_use = 25
+		
+		potential = {
+			NOT = { has_disaster = estate_church_disaster }
+			NOT = { has_disaster = estate_burghers_disaster }
+		}
+		
+		trigger = {
+			estate_loyalty = {
+				estate = estate_holy_order
+				loyalty = 30
+			}
+			estate_influence = {
+				estate = estate_holy_order
+				influence = 40
+			}
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						estate_influence = {
+							estate = estate_holy_order
+							influence = 50
+						}	
+					}
+				}
+				add_yearly_manpower = 1
+			}
+			if = {
+				limit = {
+					estate_influence = {
+						estate = estate_holy_order
+						influence = 50
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_holy_order
+							influence = 75
+						}	
+					}
+				}
+				add_yearly_manpower = 1.5
+			}
+			if = {
+				limit = {
+					estate_influence = {
+						estate = estate_holy_order
+						influence = 75
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_holy_order
+							influence = 100
+						}	
+					}
+				}
+				add_yearly_manpower = 2
+			}
+			if = {
+				limit = {
+					estate_influence = {
+						estate = estate_holy_order
+						influence = 100
+					}
+				}
+				add_yearly_manpower = 2.5
+			}	
+			add_estate_loyalty = {
+				estate = estate_holy_order
+				loyalty = -15
+			}
+		}
+	}
+	
+	interaction = {
+		name = "show_support"
+		icon = 12
+		years_between_use = 20
+		
+		effect = {
+			add_prestige = -5
+			add_mil_power = -5
+			add_estate_loyalty = {
+				estate = estate_holy_order
+				loyalty = 25
+			}
+		}
+	}
+	
+	interaction = {
+		name = "demand_funds"
+		icon = 12
+		
+		years_between_use = 25
+		
+		potential = {
+			NOT = { has_disaster = estate_church_disaster }
+			NOT = { has_disaster = estate_burghers_disaster }
+		}
+		
+		trigger = {
+			estate_loyalty = {
+				estate = estate_holy_order
+				loyalty = 30
+			}
+			estate_influence = {
+				estate = estate_holy_order
+				influence = 40
+			}
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						estate_influence = {
+							estate = estate_holy_order
+							influence = 50
+						}	
+					}
+				}
+				add_years_of_income = 0.5
+			}
+			if = {
+				limit = {
+					estate_influence = {
+						estate = estate_holy_order
+						influence = 50
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_holy_order
+							influence = 75
+						}	
+					}
+				}
+				add_years_of_income = 1
+			}
+			if = {
+				limit = {
+					estate_influence = {
+						estate = estate_holy_order
+						influence = 75
+					}
+					NOT = {
+						estate_influence = {
+							estate = estate_holy_order
+							influence = 100
+						}	
+					}
+				}
+				add_years_of_income = 1.5
+			}
+			if = {
+				limit = {
+					estate_influence = {
+						estate = estate_holy_order
+						influence = 100
+					}
+				}
+				add_years_of_income = 2
+			}	
+			add_estate_loyalty = {
+				estate = estate_holy_order
+				loyalty = -15
+			}
+		}
+	}
+}

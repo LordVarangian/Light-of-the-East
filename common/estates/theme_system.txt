@@ -1,0 +1,48 @@
+theme_system = {
+	icon = 12
+	
+	color = { 148 34 76 }
+	
+	keep_on_conquest = no
+	
+	trigger = {
+		tag = BYZ
+	}
+	
+	province_trigger = {
+		always = yes
+	}
+	
+	start_territory_weight = 50
+	min_territory = 0.5
+	min_autonomy = 20
+	autonomy_does_not_affect = local_manpower_modifier
+	autonomy_does_not_affect = land_forcelimit_modifier
+	
+	country_modifier_happy = {
+		reinforce_cost_modifier = -0.2
+		global_manpower_modifier = 0.2
+	}
+	
+	country_modifier_neutral = {
+		reinforce_cost_modifier = -0.1
+		global_manpower_modifier = 0.1
+	}
+	
+	country_modifier_angry = {
+		global_manpower_modifier = -0.1
+		land_maintenance_modifier = -0.1
+	}
+	
+	province_modifier_happy = {
+		global_tax_modifier = 0.2
+	}
+	
+	province_modifier_neutral = {
+		global_tax_modifier = 0.1
+	}
+	
+	province_modifier_angry = {
+		local_unrest = 5
+		global_tax_modifier = -0.1
+	}
