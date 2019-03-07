@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = tuscan
+religion = catholic
+technology_group = western
+historical_rival = BYZ 
+capital = 146
+fixed_capital = 151
