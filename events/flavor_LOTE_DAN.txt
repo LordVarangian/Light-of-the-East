@@ -1,28 +1,27 @@
 
-namespace = flavor_dan
+namespace = LOTE_DAN
 normal_or_historical_nations = yes
 
 country_event = {
-	id = flavor_dan.2
-	title = flavor_dan.2.t 
-	desc = flavor_dan.2.d 
+	id = LOTE_DAN.2
+	title = LOTE_DAN.2.t 
+	desc = LOTE_DAN.2.d 
 	picture = HARBOUR_eventPicture
 	
 	fire_only_once = yes
 	
 	trigger = {
 		tag = DAN
-		NOR = {
-			is_subject_of = DAN
-		}
-		owns_or_non_sovereign_subject_of = 370
 		is_year = 1400
+		NOT = {
+			is_year = 1430
+		}
 	}
 	
 	mean_time_to_happen = { months = 100 }
 	
 	option = {
-		name = flavor_dan.2.a 
+		name = LOTE_DAN.2.a 
 		ai_chance = { factor = 100 }
 		1481 = {
 			discover_country = DAN
@@ -77,110 +76,5 @@ country_event = {
 		}
 	}
 }
-
-country_event = {
-	id = flavor_dan.3
-	title = flavor_dan.3.t
-	desc = flavor_dan.3.d 
-	picture = GOOD_WITH_MONARCH_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = DAN
-		NOR = {
-			is_subject_of = DAN
-		}
-		SWE = {
-			is_subject = no
-		}
-		is_year = 1388
-	}
-	
-	mean_time_to_happen = { months = 24 }
-	
-	option = { #Install a pretender
-		name = flavor_dan.3.a 
-		ai_chance = { factor = 75 }
-		add_prestige = -20
-		add_dip_power = -50
-		add_casus_belli = {
-			target = SWE
-			type = cb_restore_personal_union
-			months = 120
-		}
-		SWE = {
-			add_opinion = {
-				who = ROOT
-				modifier = claimed_throne_on_us
-			}
-		}
-	}
-	
-	option = { #Leave the Swedes alone
-		name = flavor_dan.3.b
-		ai_chance = { factor = 25 }
-		add_prestige = 10
-		add_dip_power = 50
-	}
-}
-
-country_event = { #The Sound Toll
-	id = flavor_dan.4
-	title = flavor_dan.4.t
-	desc = flavor_dan.4.d 
-	picture = HARBOUR_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = DAN
-		is_year = 1429
-		26 = { owned_by = ROOT }
-		12 = { owned_by = ROOT }
-	}
-	
-	mean_time_to_happen = { months = 12 }
-	
-	option = {
-		name = flavor_dan.4.a 
-		ai_chance = { factor = 100 }
-		add_country_modifier = {
-			name = dan_sound_toll
-			duration = -1
-		}
-		add_adm_power = -25
-	}
-}
-
-country_event = { #The Kalmar Union
-	id = flavor_dan.5
-	title = flavor_dan.5.t 
-	desc = flavor_dan.5.d 
-	picture = GOOD_WITH_MONARCH_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = DAN
-		SWE = {	is_subject_of = ROOT }
-		NOR = { is_subject_of = ROOT }
-	}
-	
-	mean_time_to_happen = { months = 24 }
-	
-	option = {
-		name = flavor_dan.5.a 
-		add_ruler_modifier = {
-			name = dan_margaret_i
-			duration = -1
-			desc = dan_margaret_i_desc
-			hidden = no
-		}
-		add_prestige = 10
-	}
-}
-		
-		
 
 	
