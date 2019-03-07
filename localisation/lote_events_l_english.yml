@@ -15,7 +15,7 @@
  LOTE_POL.4.d: "The Podlasie is being transferred to the Polish Nation."
  LOTE_POL.4.a: "And so, it happens."
  LOTE_BOH.1.t: "The Election of 1380"
- LOTE_BOH.1.d: "The previous Bohemian king has died of old age, and it is time to elect a new king. The four candidates are of similar age and capability, but their origins are different. Electing any ruler but a Piast would break a tradition molded by centuries, but it may be what we need to escape Polish influence. However, the Poles may try to intervene if we do so. Consider wisely."
+ LOTE_BOH.1.de: "The previous Bohemian king has died of old age, and it is time to elect a new king. The four candidates are of similar age and capability, but their origins are different. Electing any ruler but a Piast would break a tradition molded by centuries, but it may be what we need to escape Polish influence. However, the Poles may try to intervene if we do so. Consider wisely."
  LOTE_BOH.1.a: "We won't fix what isn't broken - bring in the Piasts!"
  LOTE_BOH.1.b: "The House of Luxembourg will suit us well!"
  LOTE_BOH.1.c: "The Angevins will bring glory to Bohemia!"
@@ -27,6 +27,9 @@
  LOTE_BOH.3.t: "The Polish Meddle With the Election"
  LOTE_BOH.3.d: "The Polish have supported a massive uprising in the capital, claiming that their candidate is the rightful ruler of Bohemia! Such insolence will not be tolerated."
  LOTE_BOH.3.a: "Bastards!"
+ LOTE_DAN.2.t: "Greenlandic Fishers Move West"
+ LOTE_DAN.2.d: "Having travelled so far for fish, the good fishers of Greenland came upon a strange new land. They knew they had gone west, so it wasn't home; but it wasn't Greenland either. Was this the fabled "Vinland" told of in children's stories? Either way, the queen has issued a royal decree stating to map the new fishing routes and to explore this new land. This Norse exploration will not be forgotten."
+ LOTE_DAN.2.a: "The Vinland saga continues..."
  
  #Modifiers
  boh_elected_own_king_modifier: "Elected a Local Ruler"
