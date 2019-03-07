@@ -1,7 +1,7 @@
 #412 - Khuzestan
 
-owner = BSA
-controller = BSA
+owner = ABS
+controller = ABS
 culture = al_iraqiya_arabic
 religion = shiite
 capital = "Ahvaz"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 1
 is_city = yes
-add_core = BSA
+add_core = ABS
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman
