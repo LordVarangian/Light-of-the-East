@@ -6,6 +6,7 @@ LTN = "countries/Rhomaniae.txt"
 BKG = "countries/byzrevolt.txt"
 RMS = "countries/RomanState.txt"
 RMK = "countries/RomanKingdom.txt"
+VLC = "countries/Vlachs.txt"
 
 #British Isles
 
