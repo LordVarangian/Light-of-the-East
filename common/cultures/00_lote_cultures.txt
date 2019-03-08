@@ -198,7 +198,6 @@ tartar	= {
 	}
 	
 	kypchak = {
-		primary = CUM
 
 		male_names = {
 			Çilbu Aepak Asalup Asep Atrak Bönek Bachman Begluk Blush Bonyak Borç Eldeçyuk Etrek Girgen Gzi Itlar Ituk Könçek Kobyak Kopti Kotyan Koza
