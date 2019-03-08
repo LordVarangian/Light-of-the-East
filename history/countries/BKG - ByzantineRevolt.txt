@@ -3,24 +3,22 @@ government_rank = 3
 primary_culture = greek
 religion = orthodox
 technology_group = eastern
-historical_rival = BYZ
-capital = 149
+historical_rival = LTN
+historical_rival = BUL
+capital = 317
 fixed_capital = 151 # Cannot move capital away from this province & no power cost to move to it
 
 1380.7.5 = {
 	monarch = {
-		name = "Konstantinos"
-		dynasty = "Stratiotikos"
-		birth_date = 1360.6.27
-		adm = 4
-		dip = 4
-		mil = 6
+		name = "John V"
+		dynasty = "Palaiologos"
+		birth_date = 1332.6.18
+		adm = 2
+		dip = 1
+		mil = 2
 	}
-	define_ruler_to_general = {
-   	 fire = 5
-   	 shock = 5
-     manuever = 4
-     siege = 1
+	add_country_modifier = {
+		name = roman_pretender_modifier
+		duration = -1
 	}
-	decision = pretender
 }

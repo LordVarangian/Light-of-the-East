@@ -1,4 +1,9 @@
-
+alliance = {
+	first = SIC
+	second = LTN
+	start_date = 1380.1.1
+	end_date = 1420.1.1
+}
 vassal = {
 	first = SER
 	second = BOS

@@ -14,4 +14,8 @@ capital = 4176	# Krusevac
 		dip = 4
 		mil = 6
 	}
+	add_country_modifier = {
+		name = roman_pretender_modifier
+		duration = -1
+	}
 }

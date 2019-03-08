@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = bulgarian
+religion = orthodox
+capital = 151
+
+1380.1.1 = {
+	monarch = {
+		name = "Ivan Shishman"
+		dynasty = "Stratsimir"
+		birth_date = 1350.1.1
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+	add_country_modifier = {
+		name = roman_emperor_modifier
+		duration = -1
+	}
+}

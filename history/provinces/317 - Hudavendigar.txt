@@ -1,7 +1,7 @@
 #317 - Bursa
 
-owner = BYZ
-controller = BYZ
+owner = BKG
+controller = BKG
 culture = greek
 religion = orthodox
 capital = "Bursa"
@@ -11,7 +11,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 is_city = yes
-add_core = BYZ
+add_core = BKG
 
 
 
