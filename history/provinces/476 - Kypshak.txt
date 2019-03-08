@@ -1,8 +1,8 @@
 #476 - Kypshak
 
-owner = KIP
-controller = KIP
-culture = khazak
+owner = CUM
+controller = CUM
+culture = kypchak
 religion = sunni
 capital = "Orda-Bazar"
 trade_goods = grain
@@ -11,6 +11,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 6
 is_city = yes
+add_core = CUM
 add_core = KIP
 
 

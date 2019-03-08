@@ -1,8 +1,8 @@
 #478 - Argyn
 
-owner = KIP
-controller = KIP
-culture = khazak
+owner = CUM
+controller = CUM
+culture = kypchak
 religion = sunni
 capital = "Argyn"
 trade_goods = wool
@@ -11,6 +11,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
+add_core = CUM
 add_core = KIP
 
 
