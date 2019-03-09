@@ -1,20 +1,18 @@
-#465 - Nogay
+# 2366 - Utva
 
 owner = CUM
 controller = CUM
-culture = cuman
-religion = orthodox
-capital = "Saraychik"
-trade_goods = salt
+culture = nogaybak
+religion = sunni
+capital = "Utva"
+trade_goods = livestock
 hre = no
-base_tax = 3 
-base_production = 3
-base_manpower = 3
+base_tax = 1 
+base_production = 1
+base_manpower = 1
 is_city = yes
 add_core = CUM
-
-
-
+add_core = KIP
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

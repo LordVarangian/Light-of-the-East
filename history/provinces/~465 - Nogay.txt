@@ -2,7 +2,7 @@
 
 owner = CUM
 controller = CUM
-culture = cuman
+culture = nogaybak
 religion = orthodox
 capital = "Saraychik"
 trade_goods = salt

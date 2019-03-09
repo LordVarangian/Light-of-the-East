@@ -2,7 +2,7 @@
 
 owner = CUM
 controller = CUM
-culture = kypchak
+culture = nogaybak
 religion = sunni
 capital = "Zhetyru"
 trade_goods = naval_supplies
