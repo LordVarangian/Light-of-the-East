@@ -3,7 +3,7 @@
 owner = GEN
 controller = GEN
 culture = greek #Should not be Greek or Orthodox in 1444. Its status as a majority Greek city dates to at least after the 17th Century
-religion = sunni
+religion = orthodox
 capital = "Izmirni"
 trade_goods = cotton #Major producer and exporter of Cotton
 hre = no
@@ -12,7 +12,7 @@ base_production = 4
 base_manpower = 2
 is_city = yes
 add_core = GEN
-add_core = AYD
+add_core = BKG
 fort_15th = yes
 discovered_by = western
 discovered_by = eastern
