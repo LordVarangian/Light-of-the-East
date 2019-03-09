@@ -1,7 +1,7 @@
 #321 - Cyprus
 
-owner = VEN
-controller = VEN
+owner = CYP
+controller = CYP
 culture = greek
 religion = orthodox
 capital = "Nicosia"
@@ -12,7 +12,7 @@ base_production = 6
 base_manpower = 3
 is_city = yes
 fort_15th = yes
-add_core = VEN
+add_core = CYP
 
 
 

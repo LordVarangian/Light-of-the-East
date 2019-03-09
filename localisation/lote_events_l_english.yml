@@ -33,6 +33,9 @@
  LOTE_LTN.1.t: "Italianization"
  LOTE_LTN.1.d: "Italianization is a measure of how aligned to the culture of Italy or Greece Rhomania is. The scale goes from -5 to 5, with -5 being completely Greek aligned and 5 being completely Italian aligned. The variable can be changed based on events or decisions. Events will change based on whether Rhomania is aligned to Greece or Italy."
  LOTE_LTN.1.a: "Got it!"
+ LOTE_LTN.2.t: "The Kingdom of Greece"
+ LOTE_LTN.2.d: "The Kingdom of Rhomania has failed in its purpose to be a haven for Catholics in Greece. Our administrators are Greek, our churches are Orthodox, and our people yearn for a Greek cultural identity. With the massive Greek influence, it is safe to say that the Kingdom of Rhomania's chapter in history has come to a close, and a new one begins for a fully Greek kingdom."
+ LOTE_LTN.2.a: "Long live the Kingdom of Greece!"
  
  #Modifiers
  boh_elected_own_king_modifier: "Elected a Local Ruler"
@@ -44,3 +47,4 @@
  boh_elected_own_king_tt: "Every neighboring country will gain a -100 malus to their opinion of Bohemia."
  
  #Variables
+ italianization_variable: "Italianization"

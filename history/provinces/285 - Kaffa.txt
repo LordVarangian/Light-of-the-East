@@ -1,7 +1,7 @@
 #285 - Kaffa
 
-owner = GEN
-controller = GEN 
+owner = TRE
+controller = TRE 
 culture = pontic_greek
 religion = jewish
 hre = no
@@ -12,7 +12,7 @@ base_manpower = 5
 capital = "Kaffa"
 is_city = yes
 add_core = KHZ
-add_core = GEN
+add_core = TRE
 
 
 

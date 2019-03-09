@@ -3,7 +3,7 @@
 owner = ASY
 controller = ASY
 culture = turkish
-religion = sunni
+religion = catholic
 capital = "Maras"
 trade_goods = wool
 hre = no

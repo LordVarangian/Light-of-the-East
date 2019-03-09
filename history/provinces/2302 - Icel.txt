@@ -3,7 +3,7 @@
 owner = LAM
 controller = LAM
 culture = turkish
-religion = sunni
+religion = coptic
 capital = "Ermenek"
 trade_goods = naval_supplies
 hre = no

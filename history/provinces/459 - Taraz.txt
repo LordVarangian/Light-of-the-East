@@ -1,8 +1,8 @@
 #459 - Taraz
 
-owner = KRK
-controller = KRK
-add_core = KRK
+owner = QRA
+controller = QRA
+add_core = QRA
 culture = khazak
 religion = sunni
 capital = "Taraz"
