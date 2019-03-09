@@ -3,7 +3,7 @@
 owner = VLB
 controller = VLB
 capital = "Kazan"
-culture = kazani
+culture = bolghar
 religion = sunni
 trade_goods = grain
 hre = no
