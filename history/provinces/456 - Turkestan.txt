@@ -3,7 +3,7 @@
 owner = CUM
 controller = CUM
 culture = kypchak
-religion = sunni
+religion = tengri_pagan_reformed
 capital = "Yasi"
 trade_goods = grain
 base_tax = 1 

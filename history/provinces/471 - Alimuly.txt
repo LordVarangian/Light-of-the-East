@@ -3,7 +3,7 @@
 owner = CUM
 controller = CUM
 culture = kypchak
-religion = orthodox
+religion = tengri_pagan_reformed
 capital = "Alimuly"
 trade_goods = livestock
 hre = no

@@ -3,7 +3,7 @@
 owner = CUM
 controller = CUM
 culture = cuman
-religion = sunni
+religion = tengri_pagan_reformed
 capital = "Yaik"
 trade_goods = iron
 hre = no

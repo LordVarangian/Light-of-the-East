@@ -3,7 +3,7 @@
 owner = CUM
 controller = CUM
 culture = cuman
-religion = sunni
+religion = tengri_pagan_reformed
 capital = "Utva"
 trade_goods = livestock
 hre = no
