@@ -1,0 +1,24 @@
+namespace = LOTE_LTN
+normal_or_historical_nations = yes 
+
+country_event = { #Italianization Explanation
+	id = LOTE_LTN.1
+	title = LOTE_LTN.1.t 
+	desc = LOTE_LTN.1.d 
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = LTN
+	}
+	
+	option = {
+		name = LOTE_LTN.1.a 
+		set_variable = {
+			which = italianization_variable
+			value = 0
+		}
+	}
+}

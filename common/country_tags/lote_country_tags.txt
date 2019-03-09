@@ -57,7 +57,7 @@ DIY = "countries/Diyarbekir.txt"
 #Maghreb
 ABS = "countries/Abbasids.txt"
 AYY = "countries/Ayyubids.txt"
-ASY = "countries/Assyria.txt"
+ASY = "countries/Edessa.txt"
 
 #Central Asia
 QRA = "countries/Qara_Khitai.txt"

@@ -30,6 +30,9 @@
  LOTE_DAN.2.t: "Greenlandic Fishers Move West"
  LOTE_DAN.2.d: "Having travelled so far for fish, the good fishers of Greenland came upon a strange new land. They knew they had gone west, so it wasn't home; but it wasn't Greenland either. Was this the fabled "Vinland" told of in children's stories? Either way, the queen has issued a royal decree stating to map the new fishing routes and to explore this new land. This Norse exploration will not be forgotten."
  LOTE_DAN.2.a: "The Vinland saga continues..."
+ LOTE_LTN.1.t: "Italianization"
+ LOTE_LTN.1.d: "Italianization is a measure of how aligned to the culture of Italy or Greece Rhomania is. The scale goes from -5 to 5, with -5 being completely Greek aligned and 5 being completely Italian aligned. The variable can be changed based on events or decisions. Events will change based on whether Rhomania is aligned to Greece or Italy."
+ LOTE_LTN.1.a: "Got it!"
  
  #Modifiers
  boh_elected_own_king_modifier: "Elected a Local Ruler"
@@ -39,3 +42,5 @@
  #Tooltips
  boh_hre_opinion_tt: "Every member of the HRE will gain a +50 bonus to their opinion of Bohemia."
  boh_elected_own_king_tt: "Every neighboring country will gain a -100 malus to their opinion of Bohemia."
+ 
+ #Variables

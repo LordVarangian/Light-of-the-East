@@ -1,5 +1,0 @@
-government = monarchy
-primary_culture = assyrian
-religion = assyrian_religion
-technology_group = muslim
-government_rank = 3
