@@ -1,0 +1,29 @@
+bkg_three = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = BKG
+	}
+	has_country_shield = yes
+	
+	bkg_reconquest_of_constantinople = {
+		icon = mission_hagia_sophia
+		trigger = {
+			151 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			151 = {
+				add_province_modifier = {
+					name = lote_bkg_resurgent_constantinople
+					duration = -1
+				}
+			}
+			add_prestige = 50
+			add_adm_power = 100
+		}
+	}
+}
+		

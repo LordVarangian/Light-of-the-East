@@ -1,0 +1,44 @@
+italianization_italy_modifier = {
+	potential = {
+		tag = LTN
+	}
+	
+	trigger = {
+		check_variable = {
+			which = italianization_variable
+			value = 1
+		}
+	}
+	
+	diplomatic_reputation = 1
+	global_tax_modifier = 0.1
+}
+
+italianization_greek_modifier = {
+	potential = {
+		tag = LTN
+		NOT = {
+			check_variable = {
+				which = italianization_variable
+				value = 0
+			}
+		}
+	}
+	
+	
+	trigger = {
+		check_variable = {
+			which = italianization_variable
+			value = -1
+		}
+		NOT = {
+			check_variable = {
+				which = italianization_variable
+				value = 0
+			}
+		}
+	}	
+		
+	advisor_cost = -0.15
+	global_manpower_modifier = 0.1
+}
