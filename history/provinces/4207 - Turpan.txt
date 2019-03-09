@@ -1,8 +1,8 @@
 #X2 - Turpan
 
-owner = QRA		# ruled by a Chagataiid 
-controller = QRA
-add_core = QRA
+owner = QCH		# ruled by a Chagataiid 
+controller = QCH
+add_core = QCH
 culture = uyghur
 religion = tengri_pagan_reformed
 capital = "Balikul"

@@ -1,8 +1,8 @@
 # 2192 - Korla
 
-owner = QRA
-controller = QRA
-add_core = QRA
+owner = QCH
+controller = QCH
+add_core = QCH
 culture = uyghur
 religion = vajrayana
 capital = "Korla"

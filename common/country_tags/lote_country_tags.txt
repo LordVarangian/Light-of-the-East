@@ -64,7 +64,8 @@ ZNG = "countries/Zangids.txt"
 #Central Asia
 QRA = "countries/Qara_Khitai.txt"
 KIP = "countries/Kipchaks.txt"
-KRK = "countries/Karakhanids.txt"
+QCH = "countries/Qocho.txt"
+QRL = "countries/Qarluks.txt"
 
 #Persia
 SAS = "countries/Sassanids.txt"

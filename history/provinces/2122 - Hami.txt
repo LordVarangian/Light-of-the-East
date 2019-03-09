@@ -1,8 +1,8 @@
 # 2122 - Hami
 
-owner = QRA
-controller = QRA
-add_core = QRA
+owner = QCH
+controller = QCH
+add_core = QCH
 culture = oirats
 religion = vajrayana
 capital = "Hami"
