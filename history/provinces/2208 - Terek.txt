@@ -3,7 +3,7 @@
 owner = CUM
 controller = CUM
 culture = dagestani
-religion = orthodox
+religion = tengri_pagan_reformed
 capital = "Mozdok"
 trade_goods = livestock
 hre = no

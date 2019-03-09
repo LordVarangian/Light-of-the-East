@@ -2,8 +2,8 @@
 
 owner = CUM
 controller = CUM
-culture = nogaybak
-religion = orthodox
+culture = cuman
+religion = tengri_pagan_reformed
 capital = "Ryn"
 trade_goods = fish
 hre = no

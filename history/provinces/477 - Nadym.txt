@@ -2,8 +2,8 @@
 
 owner = CUM
 controller = CUM
-culture = kypshak
-religion = sunni
+culture = kypchak
+religion = tengri_pagan_reformed
 capital = "Nadym"
 trade_goods = wool
 hre = no
