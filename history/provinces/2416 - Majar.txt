@@ -2,7 +2,7 @@
 
 owner = CUM
 controller = CUM
-culture = astrakhani
+culture = cuman
 religion = orthodox
 hre = no
 base_tax = 3

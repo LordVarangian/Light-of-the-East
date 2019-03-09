@@ -1,7 +1,7 @@
 # 2352 - Alty-Kuduk
 
-owner = KIP
-controller = KIP
+owner = CUM
+controller = CUM
 culture = khazak
 religion = sunni
 capital = "Alty-Kuduk"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = KZH
+add_core = CUM
 
 
 

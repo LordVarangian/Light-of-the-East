@@ -1,8 +1,8 @@
 # 2353 - Tortkara
 
-owner = KIP
-controller = KIP
-culture = khazak
+owner = CUM
+controller = CUM
+culture = kypchak
 religion = sunni
 capital = "Tortkara"
 trade_goods = naval_supplies
@@ -11,6 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
+add_core = CUM
 add_core = KIP
 
 

@@ -1,8 +1,8 @@
 # 2354 - Shegendyk
 
-owner = KIP
-controller = KIP
-culture = khazak
+owner = CUM
+controller = CUM
+culture = kypchak
 religion = sunni
 capital = "Shegendyk"
 trade_goods = iron
@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 3
 is_city = yes
 add_core = KIP
-add_core = SHY
+add_core = CUM
 
 
 
