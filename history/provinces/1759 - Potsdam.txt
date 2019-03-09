@@ -1,23 +1,20 @@
-# - Sternberg
+#1759 - Potsdam
 
-owner = POL
-controller = POL
+owner = BRA
+controller = BRA
 add_core = BRA
-add_core = POL
 culture = markian
 religion = catholic
 hre = yes
-base_tax = 3
-base_production = 3
-trade_goods = cloth
-base_manpower = 2
-capital = "Sternberg"
+base_tax = 4
+base_production = 4
+trade_goods = iron
+base_manpower = 4
+capital = "Potsdam"
 is_city = yes
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
+
+
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -35,8 +32,7 @@ discovered_by = ottoman
 	base_production = 8
 	base_manpower = 7
 } # Friedrich III becomes king of Prussia
-1725.1.1 = { base_tax = 10 base_production = 10 }
-1750.1.1 = { base_manpower = 12 }
+1750.1.1 = { base_manpower = 8}
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
 1806.10.27 = { controller = FRA }
 1807.7.9 = { controller = PRU } # The Second treaty of Tilsit

@@ -139,8 +139,9 @@
  RMK_ADJ: "Roman"
  VLC: "Vlachs"
  VLC_ADJ: "Vlach"
- KRK: "Karakhanids"
- KRK_ADJ: "Karakhanid"
+ QCH: "Qocho"
+ QCH_ADJ: "Qocho"
  ZNG: "Zangids"
  ZNG_ADJ: "Zangid"
- 
+ LSA: "Lusatia"
+ LSA_ADJ: "Lusatian"

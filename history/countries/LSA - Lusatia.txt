@@ -1,0 +1,4 @@
+government = republic
+primary_culture = sorbian
+religion = catholic
+technology_group = western

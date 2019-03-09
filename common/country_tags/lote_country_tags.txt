@@ -26,6 +26,7 @@ AQI = "countries/Aquitaine.txt"
 
 #HRE
 BAM = "countries/Bamberg.txt"
+LSA = "countries/Lusatia.txt"
 
 #Spain
 
