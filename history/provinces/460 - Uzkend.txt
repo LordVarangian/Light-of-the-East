@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal #Isfara
 }
 
-owner = QRA
-controller = QRA
+owner = KRK
+controller = KRK
 culture = kirgiz
 religion = sunni
 capital = "Uzkend"
@@ -14,7 +14,7 @@ hre = no
 base_tax = 4 
 base_production = 4
 base_manpower = 4
-add_core = QRA
+add_core = KRK
 estate = estate_nobles
 is_city = yes
 discovered_by = muslim

@@ -1,8 +1,8 @@
 # 2364 - Talas
 
-owner = QRA
-controller = QRA
-add_core = QRA
+owner = KRK
+controller = KRK
+add_core = KRK
 culture = kirgiz
 religion = sunni
 capital = "Talas"
