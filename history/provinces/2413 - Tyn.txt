@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 owner = CUM
 controller = CUM
-culture = crimean
+culture = cuman
 religion = orthodox
 hre = no
 base_tax = 5

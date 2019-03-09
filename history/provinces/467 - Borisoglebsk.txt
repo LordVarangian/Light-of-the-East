@@ -2,7 +2,7 @@
 
 owner = CUM
 controller = CUM
-culture = mishary
+culture = cuman
 religion = orthodox
 capital = "Borisoglebsk"
 trade_goods = livestock

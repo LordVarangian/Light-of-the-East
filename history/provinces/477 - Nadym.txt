@@ -2,7 +2,7 @@
 
 owner = CUM
 controller = CUM
-culture = khazak
+culture = kypshak
 religion = sunni
 capital = "Nadym"
 trade_goods = wool
