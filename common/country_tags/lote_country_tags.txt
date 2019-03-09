@@ -62,6 +62,7 @@ ASY = "countries/Edessa.txt"
 #Central Asia
 QRA = "countries/Qara_Khitai.txt"
 KIP = "countries/Kipchaks.txt"
+KRK = "countries/Karakhanids.txt"
 
 #Persia
 SAS = "countries/Sassanids.txt"

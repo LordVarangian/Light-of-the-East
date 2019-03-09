@@ -1,8 +1,8 @@
 # 2368 - Karamegdan
 
-owner = QRA
-controller = QRA
-add_core = QRA
+owner = KRK
+controller = KRK
+add_core = KRK
 culture = khazak
 religion = sunni
 capital = "Karamegdan"

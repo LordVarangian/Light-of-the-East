@@ -35,7 +35,7 @@
  ANC_ADJ:0 "Anconan"
  VLB:0 "Volga Bulgaria"
  VLB_ADJ:0 "Volga Bulgarian"
- QRA:0 "Qara Khitai"
+ QRA:0 "Liao"
  QRA_ADJ:0 "Khitan"
  KIP:0 "Kipchaks"
  KIP_ADJ:0 "Kipchak"
@@ -139,4 +139,6 @@
  RMK_ADJ: "Roman"
  VLC: "Vlachs"
  VLC_ADJ: "Vlach"
+ KRK: "Karakhanids"
+ KRK_ADJ: "Karakhanid"
  
