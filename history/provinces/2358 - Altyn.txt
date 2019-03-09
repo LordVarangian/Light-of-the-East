@@ -2,7 +2,7 @@
 
 owner = CUM
 controller = CUM
-culture = kypshak
+culture = kypchak
 religion = sunni
 capital = "Altyn"
 trade_goods = livestock

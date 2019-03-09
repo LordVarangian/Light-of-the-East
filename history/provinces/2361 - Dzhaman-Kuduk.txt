@@ -2,7 +2,7 @@
 
 owner = CUM
 controller = CUM
-culture = kypshak
+culture = kypchak
 religion = sunni
 capital = "Dzhaman-Kuduk"
 trade_goods = grain
