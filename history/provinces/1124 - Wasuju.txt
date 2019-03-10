@@ -1,5 +1,8 @@
 #1124 - Wasuju
 
+owner = MAL
+controller = MAL
+add_core = MAL
 native_ferocity = 4
 native_size = 30
 culture = mali
