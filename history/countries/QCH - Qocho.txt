@@ -2,5 +2,18 @@ government = tribal
 add_government_reform = steppe_horde
 government_rank = 2
 primary_culture = qarluk
+capital = 739
 religion = tengri_pagan_reformed
 technology_group = nomad_group
+
+1380.1.1 = {
+	monarch = {
+		name = "Temur Kul"
+		dynasty = "iduq-qut"
+		adm = 5
+		dip = 5
+		mil = 6
+		birth_date = 1351.2.14
+		leader = { name = "Temur Kul" fire = 4 shock = 4 manuever = 4 siege = 0 }
+	}
+}

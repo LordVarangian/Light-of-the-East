@@ -4,3 +4,14 @@ primary_culture = cosmopolitan_french
 religion = catholic
 technology_group = western
 government_rank = 1
+
+1380.1.1 = {
+	monarch = {
+		name = "Louis"
+		dynasty = "d'Armagnac"
+		adm = 3
+		dip = 2
+		mil = 5
+		birth_date = 1340.1.1
+	}
+}
