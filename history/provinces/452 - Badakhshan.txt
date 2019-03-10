@@ -2,7 +2,7 @@
 
 owner = QRL
 controller = QRL
-culture = afghani
+culture = qarluk
 religion = sunni
 capital = "Munjan"
 trade_goods = gems #Rubies, Saphires

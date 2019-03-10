@@ -3,7 +3,7 @@
 owner = QRA		# The Oirads united much of Mongolia
 controller = QRA
 add_core = QRA
-culture = oirats
+culture = khitan
 religion = tengri_pagan_reformed
 capital = "Kobdo"
 trade_goods = cloth

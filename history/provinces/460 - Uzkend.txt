@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 owner = QRA
 controller = QRA
-culture = kirgiz
+culture = qarluk
 religion = sunni
 capital = "Uzkend"
 trade_goods = wool

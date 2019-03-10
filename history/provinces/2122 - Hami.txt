@@ -3,7 +3,7 @@
 owner = QCH
 controller = QCH
 add_core = QCH
-culture = oirats
+culture = khitan
 religion = vajrayana
 capital = "Hami"
 trade_goods = grain

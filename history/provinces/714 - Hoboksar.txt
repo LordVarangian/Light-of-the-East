@@ -3,7 +3,7 @@
 owner = QRA
 controller = QRA
 add_core = QRA
-culture = oirats
+culture = khitan
 religion = tengri_pagan_reformed
 capital = "Hoboksar"
 trade_goods = livestock

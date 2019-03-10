@@ -3,8 +3,8 @@
 owner = QCH
 controller = QCH
 add_core = QCH
-culture = uyghur
-religion = sunni
+culture = qarluk
+religion = tengri_pagan_reformed
 capital = "Yangi Hissar"
 trade_goods = wool
 hre = no

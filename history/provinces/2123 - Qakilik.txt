@@ -3,7 +3,7 @@
 owner = QCH
 controller = QCH
 add_core = QCH
-culture = oirats
+culture = uyghur
 religion = vajrayana
 capital = "Qakilik"
 trade_goods = livestock

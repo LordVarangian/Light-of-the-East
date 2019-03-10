@@ -3,8 +3,8 @@
 owner = QCH
 controller = QCH
 add_core = QCH
-culture = uzbehk
-religion = shiite
+culture = qarluk
+religion = tengri_pagan_reformed
 capital = "Yashilkul"
 trade_goods = livestock
 hre = no

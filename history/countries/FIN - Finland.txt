@@ -1,7 +1,7 @@
 government = monarchy
 government_rank = 2
 technology_group = western
-religion = catholic
+religion = ukonusko
 primary_culture = finnish
 add_accepted_culture = swedish
 capital = 28	# Nyland

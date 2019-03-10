@@ -2,7 +2,7 @@
 
 owner = QRA
 controller = QRA
-culture = uzbehk
+culture = qarluk
 religion = sunni
 capital = "Tashkent"
 trade_goods = tea

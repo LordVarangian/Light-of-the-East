@@ -3,7 +3,7 @@
 owner = QCH		# The Oirads united much of Mongolia
 controller = QCH
 add_core = QCH
-culture = oirats
+culture = khitan
 religion = tengri_pagan_reformed
 capital = "Balikul"
 trade_goods = livestock

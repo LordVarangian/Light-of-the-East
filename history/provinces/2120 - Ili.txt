@@ -3,8 +3,8 @@
 owner = QRA
 controller = QRA
 add_core = QRA
-culture = uyghur
-religion = sunni
+culture = khitan
+religion = tengri_pagan_reformed
 capital = "Ili"
 trade_goods = grain
 hre = no

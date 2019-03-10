@@ -2,7 +2,7 @@
 
 owner = QRL
 controller = QRL
-culture = uzbehk
+culture = qarluk
 religion = sunni
 capital = "Kulob"
 trade_goods = wool

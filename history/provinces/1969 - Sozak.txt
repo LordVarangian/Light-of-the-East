@@ -3,7 +3,7 @@
 owner = QRA
 controller = QRA
 culture = khazak
-religion = sunni
+religion = tengri_pagan_reformed
 capital = "Sozak"
 trade_goods = salt
 base_tax = 1 

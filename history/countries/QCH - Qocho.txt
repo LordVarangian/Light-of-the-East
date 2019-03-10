@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 2
+primary_culture = qarluk
+religion = tengri_pagan_reformed
+technology_group = nomad_group

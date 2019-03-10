@@ -2,8 +2,8 @@
 
 owner = QRA
 controller = QRA
-culture = uzbehk
-religion = sunni
+culture = qarluk
+religion = tengri_pagan_reformed
 capital = "Shymkent"
 trade_goods = tea
 hre = no

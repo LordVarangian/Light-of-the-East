@@ -1,5 +1,6 @@
-government = monarchy
-primary_culture = assyrian
-religion = assyrian_religion
-technology_group = muslim
-government_rank = 3
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+government_rank = 1
