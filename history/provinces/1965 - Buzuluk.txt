@@ -2,7 +2,7 @@
 
 owner = BSH
 controller = BSH
-culture = nogaybak
+culture = bashkir
 religion = sunni
 capital = "Buzuluk"
 trade_goods = iron
