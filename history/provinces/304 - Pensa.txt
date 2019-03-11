@@ -2,7 +2,7 @@
 
 owner = VLB
 controller = VLB
-culture = kazani
+culture = bolghar
 religion = sunni
 hre = no
 base_tax = 3 
