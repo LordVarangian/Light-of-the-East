@@ -1,9 +1,9 @@
 #283 - Zaporozhia
 
-owner = KIE
-controller = KIE
-culture = crimean
-religion = orthodox
+owner = CUM
+controller = CUM
+culture = cuman
+religion = tengri_pagan_reformed
 hre = no
 base_tax = 3
 base_production = 3
@@ -11,7 +11,7 @@ trade_goods = livestock
 base_manpower = 4
 capital = "Sich"
 is_city = yes
-add_core = KIE
+add_core = CUM
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
