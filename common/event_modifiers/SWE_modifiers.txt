@@ -9,3 +9,8 @@ LOTE_recent_civilwar_swe = {
 	prestige = -1
 	land_morale = -0.05
 }
+
+LOTE_recent_civilwar_swe2 = {
+	legitimacy = -0.25
+	prestige = -0.5
+}
