@@ -1,4 +1,4 @@
-DNO_ideas = {
+﻿DNO_ideas = {
 	start = {
 		prestige = 1
 		naval_morale = 0.1
@@ -312,5 +312,50 @@ LTN_ideas = {
 	ltn_greco_italian_adm = {
 		advisor_cost = -0.1
 	}
+}
+
+CUM_ideas {
+	start = {
+		global_unrest = -1
+		stability_cost_modifier = -0.10
+	}
+	
+	bonus = {
+		manpower_recovery_speed = 0.2
+	}
+	
+	trigger = {
+		tag = CUM 
+	}
+	free = yes
+
+	CUM_confederation = {
+		num_accepted_cultures = 1
+	}
+	
+	CUM_loot_rus = {
+		loot_amount = 0.25
+	}
+	
+	CUM_foreign_nobility  = {
+		improve_relation_modifier = 0.2
+	}
+	
+	CUM_cavalry = {
+		cavalry_power = 0.20
+	}
+	
+	CUM_crimea_trade = {
+		caravan_power = 0.2
+	}
+	
+	CUM_discipline = {
+		discipline = 0.05
+	}
+	
+	CUM_codex_cumanicus = {
+		global_missionary_strength = 0.02
+	}
+
 }
 
