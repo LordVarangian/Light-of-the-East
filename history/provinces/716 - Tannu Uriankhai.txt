@@ -1,9 +1,9 @@
 #716 - Tannu Tuva
 
-owner = KHA		# The Oirads united much of Mongolia
-controller = KHA
-add_core = KHA
-culture = buryat
+owner = YNK
+controller = YNK
+add_core = YNK
+culture = kirgiz
 religion = tengri_pagan_reformed
 capital = "Tannu Uriankhai"
 trade_goods = fur
