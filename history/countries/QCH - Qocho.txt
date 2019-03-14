@@ -1,10 +1,10 @@
-government = tribal
-add_government_reform = steppe_horde
+government = monarchy
+add_government_reform = autocracy_reform
 government_rank = 2
-primary_culture = qarluk
+primary_culture = uyghur
 capital = 739
-religion = tengri_pagan_reformed
-technology_group = nomad_group
+religion = vajrayana
+technology_group = chinese
 
 1380.1.1 = {
 	monarch = {
