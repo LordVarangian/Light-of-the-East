@@ -17,4 +17,5 @@ historical_rival = MAM
 		mil = 3
 		birth_date = 1346.8.7
 	}
+	add_legitimacy = -70
 }
