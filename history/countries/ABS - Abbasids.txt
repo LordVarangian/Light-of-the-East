@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = caliphate
 government_rank = 2
 primary_culture = al_iraqiya_arabic
 religion = sunni
