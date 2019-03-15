@@ -6,6 +6,7 @@ religion = sunni
 religious_school = shafii_school
 technology_group = muslim
 capital = 410 #Baghdad
+historical_rival = MAM
 
 1380.7.5 = {
 	monarch = {
