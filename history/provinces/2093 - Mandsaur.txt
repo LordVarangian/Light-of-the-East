@@ -1,7 +1,7 @@
 #2093 - Mandsaur
 
-owner = DLH
-controller = DLH
+owner = PMM
+controller = PMM
 culture = malvi
 religion = hinduism
 capital = "Mandsaur"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = DLH
+add_core = PMM
 add_rajputs_or_marathas_or_nobles_effect = yes
 fort_15th = yes #Mandsaur Fort
 discovered_by = indian

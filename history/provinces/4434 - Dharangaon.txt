@@ -1,7 +1,7 @@
 #4434 - Dharangaon
 
-owner = DLH
-controller = DLH
+owner = YDV
+controller = YDV
 culture = marathi
 religion = hinduism
 capital = "Dharangaon"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = DLH
+add_core = YDV
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman

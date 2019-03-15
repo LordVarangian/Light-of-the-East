@@ -99,6 +99,10 @@ GHN = "countries/Han.txt"
 IND = "countries/India.txt"
 BAG = "countries/Pagan.txt"
 LHO = "countries/Lahore.txt"
+EGG = "countries/EasternGanga.txt"
+YDV = "countries/Seuna.txt"
+CHN = "countries/Chandela.txt"
+PMM = "countries/Paramara.txt"
 
 #East Indies
 INO = "countries/Indonesia.txt"

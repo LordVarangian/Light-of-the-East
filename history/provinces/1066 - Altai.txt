@@ -1,9 +1,9 @@
 #1066 - Altai
 
-owner = YNK
-controller = YNK
-add_core = YNK
-culture = kirgiz
+owner = QRA
+controller = QRA
+add_core = QRA
+culture = khitan
 religion = tengri_pagan_reformed
 capital = "Altai Uriankhai"
 trade_goods = fur

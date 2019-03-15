@@ -1,7 +1,7 @@
 #2095 - Varanasi
 
-owner = DLH
-controller = DLH
+owner = CHN
+controller = CHN
 culture = bihari
 religion = "hinduism"
 capital = "Varanasi"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = DLH
+add_core = CHN
 add_brahmins_or_church_effect = yes
 discovered_by = indian
 discovered_by = nomad_group
