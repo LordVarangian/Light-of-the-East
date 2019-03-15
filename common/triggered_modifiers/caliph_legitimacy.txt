@@ -1,0 +1,18 @@
+crumbling_caliphate = {
+	potential = {
+		has_reform = caliphate
+	}
+
+	trigger = {
+			NOT = { owns = 385 # Mecca }
+			num_of_cities < 40
+		}
+	}
+
+	land_morale = -0.15
+	legitimacy = -1.0
+	stability_cost_modifier = 0.5
+	diplomatic_reputation = -1
+	land_force_limit = -5
+		
+}
