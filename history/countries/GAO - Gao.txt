@@ -1,4 +1,6 @@
 government = monarchy
+add_government_reform = autocracy_reform
 religion = sunni
+primary_culture = songhai
 capital = 1133
 technology_group = sub_saharan

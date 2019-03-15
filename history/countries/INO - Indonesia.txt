@@ -1,4 +1,5 @@
 government = republic
+capital = 626
 primary_culture = javanese
 technology_group = indian
 religion = sunni

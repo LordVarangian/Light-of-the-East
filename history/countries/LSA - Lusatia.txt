@@ -1,4 +1,5 @@
 government = republic
 primary_culture = sorbian
 religion = catholic
+capital = 60
 technology_group = western

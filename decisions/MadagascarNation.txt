@@ -14,9 +14,7 @@ country_decisions = {
 				NOT = { exists = MDG }
 			}
 			NOT = { tag = MDG }
-			OR = {
-				primary_culture = madagasque
-			}
+			primary_culture = madagasque
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no

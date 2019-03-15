@@ -13,6 +13,8 @@ estate_holy_order = {
 		religion = catholic
 	}
 	
+	base_influence = 20
+	
 	start_territory_weight = 50
 	min_territory = 0.5
 	min_autonomy = 20
@@ -63,23 +65,9 @@ estate_holy_order = {
 					value = 0.4
 					extra_shortcut = yes
 				}
-			}	
-		influence = -20
+			}
 		}
-	}
-	
-	influence_modifier = {
-		desc = EST_VAL_LOW_TTF
-		trigger = {
-			NOT = {
-				has_global_modifier_value = {
-					which = tolerance_own
-					value = 0.4
-					extra_shortcut = yes
-				}
-			}	
 		influence = -20
-		}
 	}
 	
 	influence_modifier = {
@@ -185,13 +173,12 @@ estate_holy_order = {
 				location = event_target:nobles_estate_province
 				cost_multiplier = 0.5
 			}
-		}
-		
-		add_estate_influence_modifier = {
+			add_estate_influence_modifier = {
 				estate = estate_holy_order
 				desc = EST_VAL_HOLY_COMANDER
 				influence = 15
 				duration = 10950
+			}
 		}
 	}
 	

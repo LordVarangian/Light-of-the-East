@@ -15,6 +15,5 @@ capital = 446
 		mil = 0
 		birth_date = 1359.10.4
 	}
-	leader = { name = "Timur" fire = 5 shock = 6 manuever = 6 siege = 3 }
 }
 

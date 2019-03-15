@@ -55,11 +55,7 @@ country_decisions = {
 		effect = {
 			change_tag = DNO
 			swap_non_generic_missions = yes
-			remove_non_electors_emperors_from_empire_effect = yes
-			set_government_and_rank = {
-				government = administrative_monarchy
-				rank = 3
-			}
+			remove_non_electors_emperors_from_empire_effect = yes		
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

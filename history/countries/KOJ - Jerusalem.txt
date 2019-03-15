@@ -2,8 +2,8 @@ government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = cosmopolitan_french
 religion = catholic
-capital = 380
-technology_group = western
+capital = 379
+technology_group = eastern
 government_rank = 2
 
 1380.1.1 = {

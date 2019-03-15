@@ -1,5 +1,6 @@
 government = monarchy
 government_rank = 3
 primary_culture = mali
+capital = 1132
 technology_group = sub_saharan
 religion = sunni

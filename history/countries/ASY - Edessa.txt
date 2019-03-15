@@ -2,6 +2,7 @@ government = theocracy
 add_government_reform = monastic_order_reform
 primary_culture = cosmopolitan_french
 religion = catholic
+capital = 327
 technology_group = western
 government_rank = 1
 

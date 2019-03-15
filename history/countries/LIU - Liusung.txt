@@ -1,6 +1,6 @@
 government = republic
 government_rank = 1
-religion = daozong
+religion = confucianism
 technology_group = chinese
 primary_culture = daomin
 capital = 4348

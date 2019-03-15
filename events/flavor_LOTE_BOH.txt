@@ -10,7 +10,7 @@ country_event = { #The Election of 1380
 			is_year = 1385
 		}
 		tag = BOH
-		ruler = "(Regency Council)"
+		has_ruler = "(Regency Council)"
 	}
 	
 	mean_time_to_happen = {
@@ -64,7 +64,7 @@ country_event = { #The Election of 1380
 			}
 			every_known_country = {
 				limit = {
-					hre = yes
+					is_part_of_hre = yes
 				}
 				add_opinion = {
 					who = ROOT
@@ -72,7 +72,7 @@ country_event = { #The Election of 1380
 				}
 			}
 		}
-		tooltip = boh_hre_opinion_tt
+		custom_tooltip = boh_hre_opinion_tt
 		set_country_flag = boh_chose_luxembourg
 		swap_non_generic_missions = yes 
 	}
@@ -132,7 +132,7 @@ country_event = { #The Election of 1380
 				}
 			}
 		}
-		tooltip = boh_elected_own_king_tt
+		custom_tooltip = boh_elected_own_king_tt
 		set_country_flag = boh_chose_czech
 		swap_non_generic_missions = yes
 	}

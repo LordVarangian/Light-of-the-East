@@ -38,9 +38,9 @@ country_decisions = {
 			remove_country_modifier = LOTE_upset_nobles_swe
 			add_estate_influence_modifier = {
 				estate = estate_nobles
-				desc = EST_VAL_CURTAILED_NOBLES
+				desc = "EST_VAL_CURTAILED_NOBLES"
 				influence = -5
-				duration = -1
+				duration = 10950		
 			}
 		}
 	}
@@ -96,3 +96,4 @@ country_decisions = {
 			remove_country_modifier = LOTE_recent_civilwar_swe2
 		}
 	}
+}
