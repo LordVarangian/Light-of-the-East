@@ -1,9 +1,9 @@
 #4271 - Suwaida
 
-owner = MAM
-controller = MAM
+owner = FAD
+controller = FAD
 culture = bedouin_arabic
-religion = shiite
+religion = sunni
 capital = "As-Suwayda"
 trade_goods = livestock
 hre = no
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = MAM
+add_core = FAD
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = ottoman

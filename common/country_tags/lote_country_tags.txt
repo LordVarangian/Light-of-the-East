@@ -5,7 +5,6 @@ DNO = "countries/DenmarkNorway.txt"
 LTN = "countries/Rhomaniae.txt"
 BKG = "countries/byzrevolt.txt"
 RMS = "countries/RomanState.txt"
-RMK = "countries/RomanKingdom.txt"
 VLC = "countries/Vlachs.txt"
 
 #British Isles
@@ -60,6 +59,8 @@ ABS = "countries/Abbasids.txt"
 AYY = "countries/Ayyubids.txt"
 ASY = "countries/Edessa.txt"
 ZNG = "countries/Zangids.txt"
+ATI = "countries/Antioch.txt"
+CTR = "countries/CrusaderTripoli.txt"
 
 #Central Asia
 QRA = "countries/Qara_Khitai.txt"

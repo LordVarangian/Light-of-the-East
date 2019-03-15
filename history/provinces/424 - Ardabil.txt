@@ -3,7 +3,7 @@
 owner = SPR
 controller = SPR
 culture = azerbaijani
-religion = shiite
+religion = orthodox
 capital = "Ardabil"
 trade_goods = dyes
 hre = no

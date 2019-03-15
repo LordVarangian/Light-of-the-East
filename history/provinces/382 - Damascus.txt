@@ -1,9 +1,9 @@
 #382 - Damascus
 
-owner = MAM
-controller = MAM
+owner = KOJ
+controller = KOJ
 culture = al_suryah_arabic
-religion = sunni
+religion = catholic
 capital = "Dimashq"
 trade_goods = iron
 hre = no
@@ -12,7 +12,7 @@ base_production = 7
 base_manpower = 6
 is_city = yes
 estate = estate_nobles
-add_core = MAM
+add_core = KOJ
 fort_15th = yes
 discovered_by = muslim
 discovered_by = ottoman

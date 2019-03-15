@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = cosmopolitan_french
+religion = catholic
+capital = 380
+technology_group = western
+government_rank = 2
+
+1380.1.1 = {
+	monarch = {
+		name = "Pierre I"
+		dynasty = "Lusignan"
+		adm = 1
+		dip = 1
+		mil = 5
+		birth_date = 1328.1.1
+	}
+}

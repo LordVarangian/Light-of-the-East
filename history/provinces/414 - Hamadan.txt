@@ -3,7 +3,7 @@
 owner = SPR
 controller = SPR
 culture = luri
-religion = shiite
+religion = orthodox
 capital = "Hamedan"
 trade_goods = cloth
 hre = no
