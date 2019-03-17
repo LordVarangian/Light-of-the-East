@@ -89,26 +89,22 @@ grand_duchy_reform = {
 	}
 }
 
-caliphate = {
+caliphate_reform = {
 	icon = ""
 	allow_normal_conversion = no
 	potential = {
 		religion = sunni
+		has_reform = caliphate_reform
 	}
 	maintain_dynasty = yes
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
-	fixed_rank = 1
 	allow_normal_conversion = no
 	allow_convert = no
 	lock_level_when_selected = yes
 
 	modifiers = {
 		prestige = 1.0
-	}
-	
-	ai = {
-		factor = 1000
 	}
 
 	custom_attributes = {
