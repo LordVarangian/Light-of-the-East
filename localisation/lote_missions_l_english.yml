@@ -9,3 +9,8 @@
  kwm_purge_all_opposition_title: "Purge Every Enemy!"
  kwm_compromise_with_our_enemies_title: "Compromise with Our Opposition"
  
+ #Abbasid Missions
+ abs_restore_caliph_legitimacy_title: "Restore Caliph's Legitimacy"
+ abs_restore_caliph_legitimacy_desc: "After centuries of decline, our title of Caliph has lost legitimacy in the eyes of many muslims. After strenuous reform and recovery, the title of Caliph has been restored in the eyes of many, and he can reclaim the Abbasid legacy!"
+ abs_zangid_dependency_title: "Re-Establish Zangid Dependency"
+ abs_zangid_dependency_desc: "The Zangids had been loyal vassals, until they left realm during our years of decline. It is only right to reach out and once again house the Zangids under the Abbasid realm."
