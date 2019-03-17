@@ -4,11 +4,10 @@ abs_conquest = {
 	ai = yes
 	has_country_shield = yes
 	potential = {
-		has_reform = caliphate
 		tag = ABS
 	}
-	restore_caliph_legitimacy = {
-		icon = “”
+	abs_restore_caliph_legitimacy = {
+		icon = â€œmission_restore_caliph_legitimacyâ€
 		ai = yes
 		trigger = {
 		legitimacy > 80
@@ -38,7 +37,7 @@ abs_conquest = {
 					}
 					add_permanent_claim = ROOT
 				}
-				407 = {
+				406 = {
 					limit = {
 						NOT = { is_core = ROOT }
 						NOT = { is_permanent_claim = ROOT }
@@ -52,14 +51,14 @@ abs_conquest = {
 					}
 					add_permanent_claim = ROOT
 				}
-				411 = {
+				2310 = {
 					limit = {
 						NOT = { is_core = ROOT }
 						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
-				4293 = {
+				415 = {
 					limit = {
 						NOT = { is_core = ROOT }
 						NOT = { is_permanent_claim = ROOT }
@@ -73,6 +72,76 @@ abs_conquest = {
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = "lote_caliph_legitimacy_restored"
+				duration = 10950
+			}
+		}
+	}
+	abs_zangid_dependency = {
+		icon = "mission_have_two_subjects"
+		ai = yes
+		has_reform = caliphate_reform
+		required_missions = {
+			restore_caliph_legitimacy
+		}
+		{
+			provinces_to_highlight = {
+			province_id = 2314
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			province_id = 406
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			province_id = 2309
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			province_id = 2310
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			province_id = 415
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			is_subject = no
+			if = {
+				limit = {
+					exists = ZNG
+					}
+				ZNG = {
+					is_subject = yes
+				}	
+			}
+			else = {
+				2314 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				406 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				2309 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				2310 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				415 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			add_country_modifier = {
+				name = "lote_caliph_legitimacy_restored"
+				duration = 7300
 			}
 		}
 	}
