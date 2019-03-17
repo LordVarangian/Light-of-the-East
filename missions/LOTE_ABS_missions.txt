@@ -1,0 +1,79 @@
+abs_conquest = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		has_reform = caliphate
+		tag = ABS
+	}
+	restore_caliph_legitimacy = {
+		icon = “”
+		ai = yes
+		trigger = {
+		legitimacy > 80
+		has_reform = caliphate_reform
+		}
+		effect = {
+			prestige = 20
+			if = {
+				limit = {
+					exists = ZNG
+					is_subject = no
+					ZNG = {
+						is_subject = no
+					}
+				}
+				add_casus_belli = {
+					type = cb_vassalize_mission
+					months = 300
+					target = ZNG
+				}
+			}
+			else = {
+				2314 = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				407 = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				2309 = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				411 = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				4293 = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			bahrain_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
