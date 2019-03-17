@@ -68,6 +68,13 @@ KIP = "countries/Kipchaks.txt"
 QCH = "countries/Qocho.txt"
 QRL = "countries/Qarluks.txt"
 YNK = "countries/Yenisei_Kyrgyz.txt"
+TRK = "countries/TurkicKhaganate.txt"
+UYG = "countries/Uyghurs.txt"
+KYI = "countries/Kayi.txt"
+AFS = "countries/Afshar.txt"
+BYD = "countries/Bayandur.txt"
+BYT = "countries/Bayat.txt"
+SLR = "countries/Salur.txt"
 
 #Persia
 SAS = "countries/Sassanids.txt"

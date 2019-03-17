@@ -1,9 +1,9 @@
 #377 - Aleppo
 
-owner = ATI
-controller = ATI
+owner = SYR
+controller = SYR
 culture = al_suryah_arabic
-religion = catholic
+religion = sunni
 capital = "Halab"
 trade_goods = silk
 hre = no
@@ -12,7 +12,7 @@ base_production = 9
 base_manpower = 4
 is_city = yes
 estate = estate_burghers
-add_core = ATI
+add_core = SYR
 fort_15th = yes
 discovered_by = east_african
 discovered_by = muslim

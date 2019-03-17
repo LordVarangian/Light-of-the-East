@@ -1,7 +1,7 @@
 #364 - Gaza
 
-owner = KOJ
-controller = KOJ
+owner = MAM
+controller = MAM
 culture = al_suryah_arabic
 religion = catholic
 capital = "Gazzah"
@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 2
 estate = estate_nobles
 is_city = yes
-add_core = KOJ
+add_core = MAM
 
 discovered_by = western
 discovered_by = muslim

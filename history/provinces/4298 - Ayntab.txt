@@ -1,9 +1,9 @@
 #4398 - Ayntab
 
-owner = ASY
-controller = ASY
+owner = SYR
+controller = SYR
 culture = turkish
-religion = catholic
+religion = sunni
 capital = "Ayntab"
 trade_goods = wool
 hre = no
@@ -11,7 +11,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = ASY
+add_core = SYR
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

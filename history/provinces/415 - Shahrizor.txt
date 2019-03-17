@@ -1,7 +1,7 @@
 #415 - Sharazor
 
-owner = ABS
-controller = ABS
+owner = ZNG
+controller = ZNG
 culture = assyrian
 religion = sunni
 capital = "Kirkuk"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = ABS
+add_core = ZNG
 
 
 discovered_by = east_african

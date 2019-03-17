@@ -15,5 +15,6 @@ capital = 446
 		mil = 0
 		birth_date = 1359.10.4
 	}
+	
 }
 

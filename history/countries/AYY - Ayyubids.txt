@@ -1,8 +1,8 @@
 government = monarchy
 technology_group = muslim
 religion = sunni
-primary_culture = al_misr_arabic
-capital = 382
+primary_culture = kurdish
+capital = 377
 religious_school = shafii_school
 
 1380.7.5 = {
