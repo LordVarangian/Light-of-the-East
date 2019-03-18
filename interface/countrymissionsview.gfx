@@ -472,4 +472,8 @@ spriteTypes = {
 		name = "mission_roman_ruins"
 		texturefile =  "gfx//interface//missions//mission_roman_ruins.dds"
 	}
+	spriteType = {
+		name = "mission_restore_caliph_legitimacy"
+		texturefile =  "gfx//interface//missions//mission_restore_caliph_legitimacy.dds.dds"
+	}
 }
