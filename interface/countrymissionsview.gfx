@@ -474,6 +474,6 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "mission_restore_caliph_legitimacy"
-		texturefile =  "gfx//interface//missions//mission_restore_caliph_legitimacy.dds.dds"
+		texturefile =  "gfx//interface//missions//mission_restore_caliph_legitimacy.dds"
 	}
 }
