@@ -1,6 +1,6 @@
 crumbling_caliphate = {
 	potential = {
-		has_reform = caliphate
+		has_reform = caliphate_reform
 	}
 
 	trigger = {
