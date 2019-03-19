@@ -14,7 +14,7 @@ abs_conquest = {
 		has_reform = caliphate_reform
 		}
 		effect = {
-			prestige = 20
+			add_prestige = 20
 			if = {
 				limit = {
 					exists = ZNG
