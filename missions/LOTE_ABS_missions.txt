@@ -82,7 +82,6 @@ abs_conquest = {
 	abs_zangid_dependency = {
 		icon = "mission_have_two_subjects"
 		ai = yes
-		has_reform = caliphate_reform
 		required_missions = {
 			restore_caliph_legitimacy
 		}
