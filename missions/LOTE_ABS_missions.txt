@@ -111,30 +111,28 @@ abs_conquest = {
 		}
 		trigger = {
 			is_subject = no
-			if = {
-				limit = {
-					exists = ZNG
-					}
+			OR = {
 				ZNG = {
-					is_subject = yes
-				}	
+					is_subject_of = ABS
+				}
+				ZNG = {
+					exists = no
+				}
 			}
-			else = {
-				2314 = {
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				406 = {
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				2309 = {
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				2310 = {
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-				415 = {
-					country_or_non_sovereign_subject_holds = ROOT
-				}
+			2314 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			406 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2309 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2310 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			415 = {
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
