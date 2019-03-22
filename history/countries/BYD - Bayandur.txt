@@ -2,6 +2,6 @@ government = tribal
 add_government_reform = steppe_horde
 government_rank = 1
 primary_culture = uyghur
-capital = 840
+capital = 2214
 religion = tengri_pagan_reformed
 technology_group = nomad_group
