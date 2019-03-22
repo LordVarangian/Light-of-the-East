@@ -1,7 +1,7 @@
 #4329 - Fasa and Jahrum
 
-owner = KWM
-controller = KWM
+owner = BYT
+controller = BYT
 culture = persian
 religion = sunni
 capital = "Fasa"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 1
 is_city = yes
-add_core = KWM
+add_core = BYT
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
