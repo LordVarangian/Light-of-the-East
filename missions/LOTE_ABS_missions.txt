@@ -206,10 +206,6 @@ abs_conquest = {
 					AYY = { add_historical_rival = MAM }
 					MAM = { add_historical_rival = AYY }
 				}
-				add_modifier = {
-					name = "lote_growing_influence"
-					duration = 3650
-				}
 			}
 			else_if = {
 				limit = {
@@ -226,10 +222,6 @@ abs_conquest = {
 					}
 					SYR = { add_historical_rival = MAM }
 					MAM = { add_historical_rival = SYR }
-				}
-				add_modifier = {
-					name = "lote_growing_influence"
-					duration = 3650
 				}
 			}
 		}
