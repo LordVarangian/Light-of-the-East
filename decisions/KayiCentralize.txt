@@ -1,0 +1,52 @@
+country_decisions = {
+	
+	kayi_switch_to_ottomans = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no 
+				is_playing_custom_nation = no 
+			}
+			OR = {
+				ai = no
+				NOT = { exists = TUR }
+			}
+			NOT = { tag = TUR }
+			tag = KYI
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no 
+			NOT = { exists = TUR }
+			stability = 3
+			dynasty = "Osmanoglu"
+			adm_tech = 5
+		}
+		effect = {
+			change_tag = TUR
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 50
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
