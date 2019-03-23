@@ -85,8 +85,7 @@ abs_conquest = {
 		required_missions = {
 			abs_restore_caliph_legitimacy
 		}
-		{
-			provinces_to_highlight = {
+		provinces_to_highlight = {
 			province_id = 2314
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -139,6 +138,99 @@ abs_conquest = {
 			add_country_modifier = {
 				name = "lote_zangid_dependency_restored"
 				duration = 7300
+			}
+		}
+	}
+	abs_ayyubid_support = {
+		icon = mission_muslim_alliance
+		ai = yes
+		required_missions = {
+			abs_zangid_dependency
+		}
+		trigger = {
+			is_subject = no
+			OR = {
+				AND = {
+					AYY = {
+						exists = false
+					}
+					OR = {
+						SYR = {
+							is_subject = false
+							has_opinion = {
+								who = ABS
+								value = 120
+							}
+						}
+						SYR {
+							is_subject_of = ABS
+						}
+						is_rival = SYR
+						SYR = {
+							is_rival = ABS
+						}
+					}
+				}
+				AYY = {
+					is_subject = false
+					has_opinion = {
+						who = ABS
+						value = 120
+					}
+				}
+				AYY = {
+					is_subject_of = ABS
+				}
+				AND = {
+					AYY = {
+						exists = false
+					}
+					SYR = {
+						exists = false
+					}
+				}
+				
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					exists = AYY
+				}
+				add_historical_friend = AYY
+				AYY = { add_historical_friend = ABS }
+				if = {
+					limit = {
+						exists = MAM
+					}
+					AYY = { add_historical_rival = MAM }
+					MAM = { add_historical_rival = AYY }
+				}
+				add_modifier = {
+					name = "lote_growing_influence"
+					duration = 3650
+				}
+			}
+			else_if = {
+				limit = {
+					exists = SYR
+					AYY = {
+						exists = false
+					}
+				}
+				add_historical_friend = SYR
+				SYR = { add_historical_friend = ABS }
+				if = {
+					limit = {
+						exists = MAM
+					}
+					SYR = { add_historical_rival = MAM }
+					MAM = { add_historical_rival = SYR }
+				}
+				add_modifier = {
+					name = "lote_growing_influence"
+					duration = 3650
+				}
 			}
 		}
 	}
