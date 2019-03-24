@@ -108,6 +108,7 @@ abs_conquest = {
 			}
 		}
 		trigger = {
+			has_reform = caliphate_reform
 			is_subject = no
 			OR = {
 				ZNG = {
@@ -148,6 +149,7 @@ abs_conquest = {
 			abs_zangid_dependency
 		}
 		trigger = {
+			has_reform = caliphate_reform
 			is_subject = no
 			OR = {
 				AND = {
@@ -165,7 +167,6 @@ abs_conquest = {
 						SYR {
 							is_subject_of = ABS
 						}
-						is_rival = SYR
 						SYR = {
 							is_rival = ABS
 						}
@@ -226,4 +227,87 @@ abs_conquest = {
 			}
 		}
 	}
+	abs_border_mamluk = {
+		icon = mission_approaching_war
+		ai = yes
+		required_missions = {
+			abs_ayyubid_support
+		}
+		trigger = {
+			is_subject = no
+			has_reform = caliphate_reform
+			OR = {
+				is_neighbor_of = MAM
+				MAM = {
+					exists = false
+				}
+			}
+		}
+		effect = {
+			bahari_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			delta_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
 }
+
+abs_conquest2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ABS
+	}
+	abs_arabian_expedition = {
+		icon = mission_desert_coast
+		ai = yes
+		provinces_to_highlight = {
+			area = bahrain_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			bahrain_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			qasim_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			nafud_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			medina_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}	
+}	
