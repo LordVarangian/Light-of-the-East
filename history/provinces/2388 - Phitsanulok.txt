@@ -1,7 +1,7 @@
 #2388 - Phitsanulok
 
-owner = PHI 
-controller = PHI
+owner = SUK 
+controller = SUK
 culture = central_thai
 religion = buddhism
 capital = "Phitsanulok"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = PHI
+add_core = SUK
 discovered_by = chinese
 discovered_by = indian
 

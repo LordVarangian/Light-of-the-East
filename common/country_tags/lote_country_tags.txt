@@ -1,5 +1,6 @@
 #Scandinavia
 DNO = "countries/DenmarkNorway.txt"
+NSJ = "countries/Nordsjoen.txt"
 
 #Balkans
 LTN = "countries/Rhomaniae.txt"

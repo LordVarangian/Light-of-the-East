@@ -5,7 +5,14 @@ primary_culture = uyghur
 capital = 429
 religion = tengri_pagan_reformed
 technology_group = nomad_group
-add_historical_rival = AFS
-add_historical_rival = BYD
-add_historical_rival = BYT
-add_historical_rival = SLR
+
+1380.1.1 = {
+	monarch = {
+		name = "Murad I"
+		dynasty = "Osmanoglu"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1326.6.29
+	}
+}
