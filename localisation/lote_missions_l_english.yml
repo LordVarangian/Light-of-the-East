@@ -23,6 +23,10 @@
  #Second Column
  abs_arabian_expedition_title: "The Arabian Expedition"
  abs_arabian_expedition_desc: "Our declining power can only be remedied through the expansion of our borders. Our best mode of expansion is likely down south, in the largely divided Arab peninsula."
+ abs_crossing_peninsula_title: "Crossing the Peninsula"
+ abs_crossing_peninsula_desc: "With tensions with the Mamluks brewing, our access to invade the Mamluks is very restricted. The deserts of Arabia are harsh to trek, and we must occupy these lands if we wish to have an outpost against our enemies."
+ abs_seize_gulf_title: "Seize the Persian Gulf"
+ abs_seize_gulf_desc: "The traders of Hormuz have precedent over all trade coming into the Persian Gulf. Their strict trade policy has greatly hindered any trade recieved in our home node of Basra. We must establish our presence in the Straits of Hormuz and the Gulf of Oman if we desire any trade influence in the world."
  
  #Vlach Missions
  vlc_increase_development_title: "Urbanize the Vlachs"
