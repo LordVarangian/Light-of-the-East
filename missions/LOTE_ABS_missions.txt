@@ -232,6 +232,7 @@ abs_conquest = {
 		ai = yes
 		required_missions = {
 			abs_ayyubid_support
+			abs_crossing_peninsula
 		}
 		trigger = {
 			is_subject = no
@@ -287,6 +288,75 @@ abs_conquest2 = {
 		}
 		effect = {
 			add_prestige = 10
+			pirate_coast_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			mascat_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			yamamah_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	abs_seize_gulf = {
+		icon = mission_seize_the_gulf
+		ai = yes
+		required_missions = {
+			abs_arabian_expedition
+		}
+		provinces_to_highlight = {
+			area = pirate_coast_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			area = mascat_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			pirate_coast_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mascat_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = "lote_dominance_of_gulf"
+				duration = 7300
+			}
+			persian_gulf_coast = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			mogostan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			qasim_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -302,6 +372,60 @@ abs_conquest2 = {
 				add_permanent_claim = ROOT
 			}
 			medina_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	abs_crossing_peninsula = {
+		icon = mission_desert_trek
+		ai = yes
+		required_missions = {
+			abs_seize_gulf
+		}
+		provinces_to_highlight = {
+			area = qasim_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			area = nafud_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			area = medina_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			OR = {
+				qasim_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				nafud_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			medina_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			oman_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			dhofar_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
