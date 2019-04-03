@@ -167,9 +167,6 @@ abs_conquest = {
 						SYR {
 							is_subject_of = ABS
 						}
-						SYR = {
-							is_rival = ABS
-						}
 					}
 				}
 				AYY = {
@@ -259,6 +256,41 @@ abs_conquest = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+	}
+	abs_defeat_mamluk = {
+		icon = mission_muslim_duel
+		ai = yes
+		required_missions = {
+			abs_border_mamluk
+		}
+		provinces_to_highlight = {
+			area = bahari_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			area = delta_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			is_subject = no
+			has_reform = caliphate_reform
+			bahari_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			delta_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			NOT = {
+				exists = MAM
+			}
+		}
+		effect = {
+			add_prestige = 20
 		}
 	}
 }
