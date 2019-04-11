@@ -93,6 +93,17 @@ IFA = "countries/Ifat.txt"
 GAO = "countries/Gao.txt"
 MDG = "countries/Madagascar.txt"
 
+#Mongols
+TMD = "countries/Tumed.txt"
+BAY = "countries/Bayad.txt"
+BRG = "countries/Barga.txt"
+KMG = "countries/Khamag.txt"
+QGR = "countries/Qongirat.txt"
+TTR = "countries/Tatar.txt"
+KHR = "countries/Khereid.txt"
+NAI = "countries/Naiman.txt"
+MEK = "countries/Merkit.txt"
+
 #Far Eastern
 SNG = "countries/Song.txt"
 XIX = "countries/Xixia.txt"
