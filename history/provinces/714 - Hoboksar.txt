@@ -1,8 +1,8 @@
 #714 - Dzungaria
 
-owner = QRA
-controller = QRA
-add_core = QRA
+owner = NAI
+controller = NAI
+add_core = NAI
 culture = khitan
 religion = tengri_pagan_reformed
 capital = "Hoboksar"
