@@ -1,8 +1,8 @@
 #1058 - Nerchinsky
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = KMG
+controller = KMG
+add_core = KMG
 culture = buryat
 religion = tengri_pagan_reformed
 capital = "Onan Gol"
