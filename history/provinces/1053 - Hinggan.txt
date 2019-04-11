@@ -1,8 +1,8 @@
 #1053 - Hinggan
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = KMG
+controller = KMG
+add_core = KMG
 culture = manchu
 religion = tengri_pagan_reformed
 capital = "Hinggan"

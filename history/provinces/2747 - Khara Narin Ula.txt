@@ -1,8 +1,8 @@
 #2405 - Khara Narin Ula
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = KHR
+controller = KHR
+add_core = KHR
 culture = mongol
 religion = vajrayana
 capital = "Khara Narin Ula"

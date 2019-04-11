@@ -1,8 +1,8 @@
 # 2114 - Ereen
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = TTR
+controller = TTR
+add_core = TTR
 culture = mongol
 religion = vajrayana
 capital = "Ereen"
@@ -14,3 +14,4 @@ base_manpower = 3
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
+

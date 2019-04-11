@@ -1,6 +1,6 @@
 #4206 - Balikul
 
-owner = QCH		# The Oirads united much of Mongolia
+owner = QCH
 controller = QCH
 add_core = QCH
 culture = khitan
