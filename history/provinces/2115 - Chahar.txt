@@ -1,8 +1,8 @@
 # 2115 - Chahar
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = TTR
+controller = TTR
+add_core = TTR
 culture = chahar
 religion = vajrayana
 capital = "Chahar"
