@@ -1,8 +1,8 @@
 #722 - Jurim
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = QGR
+controller = QGR
+add_core = QGR
 culture = chahar
 religion = vajrayana
 capital = "Jirem"
