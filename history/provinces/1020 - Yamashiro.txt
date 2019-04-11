@@ -1,7 +1,7 @@
 #1020 - Yamashiro (Kyoto)
 
-owner = HJO 
-controller = HJO 
+owner = KMK 
+controller = KMK 
 culture = japanese
 religion = shinto
 capital = "Kyoto"
@@ -11,7 +11,7 @@ base_tax = 6
 base_production = 5
 base_manpower = 2
 is_city = yes
-add_core = HJO
+add_core = KMK
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

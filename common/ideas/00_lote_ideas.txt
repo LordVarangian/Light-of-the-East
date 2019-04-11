@@ -359,3 +359,49 @@ CUM_ideas {
 
 }
 
+QCH_ideas {
+	start = {
+		land_morale = 0.10
+		diplomatic_reputation = 1
+	}
+	
+	bonus = {
+		trade_efficiency = 0.15
+	}
+	
+	trigger = {
+		tag = QCH
+	}
+	free = yes
+
+	QCH_legitimacy = {
+		legitimacy = 1
+	}
+	
+	QCH_administrators = {
+		adm_tech_cost_modifier = -0.1
+	}
+	
+	QCH_many_religions  = {
+		tolerance_heathen = 2
+	}
+	
+	QCH_public_aid = {
+		global_unrest = -1	
+	}
+	
+	QCH_cav_traditions = {
+		cavalry_power = 0.05
+		cavalry_cost = -0.1
+	}
+	
+	QCH_assimilation = {
+		culture_conversion_cost = -0.15
+	}
+	
+	QCH_tunnel_builders = {
+		build_cost = -0.10
+	}
+
+}
+

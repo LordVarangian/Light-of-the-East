@@ -1,5 +1,6 @@
 #Scandinavia
 DNO = "countries/DenmarkNorway.txt"
+NSJ = "countries/Nordsjoen.txt"
 
 #Balkans
 LTN = "countries/Rhomaniae.txt"
@@ -103,6 +104,8 @@ CNT = "countries/Canton.txt"
 JSU = "countries/Jiangsu.txt"
 HNN = "countries/Hunan.txt"
 GHN = "countries/Han.txt"
+KMK = "countries/Kamakura.txt"
+IMC = "countries/ImperialCourt.txt"
 
 #India and Burma
 IND = "countries/India.txt"

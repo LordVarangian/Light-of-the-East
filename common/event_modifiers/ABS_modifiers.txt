@@ -1,7 +1,6 @@
 lote_caliph_legitimacy_restored = {
 	legitimacy = 1
 	land_morale = 0.1
-	stability cost = -0.25
 	diplomatic_reputation = 1	
 }
 
@@ -11,3 +10,11 @@ lote_zangid_dependency_restored = {
 	reduced_liberty_desire = 15
 }
 	
+lote_growing_influence {
+	diplomatic_reputation = 1
+}
+
+lote_dominance_of_gulf {
+	ship_power_propagation = 0.15
+	trade_steering = 0.15
+}

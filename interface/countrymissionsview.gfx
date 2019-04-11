@@ -482,4 +482,30 @@ spriteTypes = {
 		name = "mission_bending_the_knee"
 		texturefile =  "gfx//interface//missions//mission_bending_the_knee.dds"
 	}
+
+	
+	spriteType = {
+		name = "mission_muslim_alliance"
+		texturefile = "gfx//interface//missions//mission_protect_granada.dds"
+	}
+
+	spriteType = {
+		name = "mission_desert_trek"
+		texturefile = "gfx//interface//missions//mission_saharan_route.dds"
+	}
+
+	spriteType = {
+		name = "mission_desert_coast"
+		texturefile = "gfx//interface//missions//mission_control_the_barbary_coast.dds"
+	}
+
+	spriteType = {
+		name = "mission_approaching_war"
+		texturefile = "gfx//interface//missions//mission_levantine_restoration.dds"
+	}
+	
+	spriteType = {
+		name = "mission_muslim_duel"
+		texturefile = "gfx//interface//missions//mission_muslim_duel.dds"
+	}
 }

@@ -1,4 +1,5 @@
 ﻿l_english:
+ #Nicaea Missions
  bkg_reconquest_of_constantinople_title: "Reconquest of Constantinople"
  bkg_reconquest_of_constantinople_desc: "He who controls Constantinople controls Rome itself. These famous words ring true through the Balkans today as Byzantium is once again ruled by Romans. The Empire of Nicaea is no more, long live the Roman Empire once again!"
  bkg_a_country_in_shambles_title: "A Nation in Shambles"
@@ -10,7 +11,26 @@
  kwm_compromise_with_our_enemies_title: "Compromise with Our Opposition"
  
  #Abbasid Missions
+ #First Column
  abs_restore_caliph_legitimacy_title: "Restore Legitimacy"
  abs_restore_caliph_legitimacy_desc: "After centuries of decline, our title of Caliph has lost legitimacy in the eyes of many muslims. After strenuous reform and recovery, the title of Caliph has been restored in the eyes of many, and he can reclaim the Abbasid legacy!"
  abs_zangid_dependency_title: "Zangid Dependency"
  abs_zangid_dependency_desc: "The Zangids had been loyal vassals, until they left realm during our years of decline. It is only right to reach out and once again re-establish lordship over the Zangids."
+ abs_ayyubid_support_title: "Seek Ayyubid Support"
+ abs_ayyubid_support_desc: "The Ayyubids have a long history of both befriending us and rivaling our power. In the looming struggle for power between Mamluks and us, it is time for the Ayyubids to choose their sides. If the Ayyubids side with us, we will possess a clear advantage over our Mamluk adversaries."
+ abs_border_mamluk_title: "Approach the Mamluks"
+ abs_border_mamluk_desc: "We are now prepared to fight the Mamluks. All we need now is a common front to invade the Mamluks from. Our recent conquests in Arabia may provide the perfect opportunity for this..."
+ abs_defeat_mamluk_title: "Topple the Traitors"
+ abs_defeat_mamluk_desc: "During our decline in power, we had lost our control over Egypt. Egypt had gone under the rule of various nations, but has now settled down under the rule of the Mamluks, a once loyal army of non-arabs. They are now the dominant power in the region, and likely seek to claim the Caliphate for themselves. We must overthrow the traitors, and re-establish our presence in Egypt."
+ #Second Column
+ abs_arabian_expedition_title: "The Arabian Expedition"
+ abs_arabian_expedition_desc: "Our declining power can only be remedied through the expansion of our borders. Our best mode of expansion is likely down south, in the largely divided Arab peninsula."
+ abs_crossing_peninsula_title: "Crossing the Peninsula"
+ abs_crossing_peninsula_desc: "With tensions with the Mamluks brewing, our access to invade the Mamluks is very restricted. The deserts of Arabia are harsh to trek, and we must occupy these lands if we wish to have an outpost against our enemies."
+ abs_seize_gulf_title: "Seize the Persian Gulf"
+ abs_seize_gulf_desc: "The traders of Hormuz have precedent over all trade coming into the Persian Gulf. Their strict trade policy has greatly hindered any trade recieved in our home node of Basra. We must establish our presence in the Straits of Hormuz and the Gulf of Oman if we desire any trade influence in the world."
+ 
+ #Vlach Missions
+ vlc_increase_development_title: "Urbanize the Vlachs"
+ vlc_increase_development_desc: "Our independence is well fought, but will only last a few years if we do not turn the small Vlach villages into thriving cities."
+ 
