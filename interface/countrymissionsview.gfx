@@ -503,4 +503,9 @@ spriteTypes = {
 		name = "mission_approaching_war"
 		texturefile = "gfx//interface//missions//mission_levantine_restoration.dds"
 	}
+	
+	spriteType = {
+		name = "mission_muslim_duel"
+		texturefile = "gfx//interface//missions//mission_muslim_duel.dds"
+	}
 }
