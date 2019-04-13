@@ -695,7 +695,7 @@ christian = {
 			local_missionary_strength = -0.02
 		}
 		
-		heretic = { MIAPHYSITE CHALCEDONIAN }
+		heretic = { MIAPHYSITE CHALCEDONIAN MESSALIAN }
 		
 		misguided_heretic = yes
 	}
