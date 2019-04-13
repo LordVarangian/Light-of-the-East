@@ -7,4 +7,9 @@
  ancestor_worship:0 "Ancestor Worship"
  preserve_sacred_forests:0 "Preserve Sacred Forests"
  DEVIL_WORSHIPPERS:0 "Perkele Worshipper"
-
+ 
+ nestorian:0 "Nestorian"
+ nestorian_religion_desc:0 "Nestorianism roots from the techings of Nestorius, emphasizing the distinction between the human and divine natures of Jesus Christ. The Patriarch of the East acts as both a leader and head bishop of the Nestorian Church."
+ MIAPHYSITE:0 "Miaphysite"
+ CHALCEDONIAN:0 "Chalcedonian"
+ MESSALIAN:0 "Messalian"
