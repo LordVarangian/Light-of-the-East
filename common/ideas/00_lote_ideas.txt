@@ -405,3 +405,42 @@ QCH_ideas {
 
 }
 
+SIE_ideas = {
+    start = {
+        interest = -0.5
+        production_efficiency = 0.10
+    }
+    
+    bonus = {
+        global_unrest = -2
+    }
+    
+    trigger = {
+        tag = SIE
+    }
+    free = yes
+    
+    constitution_of_1179 = {
+        republican_tradition = 0.5
+    }
+    remember_the_battle_of_montaperti = {
+        land_morale = 0.1
+    }
+    reform_monetary_practices = {
+        global_tax_modifier = 0.1
+        inflation_reduction = 0.05
+    }
+    alliances_and_rivals_of_italy = {
+        diplomatic_reputation = 1
+    }
+    stave_off_episcopal_dominance = {
+        discipline = 0.05
+    }
+    secure_italy_against_tuscans = {
+        yearly_corruption = -0.05
+    }
+    produce_grand_art = {
+        prestige = 1
+    }
+}
+
