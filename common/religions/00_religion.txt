@@ -696,7 +696,8 @@ christian = {
 		}
 		
 		heretic = { MIAPHYSITE CHALCEDONIAN MESSALIAN }
-		
+
+		has_patriarchs = yes
 		misguided_heretic = yes
 	}
 			
