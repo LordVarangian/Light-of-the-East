@@ -1,14 +1,4 @@
 ﻿l_english:
- #Nicaea Missions
- bkg_reconquest_of_constantinople_title: "Reconquest of Constantinople"
- bkg_reconquest_of_constantinople_desc: "He who controls Constantinople controls Rome itself. These famous words ring true through the Balkans today as Byzantium is once again ruled by Romans. The Empire of Nicaea is no more, long live the Roman Empire once again!"
- bkg_a_country_in_shambles_title: "A Nation in Shambles"
- bkg_a_country_in_shambles_desc: "The Roman Empire is on its last legs. Having fought vailantly on all sides against impossible odds, it is incredible that we have not completely cracked under the pressure. However, the Romans never fall completely. We will rise again from the ashes, and build a strong Roman Empire like our ancestors before us. To do that - we will need two things. A stable society and an army to back it up."
- 
- #Khwarezmian Missions
- kwm_a_nation_in_decline_title: "A Nation in Decline"
- kwm_purge_all_opposition_title: "Purge Every Enemy!"
- kwm_compromise_with_our_enemies_title: "Compromise with Our Opposition"
  
  #Abbasid Missions
  #First Column
@@ -29,8 +19,4 @@
  abs_crossing_peninsula_desc: "With tensions with the Mamluks brewing, our access to invade the Mamluks is very restricted. The deserts of Arabia are harsh to trek, and we must occupy these lands if we wish to have an outpost against our enemies."
  abs_seize_gulf_title: "Seize the Persian Gulf"
  abs_seize_gulf_desc: "The traders of Hormuz have precedent over all trade coming into the Persian Gulf. Their strict trade policy has greatly hindered any trade recieved in our home node of Basra. We must establish our presence in the Straits of Hormuz and the Gulf of Oman if we desire any trade influence in the world."
- 
- #Vlach Missions
- vlc_increase_development_title: "Urbanize the Vlachs"
- vlc_increase_development_desc: "Our independence is well fought, but will only last a few years if we do not turn the small Vlach villages into thriving cities."
  

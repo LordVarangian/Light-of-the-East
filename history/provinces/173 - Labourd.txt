@@ -1,7 +1,7 @@
 # 173 Labourd - Principal cities: Bayonne (can't change file name)
 
 owner = AQI
-controller = AQI
+controller = FRA
 add_core = FRA
 capital = "Bayonne"
 is_city = yes

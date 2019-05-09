@@ -1,5 +1,0 @@
-# Flavour events for Teutonic Order - The Prussian Confederation
-# By Daniel Tolman
-
-namespace = flavor_teu
-normal_or_historical_nations = yes

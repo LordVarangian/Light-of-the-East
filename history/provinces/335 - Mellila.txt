@@ -1,7 +1,7 @@
 #335 - Melilla
 
-owner = CAS
-controller = CAS
+owner = MOR
+controller = MOR
 culture = berber
 religion = sunni
 capital = "Melilla"
@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 1
 is_city = yes
 estate = estate_nobles
-add_core = CAS
+add_core = MOR
 
 
 

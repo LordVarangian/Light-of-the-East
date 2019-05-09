@@ -1,8 +1,8 @@
 #73 - Tirol
 
-owner = HAB
-controller = HAB
-add_core = HAB
+owner = TIR
+controller = TIR
+add_core = TIR
 culture = austrian
 religion = catholic
 base_tax = 4

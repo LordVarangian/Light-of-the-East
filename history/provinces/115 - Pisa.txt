@@ -1,7 +1,7 @@
 #115 - Pisa
 
-owner = PIS
-controller = PIS
+owner = SIE
+controller = SIE
 culture = tuscan 
 religion = catholic 
 hre = yes 
@@ -12,6 +12,7 @@ base_manpower = 3
 capital = "Pisa" 
 is_city = yes	# Estimated 
 estate = estate_burghers
+add_core = SIE
 add_core = PIS
 
 

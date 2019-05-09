@@ -1,7 +1,7 @@
 # 204 Dauphiné - Principal cities: Grenoble
 
-owner = FRA
-controller = FRA
+owner = DAU
+controller = DAU
 capital = "Grenoble"
 is_city = yes
 culture = arpitan
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 trade_goods = wool
 base_manpower = 3
-add_core = FRA
+add_core = DAU
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

@@ -20,19 +20,19 @@ MSK = "countries/Minsk.txt"
 #France
 ANJ = "countries/Anjou.txt"
 COB = "countries/County_of_Burgundy.txt"
-OCC = "countries/Occitanie.txt"
-LRE = "countries/Loire.txt"
 AQI = "countries/Aquitaine.txt"
 
 #HRE
 BAM = "countries/Bamberg.txt"
 LSA = "countries/Lusatia.txt"
+CRH = "countries/Carinthia.txt"
 
 #Spain
 
 #Italy
 ANC = "countries/Ancona.txt"
 PIE = "countries/Piedmont.txt"
+VRA = "countries/Verona.txt"
 
 #Low Countries
 BEL = "countries/Belgium.txt"

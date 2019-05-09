@@ -1,4 +1,0 @@
-hak_nationalism = {
-	global_unrest = -4
-	land_morale = 0.1
-}

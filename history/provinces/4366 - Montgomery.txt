@@ -1,7 +1,7 @@
 #4366 - Montgomery + Radnor
 
-owner = WLS
-controller = WLS
+owner = ENG
+controller = ENG
 culture = welsh
 religion = catholic
 hre = no
