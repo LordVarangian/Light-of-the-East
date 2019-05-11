@@ -1,0 +1,8 @@
+#Hulk
+type = galley
+
+hull_size = 6
+base_cannons = 9
+sail_speed = 8
+
+sprite_level = 1
