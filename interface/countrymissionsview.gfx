@@ -508,4 +508,8 @@ spriteTypes = {
 		name = "mission_muslim_duel"
 		texturefile = "gfx//interface//missions//mission_muslim_duel.dds"
 	}
+	spriteType = {
+		name = "mission_seize_the_gulf"
+		texturefile = "gfx//interface//missions//mission_seize_the_gulf.dds"
+	}
 }
