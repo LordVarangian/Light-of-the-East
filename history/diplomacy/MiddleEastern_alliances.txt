@@ -1,10 +1,4 @@
-#Protectorate of Armenia
-vassal = {
-	first = GEO
-	second = ARM
-	start_date = 1380.1.1
-	end_date = 1569.11.14
-}
+
 #Protectorate of Trebizond
 vassal = {
 	first = GEO
