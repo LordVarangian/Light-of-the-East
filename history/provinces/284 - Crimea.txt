@@ -1,7 +1,7 @@
 #284 - Crimea
 
-owner = GEN
-controller = GEN
+owner = CRI
+controller = CRI
 culture = cuman
 religion = tengri_pagan_reformed
 hre = no
@@ -12,7 +12,7 @@ base_manpower = 6
 capital = "Qirq-Yer"
 is_city = yes
 fort_15th = yes #Qirq-Yer Fortress
-add_core = GEN
+add_core = CRI
 
 
 

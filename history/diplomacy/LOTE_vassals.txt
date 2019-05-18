@@ -5,16 +5,9 @@ union = {
 	end_date = 1821.1.1
 }
 
-union = {
-	first = STY
-	second = TIR
-	start_date = 1380.1.1
-	end_date = 1820.1.1
-}
-
 vassal = {
-	first = STY
-	second = CRH
+	first = GEN
+	second = CRI
 	start_date = 1380.1.1
-	end_date = 1820.1.1
+	end_date = 1821.1.1
 }

@@ -332,4 +332,10 @@
  mechanic_has_term_election_yes:0 ""
  mechanic_has_term_election_no:0 ""
  NEEDS_REGULAR_ELECTIONS:0 "Ruler must not rule for life."
+ 
+ ###LOTE REFORMS###
+ mongol_khanate: "Mongol Khanate"
+ mongol_khanate_desc: "The Mongol Khanates such as the Khamag Mongol and Khereids are always at eachothers' throats. Using the powerful horses of the steppes, Mongol tribes are able to field powerful cavalry armies."
+ mongol_khanate_legacy: "Mongol Khanate"
+ mongol_khanate_legacy_desc: "The Mongol Khanates such as the Khamag Mongol and Khereids are always at eachothers' throats. Using the powerful horses of the steppes, Mongol tribes are able to field powerful cavalry armies."
 

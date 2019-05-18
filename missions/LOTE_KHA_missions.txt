@@ -1,0 +1,230 @@
+mongol_generic_1 = {
+	slot = 1
+	generic = no 
+	ai = yes
+	potential = {
+		OR = {
+			primary_culture = naiman
+			primary_culture = khalkha
+			primary_culture = mongol 
+		}
+	}
+	has_country_shield = yes 
+	
+	mongol_loot_other_tribes = {
+		icon = mission_non-western_cavalry_raid
+		trigger = {
+			treasury = 200
+		}
+		effect = {
+			random_owned_province = {
+				add_base_tax = 1
+			}
+			random_owned_province = {
+				add_base_tax = 1
+			}
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+		}
+	}
+}
+
+mongol_generic_2 = {
+	slot = 2
+	generic = no 
+	ai = yes
+	potential = {
+		OR = {
+			primary_culture = naiman
+			primary_culture = khalkha
+			primary_culture = mongol 
+		}
+	}
+	has_country_shield = yes 
+	
+	mongol_unite_naimans = {
+		icon = mission_central_asian_city
+		required_missions = { mongol_raise_army }
+		position = 2
+		trigger = {
+			all_province = {
+				OR = {
+					NOT = { culture = naiman }
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = mongol_generic_naiman_script
+				duration = -1
+			}
+		}
+	}
+}
+
+mongol_generic_3 = {
+	slot = 3
+	generic = no 
+	ai = yes
+	potential = {
+		OR = {
+			primary_culture = naiman
+			primary_culture = khalkha
+			primary_culture = mongol 
+		}
+	}
+	has_country_shield = yes 
+	
+	mongol_raise_army = {
+		icon = mission_build_up_to_force_limit
+		trigger = {
+			army_size_percentage = 1
+			cavalry_fraction = 0.66
+		}
+		effect = {
+			hidden_effect = {
+				add_permanent_claim = 1060
+				add_permanent_claim = 2116
+				add_permanent_claim = 1056
+				add_permanent_claim = 721
+				add_permanent_claim = 724
+				add_permanent_claim = 1053
+				add_permanent_claim = 1058
+				add_permanent_claim = 2446
+				add_permanent_claim = 4218
+				add_permanent_claim = 722
+				add_permanent_claim = 4203
+				add_permanent_claim = 723
+				add_permanent_claim = 2114
+				add_permanent_claim = 2115
+				add_permanent_claim = 4219
+				add_permanent_claim = 717
+				add_permanent_claim = 719
+				add_permanent_claim = 720
+				add_permanent_claim = 2190
+				add_permanent_claim = 2193
+				add_permanent_claim = 2747
+				add_permanent_claim = 4221
+				add_permanent_claim = 714
+				add_permanent_claim = 718
+				add_permanent_claim = 2117
+				add_permanent_claim = 2119
+				add_permanent_claim = 4222
+				add_permanent_claim = 1057
+				add_permanent_claim = 4220
+			}
+			custom_tooltip = mongol_claims_tt
+			add_country_modifier = {
+				name = mongol_prelude_to_destiny
+				duration = 7300
+			}
+		}
+	}
+				
+	mongol_unite_mongols = {
+		icon = mission_chinese_general_riding
+		required_missions = { mongol_raise_army }
+		position = 2
+		trigger = {
+			all_province = {
+				OR = {
+					NOT = { culture = mongol }
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+					culture = mongol 
+				}
+				add_autonomy = -15
+				add_province_modifier = {
+					name = mongol_khereid_administration
+					duration = 7300
+				}
+			}
+		}
+	}
+	
+	mongol_appease_tribes = {
+		icon = mission_tribes_lote
+		required_missions = { mongol_unite_mongols mongol_unite_naimans mongol_unite_khalkhas }
+		position = 3
+		trigger = {
+			NOT = {
+				estate_influence = {
+					estate = estate_tribes 
+					influence = 30
+				}
+			}
+			estate_loyalty = {
+				estate = estate_tribes
+				loyalty = 70
+			}
+			horde_unity = 100
+		}
+		effect = {
+			add_stability = 1
+			add_country_modifier = {
+				name = mongol_centralization
+				duration = 10950
+			}
+		}
+	}
+	
+	mongol_form_mongolia = {
+		icon = mission_form_mongolia_lote
+		required_missions = { mongol_appease_tribes }
+		position = 4
+		trigger = { 
+			stability = 2
+			all_owned_province = {
+				years_of_seperatism = 0
+				unrest = 0
+			}
+		}
+		effect = {
+			add_prestige = 20
+			set_country_flag = can_form_mongolia
+		}
+	}
+}
+
+mongol_generic_4 = {
+	slot = 4
+	generic = no 
+	ai = yes 
+	potential = {
+		OR = {
+			primary_culture = naiman
+			primary_culture = khalkha
+			primary_culture = mongol 
+		}
+	}
+	has_country_shield = yes 
+
+	mongol_unite_khalkhas = {
+		icon = mission_steppe_warriors
+		required_missions = { mongol_raise_army }
+		position = 2
+		trigger = {
+			all_province = {
+				OR = {
+					NOT = { culture = khalkha }
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = mongol_khalkha_tactics
+				duration = 7300
+			}
+		}
+	}
+}
+			
+		

@@ -123,6 +123,32 @@ tribal_kingdom = {
 	}
 }
 
+mongol_khanate = {
+	icon = "indian_crown"
+	allow_normal_conversion = no 
+	potential = {
+		has_reform = mongol_khanate 
+	}
+	nomad = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		technology_group = nomad_group
+	} 
+	nation_designer_cost = 10
+	fixed_rank = 1
+	lock_level_when_selected = yes 
+	modifiers = {
+		cav_to_inf_ratio = 0.33
+		land_maintenance_modifier = -0.1
+		movement_speed = 0.25
+		core_creation = -0.1
+		years_of_nationalism = -5
+		global_institution_spread = -0.2
+		loot_amount = 0.5
+	}
+}
+
 siberian_tribe = {
 	icon = "shaman"
 	allow_normal_conversion = no

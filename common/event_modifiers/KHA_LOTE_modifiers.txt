@@ -1,0 +1,21 @@
+mongol_khalkha_tactics = {
+	movement_speed = 0.1
+	cavalry_cost = -0.15
+}
+
+mongol_centralization = {
+	global_autonomy = -0.05
+}
+
+mongol_khereid_administration = {
+	local_years_of_nationalism = -5
+	local_unrest = -3
+}
+
+mongol_prelude_to_destiny = {
+	land_morale = 0.1
+}
+
+mongol_generic_naiman_script = {
+	global_institution_spread = 0.2
+}

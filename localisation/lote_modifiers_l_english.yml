@@ -6,3 +6,10 @@
  lote_growing_influence:0 "Growing Influence"
  lote_dominance_of_gulf: "Dominance Over Persian Gulf Trade"
  desc_lote_dominance_of_gulf: "After we have established greater presence in Hormuz and Oman, we can direct more trade towards our lands."
+
+ #mongol modifiers
+ mongol_khalkha_tactics: "Khalkha Tactics"
+ mongol_centralization: "Centralizaton"
+ mongol_khereid_administration: "Khereid Administration"
+ mongol_generic_naiman_script: "Naiman Script"
+ mongol_prelude_to_destiny: "Prelude to Destiny"
