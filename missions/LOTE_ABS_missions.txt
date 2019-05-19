@@ -222,6 +222,10 @@ abs_conquest = {
 					MAM = { add_historical_rival = SYR }
 				}
 			}
+			add_country_modifier = {
+				name = "lote_growing_influence"
+				duration = 1825
+			}
 		}
 	}
 	abs_border_mamluk = {
@@ -466,4 +470,25 @@ abs_conquest2 = {
 			}
 		}
 	}	
-}	
+}
+abs_religion = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ABS
+	}
+	abs_religious_identity = {
+		ai = yes
+		trigger = {
+			religious_unity = 0.8
+		}
+		effect = {
+			add_country_modifier = {
+				name = "lote_religious_restoration"
+				duration = 10950
+			}
+		}
+	}
+}
