@@ -1,12 +1,13 @@
 ﻿l_english:
- lote_caliph_legitimacy_restored:0 "Caliph's Legitimacy Restored"
- desc_lote_caliph_legitimacy_restored:0 "As the Caliphate has restored it's legitimacy, we have regained our influence over Muslim populations both close and afar."
- lote_zangid_dependency_restored:0 "Zangid Dependency"
- desc_lote_zangid_dependency_restored:0 "The Zangids to our north are once again loyal under the Abbasid rule."
- lote_growing_influence:0 "Growing Influence"
+ lote_caliph_legitimacy_restored: "Caliph's Legitimacy Restored"
+ desc_lote_caliph_legitimacy_restored: "As the Caliphate has restored it's legitimacy, we have regained our influence over Muslim populations both close and afar."
+ lote_zangid_dependency_restored: "Zangid Dependency"
+ desc_lote_zangid_dependency_restored: "The Zangids to our north are once again loyal under the Abbasid rule."
+ lote_growing_influence: "Growing Influence"
  lote_dominance_of_gulf: "Dominance Over Persian Gulf Trade"
  desc_lote_dominance_of_gulf: "After we have established greater presence in Hormuz and Oman, we can direct more trade towards our lands."
-
+ lote_religious_restoration: "Religious Identity Strenghtened"
+ 
  #mongol modifiers
  mongol_khalkha_tactics: "Khalkha Tactics"
  mongol_centralization: "Centralizaton"
