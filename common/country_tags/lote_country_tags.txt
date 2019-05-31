@@ -50,6 +50,8 @@ VLA = "countries/Vladimir.txt"
 #Arabia
 BSA = "countries/Basrah.txt"
 ZNG = "countries/Zangids.txt"
+JAR = "countries/Jarwanids.txt"
+USF = "countries/Usfurids.txt"
 
 #Asia Minor
 RAQ = "countries/Raqqa.txt"
