@@ -11,3 +11,10 @@ vassal = {
 	start_date = 1380.1.1
 	end_date = 1821.1.1
 }
+
+vassal = {
+	first = ORM
+	second = JAR
+	start_date = 1380.1.1
+	end_date = 1821.1.1
+}
