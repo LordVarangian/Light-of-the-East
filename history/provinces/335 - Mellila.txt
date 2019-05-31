@@ -1,7 +1,7 @@
 #335 - Melilla
 
-owner = MOR
-controller = MOR
+owner = MLL
+controller = MLL
 culture = berber
 religion = sunni
 capital = "Melilla"
@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 1
 is_city = yes
 estate = estate_nobles
-add_core = MOR
+add_core = MLL
 
 
 

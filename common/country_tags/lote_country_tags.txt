@@ -49,6 +49,7 @@ VLA = "countries/Vladimir.txt"
 
 #Arabia
 BSA = "countries/Basrah.txt"
+ZNG = "countries/Zangids.txt"
 
 #Asia Minor
 RAQ = "countries/Raqqa.txt"
@@ -58,10 +59,9 @@ DIY = "countries/Diyarbekir.txt"
 #Maghreb
 ABS = "countries/Abbasids.txt"
 AYY = "countries/Ayyubids.txt"
-ASY = "countries/Edessa.txt"
-ZNG = "countries/Zangids.txt"
-ATI = "countries/Antioch.txt"
-CTR = "countries/CrusaderTripoli.txt"
+MLL = "countries/Melilla.txt"
+TGR = "countries/Tangiers.txt"
+MRN = "countries/Marinid.txt"
 
 #Central Asia
 QRA = "countries/Qara_Khitai.txt"

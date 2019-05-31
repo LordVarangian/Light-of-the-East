@@ -1,0 +1,3 @@
+jin_goshawk_nest = {
+	unrest = 8
+}

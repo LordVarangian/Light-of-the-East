@@ -1,0 +1,54 @@
+namespace = lote_jin
+
+country_event = { #Goshawk Sympathies
+	id = lote_jin.1
+	title = lote_jin.1.t 
+	desc = lote_jin.1.d 
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	trigger = {
+		tag = JIN
+		OR = {
+			NOT = {
+				has_country_flag = jin_civil_war
+			}
+			NOT = {
+				has_country_flag = jin_civil_war_averted
+			}
+			NOT = {
+				has_country_flag = jin_civil_war_over
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = lote_jin.1.a 
+		random_owned_province = {
+			limit = {
+				NOT = {
+					culture = manchu
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						exists = GHN
+					}
+				}
+				add_core = GHN
+				add_province_modifier = {
+					name = jin_goshawk_nest
+					duration = 7300
+				}
+			}
+			else = {
+				cede_province = GHN 
+			}
+		}
+	}
+}
+	
