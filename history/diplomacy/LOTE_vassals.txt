@@ -18,3 +18,38 @@ vassal = {
 	start_date = 1380.1.1
 	end_date = 1821.1.1
 }
+
+vassal = {
+	first = GEO
+	second = TRE
+	start_date = 1380.1.1
+	end_date = 1800.1.1
+}
+
+vassal = {
+	first = GEO
+	second = SPR
+	start_date = 1380.1.1
+	end_date = 1800.1.1
+}
+
+vassal = {
+	first = SER
+	second = BOS
+	start_date = 1380.1.1
+	end_date = 1382.1.4
+}
+
+vassal = {
+	first = FRA
+	second = ORL
+	start_date = 1380.7.5
+	end_date = 1820.1.1
+}
+
+vassal = {
+	first = FRA 
+	second = BOU
+	start_date = 1380.7.5
+	end_date = 1820.1.1
+}

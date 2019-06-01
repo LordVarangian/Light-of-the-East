@@ -209,9 +209,11 @@
  TGR_ADJ: "Tangierian"
  MLL: "Melilla"
  MLL_ADJ: "Melillan"
+ MZZ: "Herat"
+ MZZ_ADJ: "Herat"
  JAR: "Jarwanids"
  JAR_ADJ: "Jarwanid"
  USF: "Usfurids"
  USF_ADJ: "Usfurid"
- MZZ: "Herat"
- MZZ_ADJ: "Heratian"
+ 
+ 
