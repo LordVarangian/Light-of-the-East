@@ -84,6 +84,7 @@ SLR = "countries/Salur.txt"
 SAS = "countries/Sassanids.txt"
 KWM = "countries/Khwarezm.txt"
 SPR = "countries/Sparseti.txt"
+MZZ = "countries/Muzaffarids.txt"
 
 #Americas
 
