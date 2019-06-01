@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = despotism_reform
+religion = sunni
+primary_culture = khorasani
+technology_group = muslim
+capital = 446
+religious_school = hanafi_school
