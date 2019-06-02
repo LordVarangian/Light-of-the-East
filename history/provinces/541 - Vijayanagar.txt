@@ -1,7 +1,7 @@
 #541 - Vijayanagar
 
-owner = MAD
-controller = MAD
+owner = VIJ
+controller = VIJ
 culture = kannada
 religion = hinduism
 capital = "Vijayanagar"
@@ -11,7 +11,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 4
 is_city = yes
-add_core = MAD
+add_core = VIJ
 discovered_by = nomad_group
 discovered_by = indian
 discovered_by = muslim

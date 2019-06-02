@@ -81,3 +81,25 @@ vassal = {
 	start_date = 1380.1.1
 	end_date = 1820.1.1
 }
+
+vassal = {
+	first = MAD
+	second = VIJ
+	start_date = 1380.1.1
+	end_date = 1820.1.1
+}
+
+vassal = {
+	first = MAD
+	second = CHT
+	start_date = 1380.1.1
+	end_date = 1820.1.1
+}
+
+vassal = {
+	first = CDI
+	second = RTN
+	start_date = 1380.1.1
+	end_date = 1820.1.1
+}
+

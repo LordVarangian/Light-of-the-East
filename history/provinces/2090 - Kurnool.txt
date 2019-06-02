@@ -1,7 +1,7 @@
 #2090 - Kurnool, Srisailam
 
-owner = MAD
-controller = MAD
+owner = YOR
+controller = YOR
 culture = telegu
 religion = hinduism
 capital = "Srisailam"
@@ -12,7 +12,7 @@ base_production = 2
 base_manpower = 1
 is_city = yes
 add_brahmins_or_church_effect = yes
-add_core = MAD
+add_core = YOR
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim 

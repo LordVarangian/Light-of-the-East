@@ -1,0 +1,7 @@
+government = monarchy
+government_rank = 1
+add_government_reform = despotism_reform
+primary_culture = gondi
+religion = hinduism
+technology_group = indian
+capital = 4452

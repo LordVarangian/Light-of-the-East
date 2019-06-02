@@ -1,7 +1,7 @@
 #2059 - Kalpi
 
-owner = DLH
-controller = DLH
+owner = KLP
+controller = KLP
 culture = vindhyan
 religion = hinduism
 capital = "Kalpi"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 1
 is_city = yes
-add_core = DLH
+add_core = KLP
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim

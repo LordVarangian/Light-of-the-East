@@ -127,6 +127,10 @@ YDV = "countries/Seuna.txt"
 CHN = "countries/Chandela.txt"
 PMM = "countries/Paramara.txt"
 BHR = "countries/Bharuch.txt"
+MSN = "countries/Musunuri.txt"
+CDI = "countries/Chedi.txt"
+CTI = "countries/Chitradurga.txt"
+RTN = "countries/Ratnapura.txt"
 
 #East Indies
 INO = "countries/Indonesia.txt"

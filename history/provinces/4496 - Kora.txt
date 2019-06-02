@@ -1,7 +1,7 @@
 #4496 - Kora
 
-owner = DLH
-controller = DLH
+owner = KLP
+controller = KLP
 culture = avadhi
 religion = hinduism
 capital = "Kora"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = DLH
+add_core = KLP
 estate = estate_church
 discovered_by = indian
 discovered_by = muslim 
