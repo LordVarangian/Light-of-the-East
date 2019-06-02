@@ -2,8 +2,8 @@
 
 owner = MAM
 controller = MAM
-culture = al_suryah_arabic
-religion = catholic
+culture = aramaic
+religion = nestorian
 capital = "Sayda"
 trade_goods = naval_supplies
 hre = no

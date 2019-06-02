@@ -3,7 +3,7 @@
 owner = ABS
 controller = ABS
 culture = kurdish
-religion = shiite
+religion = nestorian
 capital = "Ilam"
 trade_goods = wool
 hre = no

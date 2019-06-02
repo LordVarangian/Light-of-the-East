@@ -8787,3 +8787,47 @@ lost_cultures_group = {
 		}
 	}
 }
+
+syriac = {
+	graphical_culture = muslimgfx
+	
+	assyrian = {
+		dynasty_names = {
+			Ashur Hadad Shamash Atturayeh Warda Warda Adam Younan Pityou
+			Iyyar Dayan Alakko Mamo Yaqu Shlaimun Yokhannan Gewargis Odishu
+			Hormizd Qawila Dinkha Denha Kinkha Dadishu Ruwal Agassi Thoma
+			Mansur Guzi Sliwa Aziz
+		}
+		male_names = {
+			George Hano Samano Naramsin Ramsin Sargon Sargis Ninos Ramin
+			Dawid Benyamin Banipal Shmuel Zaya Avrahim Shimun Elia Abgar Addai
+			Apram Bardaisan Hunain Yukhanna Yatrin Yoel Petros Gabriel Yaqub
+		}
+		female_names = {
+			Nineveh Dinah Martha Arbella Sharukina Nuhadra Nouhra Nahrain Waleeta
+			Semiramis Ishtar Nina Ninurta Sarah Siduri Suriya Ninlil Atour Aramina
+			Ashourina Khammi Mona Mariam Esmar Helena Bartilla Deeana Larsa Lilith
+			Tabitha Samantha
+		}
+	}
+	
+	aramaic = {
+		dynasty_names = {
+			Ashur Hadad Shamash Atturayeh Warda Warda Adam Younan Pityou
+			Iyyar Dayan Alakko Mamo Yaqu Shlaimun Yokhannan Gewargis Odishu
+			Hormizd Qawila Dinkha Denha Kinkha Dadishu Ruwal Agassi Thoma
+			Mansur Guzi Sliwa Aziz
+		}
+		male_names = {
+			George Hano Samano Naramsin Ramsin Sargon Sargis Ninos Ramin
+			Dawid Benyamin Banipal Shmuel Zaya Avrahim Shimun Elia Abgar Addai
+			Apram Bardaisan Hunain Yukhanna Yatrin Yoel Petros Gabriel Yaqub
+		}
+		female_names = {
+			Nineveh Dinah Martha Arbella Sharukina Nuhadra Nouhra Nahrain Waleeta
+			Semiramis Ishtar Nina Ninurta Sarah Siduri Suriya Ninlil Atour Aramina
+			Ashourina Khammi Mona Mariam Esmar Helena Bartilla Deeana Larsa Lilith
+			Tabitha Samantha
+		}
+	}
+}

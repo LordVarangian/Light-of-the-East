@@ -3,7 +3,7 @@
 owner = ABS
 controller = ABS
 culture = al_iraqiya_arabic
-religion = shiite
+religion = sunni
 capital = "Najaf"
 trade_goods = spices #Dates
 hre = no

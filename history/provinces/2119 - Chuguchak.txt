@@ -3,8 +3,8 @@
 owner = NAI
 controller = NAI
 add_core = NAI
-culture = khitan
-religion = tengri_pagan_reformed
+culture = naiman
+religion = nestorian
 capital = "Chugachak"
 trade_goods = fur
 hre = no

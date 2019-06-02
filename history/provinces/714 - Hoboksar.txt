@@ -3,8 +3,8 @@
 owner = NAI
 controller = NAI
 add_core = NAI
-culture = naiman
-religion = tengri_pagan_reformed
+culture = nestorian
+religion = nestorian
 capital = "Hoboksar"
 trade_goods = livestock
 hre = no

@@ -1,6 +1,7 @@
 government = monarchy
+add_government_reform = feudalism_reform
 technology_group = eastern
-religion = catholic
+religion = coptic
 primary_culture = armenian
 capital = 327
 

@@ -2,8 +2,8 @@
 
 owner = SYR
 controller = SYR
-culture = al_suryah_arabic
-religion = sunni
+culture = aramaic
+religion = nestorian
 capital = "Antakya"
 trade_goods = cloth
 hre = no

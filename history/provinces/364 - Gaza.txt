@@ -2,8 +2,8 @@
 
 owner = MAM
 controller = MAM
-culture = al_suryah_arabic
-religion = catholic
+culture = aramaic
+religion = sunni
 capital = "Gazzah"
 trade_goods = salt
 hre = no

@@ -90,7 +90,7 @@ grand_duchy_reform = {
 }
 
 caliphate_reform = {
-	icon = ""
+	icon = "caliphate_reform_icon"
 	allow_normal_conversion = no
 	potential = {
 		religion = sunni

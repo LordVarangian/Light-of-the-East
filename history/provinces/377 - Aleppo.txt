@@ -2,7 +2,7 @@
 
 owner = SYR
 controller = SYR
-culture = al_suryah_arabic
+culture = aramaic
 religion = sunni
 capital = "Halab"
 trade_goods = silk

@@ -3,7 +3,7 @@
 owner = ABS
 controller = ABS
 culture = al_iraqiya_arabic
-religion = shiite
+religion = sunni
 capital = "Karbala"
 trade_goods = wool
 hre = no

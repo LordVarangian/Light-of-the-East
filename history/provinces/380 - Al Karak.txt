@@ -3,7 +3,7 @@
 owner = MAM
 controller = MAM
 culture = bedouin_arabic
-religion = catholic
+religion = sunni
 capital = "Al Karak"
 trade_goods = grain
 hre = no

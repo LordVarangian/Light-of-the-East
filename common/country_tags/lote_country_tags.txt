@@ -5,7 +5,6 @@ NSJ = "countries/Nordsjoen.txt"
 #Balkans
 LTN = "countries/Rhomaniae.txt"
 BKG = "countries/byzrevolt.txt"
-RMS = "countries/RomanState.txt"
 VLC = "countries/Vlachs.txt"
 
 #British Isles
@@ -52,6 +51,7 @@ BSA = "countries/Basrah.txt"
 ZNG = "countries/Zangids.txt"
 JAR = "countries/Jarwanids.txt"
 USF = "countries/Usfurids.txt"
+ASY = "countries/Assyria.txt"
 
 #Asia Minor
 LAM = "countries/Lesser_Armenia.txt"

@@ -2,8 +2,8 @@
 
 owner = ARD
 controller = ARD
-culture = kurdish
-religion = sunni
+culture = assyrian
+religion = nestorian
 capital = "Sulimaniyeh"
 trade_goods = wool
 hre = no

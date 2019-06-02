@@ -3,7 +3,7 @@
 owner = CUM
 controller = CUM
 culture = kypchak
-religion = tengri_pagan_reformed
+religion = nestorian
 capital = "Tobykty"
 trade_goods = wool
 hre = no
