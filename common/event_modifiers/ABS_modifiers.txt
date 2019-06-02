@@ -6,7 +6,7 @@ lote_caliph_legitimacy_restored = {
 
 lote_zangid_dependency_restored = {
 	legitimacy = 1
-	prestige = .25
+	prestige = 0.25
 	reduced_liberty_desire = 15
 }
 	

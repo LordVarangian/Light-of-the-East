@@ -1,6 +1,6 @@
 government = monarchy
 government_rank = 3
-primary_culture = farsi
+primary_culture = persian
 capital = 428
 religion = zoroastrian
 technology_group = muslim

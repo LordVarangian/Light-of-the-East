@@ -140,7 +140,7 @@ mongol_generic_3 = {
 				limit = {
 					culture = mongol 
 				}
-				add_autonomy = -15
+				add_local_autonomy = -15
 				add_province_modifier = {
 					name = mongol_khereid_administration
 					duration = 7300
@@ -182,7 +182,7 @@ mongol_generic_3 = {
 		trigger = { 
 			stability = 2
 			all_owned_province = {
-				years_of_seperatism = 0
+				years_of_separatism = 0
 				unrest = 0
 			}
 		}

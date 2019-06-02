@@ -54,9 +54,7 @@ JAR = "countries/Jarwanids.txt"
 USF = "countries/Usfurids.txt"
 
 #Asia Minor
-RAQ = "countries/Raqqa.txt"
 LAM = "countries/Lesser_Armenia.txt"
-DIY = "countries/Diyarbekir.txt"
 
 #Maghreb
 ABS = "countries/Abbasids.txt"
@@ -89,9 +87,7 @@ MZZ = "countries/Muzaffarids.txt"
 #Americas
 
 #Africa
-RHO = "countries/Rhodesia.txt"
 ZIB = "countries/Zimbabwe.txt"
-GHA = "countries/Ghana.txt"
 IFA = "countries/Ifat.txt"
 GAO = "countries/Gao.txt"
 MDG = "countries/Madagascar.txt"
@@ -132,8 +128,6 @@ PMM = "countries/Paramara.txt"
 
 #East Indies
 INO = "countries/Indonesia.txt"
-PHI = "countries/Phitsanuloke.txt"
-LAV = "countries/Lavo.txt"
 FRM = "countries/Formosa.txt"
 LIU = "countries/Liusung.txt"
 SRI = "countries/Srivijaya.txt"
