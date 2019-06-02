@@ -1,8 +1,8 @@
 #578 - Roh
 
-owner = LHO
-controller = LHO
-add_core = LHO
+owner = QRL
+controller = QRL
+add_core = QRL
 culture = qarluk
 religion = sunni
 capital = "Peshawar"

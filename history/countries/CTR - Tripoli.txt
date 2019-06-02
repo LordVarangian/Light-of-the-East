@@ -1,0 +1,7 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = cosmopolitan_french
+religion = catholic
+capital = 378
+technology_group = eastern
+government_rank = 1

@@ -3,7 +3,7 @@
 owner = NAI
 controller = NAI
 add_core = NAI
-culture = khitan
+culture = naiman
 religion = tengri_pagan_reformed
 capital = "Ulaangom"
 trade_goods = livestock

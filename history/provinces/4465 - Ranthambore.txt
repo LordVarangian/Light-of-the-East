@@ -1,7 +1,7 @@
 #4465 - Ranthambore
 
-owner = DLH
-controller = DLH
+owner = PMM
+controller = PMM
 culture = rajput
 religion = hinduism
 capital = "Ranthambore"
@@ -13,7 +13,7 @@ base_manpower = 1
 is_city = yes
 fort_15th = yes
 add_rajputs_or_marathas_or_nobles_effect = yes
-add_core = DLH
+add_core = PMM
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim

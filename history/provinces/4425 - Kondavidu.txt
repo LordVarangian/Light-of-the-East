@@ -1,7 +1,7 @@
 #4425 - Kondavidu
 
-owner = EGG #In custody of Rajamahendri Reddys after the Reddys of Kondavidu were overthrown by Vijayanagar in 1428.
-controller = EGG
+owner = MAD #In custody of Rajamahendri Reddys after the Reddys of Kondavidu were overthrown by Vijayanagar in 1428.
+controller = MAD
 culture = telegu
 religion = hinduism
 capital = "Kondavidu"
@@ -12,7 +12,7 @@ base_production = 2
 base_manpower = 1
 fort_15th = yes
 is_city = yes
-add_core = EGG
+add_core = MAD
 add_brahmins_or_church_effect = yes
 discovered_by = indian
 discovered_by = muslim

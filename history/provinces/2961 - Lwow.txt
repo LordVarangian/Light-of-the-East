@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = GLA
-controller = GLA
+owner = VOL
+controller = VOL
 capital= "Lwów"
 culture = ruthenian
 religion = orthodox
@@ -15,7 +15,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 3
 is_city = yes
-add_core = GLA
+add_core = VOL
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

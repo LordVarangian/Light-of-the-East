@@ -1,7 +1,7 @@
 #515 - Girnar
 
-owner = GUJ
-controller = GUJ
+owner = JGD
+controller = JGD
 culture = saurashtri
 religion = hinduism
 capital = "Girnar"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = GUJ
+add_core = JGD
 fort_15th = yes
 discovered_by = indian
 discovered_by = muslim 

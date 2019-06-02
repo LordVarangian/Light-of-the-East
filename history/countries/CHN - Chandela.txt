@@ -4,4 +4,4 @@ government_rank = 2
 technology_group = indian
 religion = hinduism
 primary_culture = garjati
-capital = 4447
+capital = 4452

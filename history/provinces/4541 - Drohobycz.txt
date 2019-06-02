@@ -1,7 +1,7 @@
 #4541 - Drohobycz
 
-owner = GLA
-controller = POL
+owner = VOL
+controller = VOL
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -11,7 +11,7 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Drohobycz"
 is_city = yes
-add_core = GLA
+add_core = VOL
 
 
 discovered_by = KAZ

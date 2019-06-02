@@ -3,7 +3,7 @@
 owner = QCH
 controller = QCH
 add_core = QCH
-culture = khitan
+culture = naiman
 religion = tengri_pagan_reformed
 capital = "Balikul"
 trade_goods = livestock

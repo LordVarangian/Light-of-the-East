@@ -77,6 +77,7 @@ AFS = "countries/Afshar.txt"
 BYD = "countries/Bayandur.txt"
 BYT = "countries/Bayat.txt"
 SLR = "countries/Salur.txt"
+KAK = "countries/Karakum.txt"
 
 #Persia
 SAS = "countries/Sassanids.txt"
@@ -125,6 +126,7 @@ EGG = "countries/EasternGanga.txt"
 YDV = "countries/Seuna.txt"
 CHN = "countries/Chandela.txt"
 PMM = "countries/Paramara.txt"
+BHR = "countries/Bharuch.txt"
 
 #East Indies
 INO = "countries/Indonesia.txt"

@@ -1,7 +1,7 @@
 #4419 - Adanki
 
-owner = EGG #In custody of Rajamahendri Reddys after the Reddys of Kondavidu were overthrown by Vijayanagar in 1428.
-controller = EGG
+owner = MAD #In custody of Rajamahendri Reddys after the Reddys of Kondavidu were overthrown by Vijayanagar in 1428.
+controller = MAD
 culture = telegu
 religion = hinduism
 capital = "Adanki"
@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 1
 is_city = yes
 add_vaisyas_or_burghers_effect = yes
-add_core = EGG
+add_core = MAD
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman

@@ -1,7 +1,7 @@
 #4461 - Ujjain
 
-owner = CHN
-controller = CHN
+owner = PMM
+controller = PMM
 culture = malvi
 religion = hinduism
 capital = "Ujjain"
@@ -12,7 +12,7 @@ base_production = 4
 base_manpower = 3
 add_brahmins_or_church_effect = yes
 is_city = yes
-add_core = CHN
+add_core = PMM
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim

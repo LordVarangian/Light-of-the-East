@@ -3,7 +3,7 @@
 owner = QRA
 controller = QRA
 add_core = QRA
-culture = kirgiz
+culture = khitan
 religion = tengri_pagan_reformed
 capital = "Talas"
 trade_goods = iron

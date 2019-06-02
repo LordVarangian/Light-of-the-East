@@ -3,7 +3,7 @@
 owner = QRA
 controller = QRA
 add_core = QRA
-culture = khazak
+culture = khitan
 religion = tengri_pagan_reformed
 capital = "Almaty"
 trade_goods = cloth

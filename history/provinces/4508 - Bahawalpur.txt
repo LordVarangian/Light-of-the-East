@@ -1,7 +1,7 @@
 #4508 - Bahawalpur
 
-owner = LHO
-controller = LHO
+owner = QRL
+controller = QRL
 culture = panjabi
 religion = sunni
 capital = "Bahawalpur"
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = LHO
+add_core = QRL
 estate = estate_nobles
 discovered_by = indian
 discovered_by = muslim 

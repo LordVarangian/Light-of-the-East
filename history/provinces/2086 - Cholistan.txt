@@ -1,7 +1,7 @@
 #2086 - Cholistan
 
-owner = LHO
-controller = LHO
+owner = QRL
+controller = QRL
 culture = panjabi
 religion = sunni
 capital = "Uch"
@@ -11,7 +11,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = LHO
+add_core = QRL
 estate = estate_nobles
 discovered_by = indian
 discovered_by = muslim 

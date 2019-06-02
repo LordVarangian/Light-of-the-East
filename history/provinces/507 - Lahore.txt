@@ -1,7 +1,7 @@
 #507 - Lahore
 
-owner = LHO
-controller = LHO
+owner = PUN
+controller = PUN
 culture = panjabi
 religion = hinduism
 capital = "Lahore"
@@ -11,7 +11,7 @@ base_tax = 10
 base_production = 10
 base_manpower = 3
 is_city = yes
-add_core = LHO
+add_core = PUN
 estate = estate_church
 fort_15th = yes #Lahore Fort
 #Data Durbar Complex

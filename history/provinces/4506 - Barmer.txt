@@ -1,7 +1,7 @@
 #4506 - Barmer
 
-owner = PMM
-controller = PMM
+owner = NGA
+controller = NGA
 culture = rajput
 religion = hinduism
 capital = "Barmer"
@@ -12,7 +12,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = PMM
+add_core = NGA
 estate = estate_nobles
 discovered_by = indian
 discovered_by = muslim 

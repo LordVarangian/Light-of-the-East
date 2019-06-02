@@ -1,7 +1,7 @@
 #2065 - Bhattiana
 
-owner = LHO
-controller = LHO
+owner = DLH
+controller = DLH
 culture = rajput
 religion = hinduism
 capital = "Hisar"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = LHO
+add_core = DLH
 add_rajputs_or_marathas_or_nobles_effect = yes
 discovered_by = indian
 discovered_by = nomad_group

@@ -1,7 +1,7 @@
 #4411 - Samana
 
-owner = LHO
-controller = LHO
+owner = PUN
+controller = PUN
 culture = panjabi
 religion = hinduism
 capital = "Samana"
@@ -11,8 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-estate = estate_nobles
-add_core = LHO
+add_core = PUN
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
