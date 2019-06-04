@@ -1,7 +1,7 @@
 #532 - Raichur Doab
 
-owner = MSN
-controller = MSN
+owner = KKY
+controller = KKY
 culture = kannada
 religion = hinduism
 capital = "Raichur"
@@ -11,7 +11,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
-add_core = MSN
+add_core = KKY
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
