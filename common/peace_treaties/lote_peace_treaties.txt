@@ -1,0 +1,35 @@
+po_restore_zangid = {
+	category = 6
+	power_cost_base = 1.0
+	prestige_base = 0.5
+	ae_base = 0.1
+	warscore_cost = {
+		no_provinces = 80.0
+	}
+
+	is_visible = {
+		tag = ABS
+	}
+	
+	is_allowed = {
+		always = yes 
+	}
+	
+	effect = {
+		hidden_effect = {
+			ASY = {
+				every_owned_province = {
+					limit = {
+						is_core = ZNG
+					}
+					cede_province = ZNG
+				}
+			}
+		}
+		vassalize = ZNG
+		add_legitimacy = 25
+		tooltip = po_restore_zangid_provinces_tt
+	}
+}
+	
+	

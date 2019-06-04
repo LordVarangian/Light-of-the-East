@@ -1,0 +1,266 @@
+namespace = lote_zng
+
+country_event = { #Assyrians Demand More Rights
+	id = lote_zng.1
+	title = lote_zng.1.t 
+	desc = lote_zng.1.d 
+	picture = "ACCUSATION_eventPicture"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ZNG
+		NOT = {
+			exists = ASY 
+		}
+		411 = {
+			religion = nestorian
+			culture = assyrian 
+			owned_by = ROOT 
+		}
+		is_year = 1381
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = { #Repeal the Jizya tax
+		name = lote_zng.1.a 
+		add_country_modifier = {
+			name = lote_zng_jizya_tax_repealed
+			duration = 7300
+		}
+		add_prestige = -25
+		add_adm_power = -75
+		add_accepted_culture = assyrian 
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { #Silence them, make sure this doesn't happen again
+		name = lote_zng.1.b 
+		every_owned_province = {
+			limit = {
+				culture = assyrian
+			}
+			add_province_modifier = {
+				name = lote_zng_assyrians_slaughtered
+				duration = 7300
+			}
+			add_autonomy = -25
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { #Assyrians Rebel!
+	id = lote_zng.2 
+	title = lote_zng.2.t 
+	desc = lote_zng.2.d 
+	picture = "CIVIL_WAR_eventPicture"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		411 = {
+			has_province_modifier = lote_zng_assyrians_slaughtered
+			owned_by = ROOT 
+		}
+		is_year = 1385
+		tag = ZNG
+		NOT = {
+			exists = ASY
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { #Kill the whole damned lot of them!
+		name = lote_zng.2.a 
+		411 = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 2
+				win = yes
+			}
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					culture = assyrian 
+				}
+				remove_province_modifier = lote_zng_assyrians_slaughtered
+			}
+		}
+		ai_chance = { factor = 75 }
+	}
+	
+	option = { #Guarantee them rights if they just leave!
+		name = lote_zng.2.b 
+		add_prestige = -40
+		add_country_modifier = {
+			name = lote_zng_assyrian_enforced_demands
+			duration = 10950
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					culture = assyrian 
+				}
+				remove_province_modifier = lote_zng_assyrians_slaughtered
+			}
+		}
+		add_accepted_culture = assyrian 
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = { #Assyrians Defeated
+	id = lote_zng.3
+	title = lote_zng.3.t 
+	desc = lote_zng.3.d 
+	picture = "COURT_eventPicture"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ZNG
+		411 = {
+			owned_by = ROOT
+			NOT = {
+				has_province_modifier = lote_zng_assyrians_slaughtered
+			}
+		}
+		NOT = {
+			exists = ASY
+		}
+		num_of_rebel_controlled_provinces = 0
+		is_year = 1386
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = { #Impose harsher regulations on them, ensure this never happens again.
+		name = lote_zng.3.a 
+		add_country_modifier = {
+			name = lote_zng_assyrians_under_control
+			duration = -1
+		}
+		add_prestige = 15
+		ai_chance = { factor = 50 }
+	}
+	
+	option = { #Expel them all. This won't happen again.
+		name = lote_zng.3.b 
+		every_owned_province = {
+			limit = {
+				religion = nestorian
+			}
+			add_province_modifier = {
+				name = lote_zng_forced_conversion_religion
+				duration = -1
+			}
+		}
+		every_owned_province = {
+			limit = {
+				culture = assyrian
+			}
+			add_province_modifier = {
+				name = lote_zng_forced_conversion_culture
+			}
+		}
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = { #Assyrians execute the Sultan!
+	id = lote_zng.4
+	title = lote_zng.4.t 
+	desc = lote_zng.4.d 
+	picture = "COUNTRY_COLLAPSE_eventPicture"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ZNG
+		num_of_rebel_controlled_provinces = 3
+		411 = {
+			controlled_by = REB 
+		}
+		NOT = {
+			exists = ASY
+		}
+	}
+	
+	option = { #The Sultan is dead! We must avenge him!
+		name = lote_zng.4.a 
+		add_stability = -2
+		kill_ruler = yes
+		add_country_modifier = { 
+			name = lote_zng_vengeful_wrath
+			duration = 730
+		}
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { #The Assyrians have won. Long live the new regime!
+		name = lote_zng.4.b 
+		add_prestige = 10
+		change_tag = ASY 
+		change_religion = nestorian
+		change_primary_culture = assyrian 
+		ai_chance = { factor = 100 }
+		ABS = {
+			country_event = {
+				id = lote_zng.5
+			}
+		}
+	}
+}
+	
+country_event = { #Zangid Court Flees to the Abbasids!
+	id = lote_zng.5
+	title = lote_zng.5.t
+	desc = lote_zng.5.d 
+	picture = "DIPLOMACY_eventPicture"
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = { #Ensure that they rule again as our vassal.
+		name = lote_zng.5.a 
+		add_casus_belli = {
+			target = ASY 
+			type = cb_zangid_restoration
+			months = 60
+		}
+		tooltip = lote_zng_vassal_tt
+	}
+	
+	option = { #This is a perfect opportunity to restore our former glory!
+		name = lote_zng.5.b
+		add_casus_belli = {
+			who = ASY 
+			type = cb_annex
+			months = 60
+		}
+		every_neighbor_country = {
+			limit = {
+				religion = sunni 
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = lote_zng_dishonorable_caliphate
+			}
+		}
+		add_prestige = 10
+	}
+}
+	
+		
+	

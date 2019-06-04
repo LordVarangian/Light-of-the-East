@@ -1,0 +1,13 @@
+take_capital_zangid_restoration = {
+	type = take_capital
+	
+	badboy_factor = 0.2
+	prestige_factor = 2
+	peace_cost_factor = 1
+	
+	peace_options = {
+		po_restore_zangid
+	}
+	
+	war_name = ZANGID_RESTORATION_WAR_NAME
+}

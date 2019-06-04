@@ -1,0 +1,21 @@
+﻿l_english:
+#Zangid Events
+ lote_zng.1.t: "Assyrians Demand More Rights"
+ lote_zng.1.d: "Although we pride ourselves on being an Arab Muslim nation, much of our workforce is made up of the local Nestorian Assyrians. They are organizing a movement to abolish the Jizya tax, one of our sources of income. They claim it isn't fair as they are nearly as prominent in Zangid society as the Arabs. How should we respond?"
+ lote_zng.1.a: "Repeal the Jizya tax."
+ lote_zng.1.b: "Silence them and this nonsense."
+ 
+ lote_zng.2.t: "The Assyrian Rebellion"
+ lote_zng.2.d: "Our execution of the demonstrators has surprisingly garnered the opposite effect than we had hoped for, and now the streets of Mosul are filled with very angry Nestorians! Perhaps it would be a good idea to give into their demands before this becomes an all out civil war?"
+ lote_zng.2.a: "Kill the whole damned lot of them!"
+ lote_zng.2.b: "Alright, alright! They'll get their rights."
+ 
+ lote_zng.3.t: "Assyrian Rebellion Quelled"
+ lote_zng.3.d: "Our handling of the Assyrians was swift and relentless. All participants in the rebellion who are not dead are our captives. The rest of the Assyrians continue to resist our authority at a local level or have gone into hiding. It is up to us to decide what to do with them."
+ lote_zng.3.a: "Keep a firm eye on them and make sure this doesn't happen again."
+ lote_zng.3.b: "Blood for blood; kill them on sight."
+ 
+ lote_zng.4.t: "The Sultan is Slain"
+ lote_zng.4.d: "Mosul was just a prelude to what is happening now. After the latest siege of the Assyrians, the city was met with the army parading in - with our Sultan's head on their pike. Our battle now becomes a battle for existance, as the Assyrians are sure to demand more than just rights now that they have the upper hand."
+ lote_zng.4.a: "We shall never surrender."
+ lote_zng.4.b: "The Assyrians have won. Long live the new regime!"

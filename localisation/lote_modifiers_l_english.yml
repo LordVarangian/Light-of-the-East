@@ -14,3 +14,12 @@
  mongol_khereid_administration: "Khereid Administration"
  mongol_generic_naiman_script: "Naiman Script"
  mongol_prelude_to_destiny: "Prelude to Destiny"
+
+ #zangid modifiers
+ lote_zng_jizya_tax_repealed: "Jizya Tax Repealed"
+ lote_zng_assyrians_slaughtered: "Assyrian Massacre"
+ lote_zng_assyrians_enforced_demands: "Enforced Demands"
+ lote_zng_assyrians_under_control: "Domestic Vigilance"
+ lote_zng_forced_conversion_religion: "Vanishing Nestorianism"
+ lote_zng_forced_conversion_culture: "Vanishing the Assyrians"
+ lote_zng_vengeful_wrath: "Vengeful Wrath"
