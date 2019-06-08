@@ -1,0 +1,6 @@
+government = republic
+add_government_reform = merchants_reform
+capital = 1194
+primary_culture = madagasque
+technology_group = east_african
+religion = sunni

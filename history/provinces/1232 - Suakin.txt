@@ -1,8 +1,8 @@
 #1232 - Suakin
 
-owner = BEJ
-controller = BEJ
-add_core = BEJ
+owner = MAM
+controller = MAM
+add_core = MAM
 culture = beja
 religion = sunni
 capital = "Suakin"

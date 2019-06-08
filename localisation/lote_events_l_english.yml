@@ -24,3 +24,8 @@
  lote_zng.5.d: "As Muslims, it is our duty to assist fellow Muslims who have been persecuted by the infidel. The Zangids to the north of us are not our friends, but they have been usurped by the vile Nestorian Assyrians. They swear fealty to us as long as we are able to restore Muslim rule to Assyria."
  lote_zng.5.a: "Ensure the Zangids rule as our vassals."
  lote_zng.5.b: "Imprison the family, this is a ripe opportunity for conquest!"
+
+#Caliph Events 
+ lote_caliph.1.t: "Caliphate Legitimacy"
+ lote_caliph.1.d: "Caliphate legitimacy is a measure of how legitimate your Muslim nation is as the caliphate. The legitimacy functions like mana, it is able to be spent on various bonuses or interactions. Your nation might not start out as a caliphate, if it doesn't then the first thing to do to enable the caliphate mechanics is to take the decision to found a new caliphate. Good luck!"
+ lote_caliph.1.a: "Interesting."

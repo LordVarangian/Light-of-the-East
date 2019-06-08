@@ -1,0 +1,3 @@
+is_caliph = {
+	has_country_modifier = lote_caliphate_modifier
+}

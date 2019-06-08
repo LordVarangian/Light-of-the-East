@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+religion = catholique
+primary_culture = sicilian
+capital = 125	# Palermo
+
+
+1377.1.28 = {
+	monarch = { 
+		name = "Maria I"
+		dynasty = "d'Aragó"
+		dip = 3
+		mil = 4
+		adm = 2
+		female = yes
+	}
+}
+
+

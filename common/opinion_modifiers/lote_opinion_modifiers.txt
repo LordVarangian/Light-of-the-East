@@ -1,0 +1,4 @@
+lote_zng_dishonorable_caliphate = {
+	opinion = -75
+	yearly_decay = 5
+}

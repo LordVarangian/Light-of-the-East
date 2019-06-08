@@ -1,0 +1,22 @@
+namespace = lote_caliph
+
+country_event = {
+	
+	id = lote_caliph.1
+	title = lote_caliph.1.t 
+	desc = lote_caliph.1.d 
+		
+	trigger = {
+		religion_group = muslim
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lote_caliph.1.a 
+		set_variable = {
+			which = caliph_mana
+			value = 0
+		}
+	}
+}
