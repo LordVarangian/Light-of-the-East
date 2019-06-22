@@ -5,4 +5,3 @@ primary_culture = uyghur
 capital = 2215
 religion = tengri_pagan_reformed
 technology_group = nomad_group
-historical_rival = KYI
