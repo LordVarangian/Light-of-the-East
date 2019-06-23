@@ -3,7 +3,7 @@
 owner = PRU
 controller = PRU
 culture = lithuanian
-religion = romuva
+religion = catholic
 capital = "Memel"
 trade_goods = livestock
 hre = no

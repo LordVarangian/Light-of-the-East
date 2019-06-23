@@ -3,7 +3,7 @@
 owner = LIT
 controller = LIT
 culture = lithuanian
-religion = romuva
+religion = catholic
 capital = "Kovno"
 estate = estate_nobles
 trade_goods = livestock

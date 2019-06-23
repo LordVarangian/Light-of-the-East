@@ -3,7 +3,7 @@
 owner = LIT
 controller = LIT
 culture = lithuanian
-religion = catholic
+religion = romuva
 capital = "Upita"
 trade_goods = livestock
 hre = no

@@ -712,7 +712,23 @@ christian = {
 		
 		fervor = yes
 	}
-
+	
+	hussite = {
+		color = { 255 153 102 }
+		icon = 3
+		country = {
+			tolerance_heretic = 2
+			cavalry_power = 0.1
+		}
+		country_as_secondary = {
+			tolerance_heretic = 2
+			siege_ability = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+	}
+	
 	orthodox = {
 		color = { 178 127 0 }
 		icon = 4
@@ -883,7 +899,7 @@ christian = {
 	
 	nestorian = {
 		color = { 153 51 0 }
-		icon = 14
+		icon = 30
 		country = {
 			caravan_power = 0.25
 			tolerance_own = 1
@@ -1487,11 +1503,26 @@ pagan = {
 
 	flags_with_emblem_percentage = 10
 	flag_emblem_index_range = { 83 96 }
-
+	
+	romuva = {
+		color = { 153 255 153 }
+		icon = 29
+		country = {
+			tolerance_heathen = 2
+			global_trade_goods_size_modifier = 0.1
+		}
+		country_as_secondary = {
+			tolerance_heathen = 2
+			global_tax_modifier = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+	}
+	
 	ukonusko = {
-
 		color = { 83 104 120 }
-		icon = 14
+		icon = 31
 		country = {
 			land_morale = 0.1
 			tolerance_heathen = 2
@@ -1503,8 +1534,6 @@ pagan = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
-		heretic = { DEVIL_WORSHIPPERS }
 		
 		holy_sites = { 4422 18 4124 35 1842 }
 		
