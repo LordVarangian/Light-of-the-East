@@ -1,4 +1,4 @@
-﻿DNO_ideas = {
+DNO_ideas = {
 	start = {
 		prestige = 1
 		naval_morale = 0.1
@@ -519,5 +519,43 @@ NAI_ideas = {
     }
     organizing_naiman_leadership_and_control = {
         global_autonomy = -0.05    
+    }
+}
+
+QRA_ideas = {
+    start = {
+        religious_unity = 0.25
+        cavalry_cost = -0.10
+    }
+    
+    bonus = {
+        diplomatic_annexation_cost = -0.15
+    }
+    
+    trigger = {
+        tag = QRA
+    }
+    free = yes
+    
+    QRA_a_new_homeland = {
+        core_creation = -0.15
+    }
+    QRA_muslim_subjects = {
+        tolerance_heathen = 0.2
+    }
+	QRA_salaried_soldiers = {
+		land_morale = 0.1
+	}
+    QRA_liao_legacy = {
+        legitimacy = 1.0
+    }
+    QRA_nation_of_vassals = {
+        reduced_liberty_desire = 10
+    }
+    QRA_khitans_and_karluks = {
+        cavalry_power = 0.15
+    }
+    QRA_karakhanid_tax_collectors = {
+        global_tax_modifier = 0.1
     }
 }
