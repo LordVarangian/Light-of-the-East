@@ -1,0 +1,3 @@
+lote_hussite_angered_hussites = {
+	unrest = 8
+}

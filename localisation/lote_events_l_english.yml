@@ -29,3 +29,14 @@
  lote_caliph.1.t: "Caliphate Legitimacy"
  lote_caliph.1.d: "Caliphate legitimacy is a measure of how legitimate your Muslim nation is as the caliphate. The legitimacy functions like mana, it is able to be spent on various bonuses or interactions. Your nation might not start out as a caliphate, if it doesn't then the first thing to do to enable the caliphate mechanics is to take the decision to found a new caliphate. Good luck!"
  lote_caliph.1.a: "Interesting."
+
+#Hussite Events
+ lote_hussite.1.t: "The Trial of Jan Hus"
+ lote_hussite.1.d: "The Hussite leader Jan Hus has been put on trial for blasphemy, and as his country of origin we get to decide his fate. His death will surely spawn a radical rebellion, but allowing him to live will ensure our people's conversion to the Hussite faith."
+ lote_hussite.1.a: "He has sinned and will face God."
+ lote_hussite.1.b: "Jan Hus speaks only the truth."
+ 
+ lote_hussite.2.t: "The Hussite Revolution"
+ lote_hussite.2.d: "The Hussites, outraged at the execution of Jan Hus, have sent an ultimatum to the king of Bohemia - he must resign, thereby allowing the Czechs their faith and independence from foreign rule. Otherwise they will rebel in full force. This is a precarious situation for Bohemia."
+ lote_hussite.2.a: "Glory to the new king and the Hussites!"
+ lote_hussite.2.b: "The rebels must die for their sins."
