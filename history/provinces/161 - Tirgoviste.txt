@@ -1,7 +1,7 @@
 #161 - Tîrgoviste
 
-owner = HUN
-controller = HUN 
+owner = VLC
+controller = VLC 
 culture = romanian
 religion = orthodox
 capital = "Tîrgoviste"
@@ -11,7 +11,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
-add_core = HUN
+add_core = VLC
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

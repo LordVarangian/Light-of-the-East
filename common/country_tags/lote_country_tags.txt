@@ -45,6 +45,7 @@ KHZ = "countries/Khazaria.txt"
 CUM = "countries/Cumans.txt"
 VLB = "countries/Volga_Bulgaria.txt"
 VLA = "countries/Vladimir.txt"
+GRR = "countries/GreatRus.txt"
 
 #Arabia
 BSA = "countries/Basrah.txt"

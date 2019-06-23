@@ -1,7 +1,7 @@
 #160 - Oltenia
 
-owner = BUL
-controller = BUL 
+owner = VLC
+controller = VLC 
 culture = romanian
 religion = orthodox
 capital = "Craiova"
@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 2
 estate = estate_nobles
 is_city = yes
-add_core = BUL
+add_core = VLC
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

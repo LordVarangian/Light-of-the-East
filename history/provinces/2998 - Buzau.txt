@@ -1,7 +1,7 @@
 # - Buzau
 
-owner = BUL
-controller = BUL  
+owner = VLC
+controller = VLC  
 culture = romanian
 religion = orthodox
 capital = "Buzau"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = BUL
+add_core = VLC
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

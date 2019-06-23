@@ -1,7 +1,7 @@
 # Giurgiu
 
-owner = BUL
-controller = BUL  
+owner = VLC
+controller = VLC  
 culture = romanian
 religion = orthodox
 capital = "Giurgiu"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = BUL
+add_core = VLC
 fort_15th = yes
 discovered_by = KAZ
 discovered_by = CRI
