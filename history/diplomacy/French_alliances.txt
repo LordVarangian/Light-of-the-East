@@ -1,8 +1,8 @@
 union = {
 	first = ENG
-	second = AQI
-	start_date = 1380.7.5
-	end_date = 1396.4.21
+	second = GUY
+	start_date = 1380.1.1
+	end_date = 1821.1.1
 }
 
 union = {

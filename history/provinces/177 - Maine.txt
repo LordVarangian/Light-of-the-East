@@ -1,17 +1,17 @@
 # 177 Maine - Principal cities: Le Mans, Laval
 
-owner = ORL
-controller = ORL
+owner = FRA
+controller = FRA
 capital = "Le Mans"
 is_city = yes
 culture = cosmopolitan_french
-religion = catholique
+religion = catholic
 hre = no
 base_tax = 6
 base_production = 6
 trade_goods = cloth
 base_manpower = 4
-add_core = ORL
+add_core = FRA
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

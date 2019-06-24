@@ -1,7 +1,7 @@
 #2201 - Alania
 
-owner = GEO
-controller = GEO
+owner = CIR
+controller = CIR
 culture = circassian
 religion = orthodox
 capital = "Dzaudzhikau"
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = GEO
+add_core = CIR
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

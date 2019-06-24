@@ -18,7 +18,6 @@ MSK = "countries/Minsk.txt"
 
 #France
 ANJ = "countries/Anjou.txt"
-COB = "countries/County_of_Burgundy.txt"
 AQI = "countries/Aquitaine.txt"
 
 #HRE
@@ -85,6 +84,7 @@ SAS = "countries/Sassanids.txt"
 KWM = "countries/Khwarezm.txt"
 SPR = "countries/Sparseti.txt"
 MZZ = "countries/Muzaffarids.txt"
+COB = "countries/Dagestan.txt"
 
 #Americas
 

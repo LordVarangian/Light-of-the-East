@@ -1,18 +1,18 @@
 # 4111 - Saintonge and Aunis
 
-owner = AQI
-controller = FRA
+owner = GUY
+controller = GUY
 add_core = FRA
 capital = "Saintes"
 is_city = yes
 culture = cosmopolitan_french
-religion = catholique 
+religion = catholic 
 hre = no
 base_tax = 4
 base_production = 4
 trade_goods = grain
 base_manpower = 2
-add_core = AQI
+add_core = GUY
 estate = estate_burghers
 discovered_by = eastern
 discovered_by = western

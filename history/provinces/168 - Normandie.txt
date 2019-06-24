@@ -1,7 +1,7 @@
 # 168 Normandie - Principal cities: Caen
 
 owner = ENG
-controller = FRA
+controller = ENG
 capital = "Caen"
 is_city = yes
 culture = normand
