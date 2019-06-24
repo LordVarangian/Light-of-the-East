@@ -148,3 +148,21 @@
  QRA_karakhanid_tax_collectors_desc: "Why slaughter or expel your former enemies when they could serve your administration?  After our successful early conquests, we allowed Kara-Khanids to remain in our empire as tax collectors in Samarkand and Kashgar.  Continuing this pragmatic approach with future conquests would ease administrative burdens and keep our government well funded from new subjects."
  QRA_salaried_soldiers: "Salaried Soldiers"
  QRA_salaried_soldiers_desc: "Who fights well on an empty stomach?  Unlike our neighbors, we pay our great warriors a salary for their service.  We should continue this practice to keep our soldiers well motivated and ready for battle."
+
+ KKY_ideas:0 “Kakatiyan Ideas”
+ KKY_ideas_start:0 “Kakatiyan Traditions”
+ KKY_ideas_bonus:0 “Kakatiyan Ambition”
+ KKY_descent_of_durjaya:0 “Descent of Durjaya”
+ KKY_descent_of_durjaya_desc:0 “The Kakatiya Dynasty has laid claim to be descendents of the legendary chief known as Durjaya. Other great dynasties preceding us, such as the Rashtrakuta dynasty, have claimed to be of their descent.”
+ KKY_peasant_warriors:0 “The Peasants of the Warrior Class”
+ KKY_peasant_warriors_desc:0 “Our society has little regard for the barriers produced from the Indian castes. This allows us to recruit peasants to the army, spawning a new warrior class for our realm.”
+ KKY_widespread_irrigation:0 “Widespread Irrigation”
+ KKY_widespread_irrigation_desc:0 “Warrior families in our realm have contructed thousands of reservoirs for irrigation. These reservoirs forged the opportunity to more easily develop dry and sparsely populated regions in our Kingdom.”
+ KKY_hindu_temple_donations:0 “Donations to Hindu temples”
+ KKY_hindu_temple_donations_desc:0 “The Kings of Kakatiya donated great sums to the Hindu temples. Our promotion of these temples has increased our connection to our Hindu population.”
+ KKY_unification_of_cultures:0 “Unification of Cultures”
+ KKY_unification_of_cultures_desc:0 “Our uplands and lowlands have expressed quite different cultures. During the Kakatiyan rule, however, the flow of these cultures brought cultural affinity and unification among our population. This is truly an astounding achievement.”
+ KKY_waning_noble_influence:0 “Waning Noble Influence”
+ KKY_waning_noble_influence_desc:0 “Our kings have little regard for the hierarchy constructed by castes. Several of our Kings have gifted noble lands to locals of lesser status.”
+ KKY_nayaka_war_chiefs:0 “Nayaka War Chiefs”
+ KKY_nayaka_war_chiefs_desc:0 “Anyone, regardless of origins, were able to attain the title of Nayaka. This has led us to attain a larger pool of military talent.”
