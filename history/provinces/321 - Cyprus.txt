@@ -3,7 +3,7 @@
 owner = GEN
 controller = GEN
 culture = greek
-religion = catholique
+religion = catholic
 capital = "Nicosia"
 trade_goods = wine
 hre = no

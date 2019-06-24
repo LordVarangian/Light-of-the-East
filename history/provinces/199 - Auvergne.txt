@@ -4,18 +4,18 @@ latent_trade_goods = {
 	coal
 }
 
-owner = AUV
-controller = AUV
+owner = FRA
+controller = FRA
 capital = "Clermont"
 is_city = yes
 culture = arpitan
-religion = catholique
+religion = catholic
 hre = no
 base_tax = 4
 base_production = 4
 trade_goods = iron
 base_manpower = 2
-add_core = AUV
+add_core = FRA
 
 
 

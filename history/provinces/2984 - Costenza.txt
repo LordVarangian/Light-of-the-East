@@ -3,7 +3,7 @@
 owner = SIC
 controller = SIC
 culture = neapolitan 
-religion = catholique 
+religion = catholic 
 hre = no 
 base_tax = 2
 base_production = 2
