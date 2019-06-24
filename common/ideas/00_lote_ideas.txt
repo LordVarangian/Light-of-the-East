@@ -543,9 +543,9 @@ QRA_ideas = {
     QRA_muslim_subjects = {
         tolerance_heathen = 0.2
     }
-	QRA_salaried_soldiers = {
-		land_morale = 0.1
-	}
+    QRA_salaried_soldiers = {
+	land_morale = 0.1
+    }
     QRA_liao_legacy = {
         legitimacy = 1.0
     }
@@ -557,5 +557,42 @@ QRA_ideas = {
     }
     QRA_karakhanid_tax_collectors = {
         global_tax_modifier = 0.1
+    }
+}
+KKY_ideas = {
+    start = {
+        global_unrest = -2
+        army_tradition = 0.5
+    }
+
+    bonus = {
+        build_cost = -0.1
+    }
+
+    trigger = {
+        tag = KKY
+    }
+    free = yes
+
+    KKY_descent_of_durjaya = {
+        legitimacy = 1
+    }
+    KKY_peasant_warriors = {
+        land_forcelimit_modifier = 0.2
+    }
+    KKY_widespread_irrigation = {
+        development_cost = -0.1
+    }
+    KKY_hindu_temple_donations = {
+        tolerance_own = 1
+    }
+    KKY_unification_of_cultures = {
+        culture_conversion_cost = -0.15
+    }
+    KKY_waning_noble_influence = {
+        years_of_nationalism = -5
+    }
+    KKY_nayaka_war_chiefs = {
+        free_leader_pool = 1
     }
 }
