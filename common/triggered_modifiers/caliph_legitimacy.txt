@@ -10,9 +10,7 @@ crumbling_caliphate = {
 	}
 
 	land_morale = -0.15
-	legitimacy = -1.0
 	stability_cost_modifier = 0.5
 	diplomatic_reputation = -1
-	land_force_limit = -5
 		
 }
