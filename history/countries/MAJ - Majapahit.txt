@@ -6,7 +6,7 @@ capital = 628	# Surabaya
 
 
 # Majapahit
-1380.7.5 = {
+1380.1.1 = {
 	monarch = {
 		name = "Hayam Wuruk"
 		dynasty = "Rajasanagara"
@@ -17,7 +17,7 @@ capital = 628	# Surabaya
 	}
 }
 
-1380.7.5 = {
+1380.1.1 = {
 	heir = {
 		name = "Wikramawardhana"
 		dynasty = "Rajasanagara"
