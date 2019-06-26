@@ -6,7 +6,7 @@ add_accepted_culture = normand
 religion = catholic
 capital = 236 # London
 
-1380.7.5 = {
+1380.1.1 = {
 	monarch = {
 		name = "Richard II"
 		dynasty = "Plantagenet"
@@ -17,7 +17,7 @@ capital = 236 # London
 	}
 }
 
-1380.7.5 = {
+1380.1.1 = {
 	leader = {
 		name = "John of Gaunt"
 		type = general
