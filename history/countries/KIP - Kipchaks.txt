@@ -6,7 +6,7 @@ technology_group = nomad_group
 religion = tengri_pagan_reformed
 capital = 476
 
-1380.7.5 = {
+1380.1.1 = {
 	monarch = {
 		name = "Koten II"
 		dynasty = "Kipchak"
