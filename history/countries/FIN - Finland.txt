@@ -6,7 +6,7 @@ primary_culture = finnish
 add_accepted_culture = swedish
 capital = 28	# Nyland
 
-1380.7.5 = {
+1380.1.1 = {
 	monarch = {	
 		name = "Vahvuus"
 		dynasty = "Halla"
