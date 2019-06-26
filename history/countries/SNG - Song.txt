@@ -6,7 +6,7 @@ religion = confucianism
 primary_culture = wu
 capital = 685
 
-1380.7.5 = {
+1380.1.1 = {
 	monarch = {
 		name = "Song Hongzhou"
 		adm = 3
