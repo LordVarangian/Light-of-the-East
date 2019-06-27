@@ -1,8 +1,8 @@
 # - Angoche
 
-owner = AGH
-controller = AGH
-add_core = AGH
+owner = KIL
+controller = KIL
+add_core = KIL
 culture = swahili
 religion = sunni
 capital = "Angoche"
