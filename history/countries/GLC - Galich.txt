@@ -5,7 +5,7 @@ religion = orthodox
 technology_group = eastern
 capital = 1957
 
-1380.1.1 = {
+1380.7.5 = {
 	monarch = {
 		name = "Dmitry"
 		dynasty = "Rybakov"

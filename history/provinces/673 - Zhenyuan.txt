@@ -1,8 +1,8 @@
 #673 - Bozhou
 
-owner = HNN
-controller = HNN
-add_core = HNN
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = miao
 religion = animism
 capital = "Zhenyuan"

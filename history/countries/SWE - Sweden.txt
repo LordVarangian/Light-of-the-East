@@ -9,7 +9,7 @@ capital = 1	#Stockholm
 
 national_focus = MIL
 
-1380.1.1 = {
+1380.7.5 = {
 	decision = LOTESWEDIS
 	monarch = {
 		name = "Albert III"

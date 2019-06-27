@@ -1,15 +1,16 @@
 government = tribal
 add_government_reform = steppe_horde
 government_rank = 2
-primary_culture = oirats
+primary_culture = khitan
 capital = 715
 religion = tengri_pagan_reformed
 technology_group = nomad_group
 
-1380.1.1 = {
+1380.7.5 = {
 	monarch = {
-		name = "Yelu Feng"
-		birth_date = 1356.4.22
+		name = "Feng"
+		dynasty = "Yelu"
+		birth_date = 1356.1.1
 		adm = 4
 		dip = 3
 		mil = 6

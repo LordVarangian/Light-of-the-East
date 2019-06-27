@@ -1,8 +1,8 @@
 #4213 - Luzhou
 
-owner = SNG
-controller = SNG
-add_core = SNG
+owner = CDL
+controller = CDL
+add_core = CDL
 culture = sichuanese
 religion = confucianism
 capital = "Luzhou"

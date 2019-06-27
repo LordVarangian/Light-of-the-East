@@ -1,5 +1,4 @@
 #Scandinavia
-DNO = "countries/DenmarkNorway.txt"
 NSJ = "countries/Nordsjoen.txt"
 
 #Balkans
@@ -12,17 +11,13 @@ VLC = "countries/Vlachs.txt"
 #Colonies
 
 #Eastern Europe
-VLO = "countries/Volyhnia.txt"
-GLA = "countries/Galicia_Red.txt"
 MSK = "countries/Minsk.txt"
 
 #France
 ANJ = "countries/Anjou.txt"
-AQI = "countries/Aquitaine.txt"
 
 #HRE
 BAM = "countries/Bamberg.txt"
-LSA = "countries/Lusatia.txt"
 CRH = "countries/Carinthia.txt"
 
 #Spain
@@ -33,7 +28,6 @@ PIE = "countries/Piedmont.txt"
 VRA = "countries/Verona.txt"
 
 #Low Countries
-BEL = "countries/Belgium.txt"
 
 #Russia
 VLG = "countries/Vologda.txt"
@@ -47,7 +41,6 @@ VLA = "countries/Vladimir.txt"
 GRR = "countries/GreatRus.txt"
 
 #Arabia
-BSA = "countries/Basrah.txt"
 ZNG = "countries/Zangids.txt"
 JAR = "countries/Jarwanids.txt"
 USF = "countries/Usfurids.txt"
@@ -59,8 +52,6 @@ LAM = "countries/Lesser_Armenia.txt"
 #Maghreb
 ABS = "countries/Abbasids.txt"
 AYY = "countries/Ayyubids.txt"
-MLL = "countries/Melilla.txt"
-TGR = "countries/Tangiers.txt"
 MRN = "countries/Marinid.txt"
 
 #Central Asia
@@ -72,15 +63,9 @@ YNK = "countries/Yenisei_Kyrgyz.txt"
 TRK = "countries/TurkicKhaganate.txt"
 UYG = "countries/Uyghurs.txt"
 KIM = "countries/Kimek.txt"
-KYI = "countries/Kayi.txt"
-AFS = "countries/Afshar.txt"
-BYD = "countries/Bayandur.txt"
-BYT = "countries/Bayat.txt"
-SLR = "countries/Salur.txt"
 KAK = "countries/Karakum.txt"
 
 #Persia
-SAS = "countries/Sassanids.txt"
 KWM = "countries/Khwarezm.txt"
 SPR = "countries/Sparseti.txt"
 MZZ = "countries/Muzaffarids.txt"
@@ -122,23 +107,18 @@ HNN = "countries/Hunan.txt"
 GHN = "countries/Han.txt"
 KMK = "countries/Kamakura.txt"
 IMC = "countries/ImperialCourt.txt"
+LIA = "countries/Liao.txt"
 
 #India and Burma
-IND = "countries/India.txt"
 BAG = "countries/Pagan.txt"
 LHO = "countries/Lahore.txt"
-EGG = "countries/EasternGanga.txt"
 YDV = "countries/Seuna.txt"
 CHN = "countries/Chandela.txt"
-PMM = "countries/Paramara.txt"
-BHR = "countries/Bharuch.txt"
 KKY = "countries/Kakatiya.txt"
 CDI = "countries/Chedi.txt"
 CTI = "countries/Chitradurga.txt"
-RTN = "countries/Ratnapura.txt"
 
 #East Indies
-INO = "countries/Indonesia.txt"
 FRM = "countries/Formosa.txt"
 LIU = "countries/Liusung.txt"
 SRI = "countries/Srivijaya.txt"

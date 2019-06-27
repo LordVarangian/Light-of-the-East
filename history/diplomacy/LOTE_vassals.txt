@@ -21,13 +21,6 @@ vassal = {
 
 vassal = {
 	first = GEO
-	second = TRE
-	start_date = 1380.1.1
-	end_date = 1800.1.1
-}
-
-vassal = {
-	first = GEO
 	second = ARM
 	start_date = 1380.1.1
 	end_date = 1800.1.1
@@ -108,6 +101,13 @@ vassal = {
 	second = RTN
 	start_date = 1380.1.1
 	end_date = 1820.1.1
+}
+
+union = {
+	first = HJO
+	second = KMK
+	start_date = 1380.1.1
+	end_date = 1821.1.1
 }
 
 dependency = {

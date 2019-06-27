@@ -1,7 +1,7 @@
 #4445 - Kanker
 
-owner = RTN
-controller = RTN
+owner = RTT
+controller = RTT
 culture = gondi
 religion = hinduism
 capital = "Kanker"
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = RTN
+add_core = RTT
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim 

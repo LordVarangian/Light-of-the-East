@@ -1,8 +1,8 @@
 #666 - Hainan
 
-owner = HNI
-controller = HNI
-add_core = HNI 
+owner = GNX
+controller = GNX
+add_core = GNX 
 culture = chimin
 religion = confucianism
 capital = "Kingchow"

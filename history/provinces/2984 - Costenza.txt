@@ -1,7 +1,7 @@
 # - Cosenza
 
-owner = SIC
-controller = SIC
+owner = NAP
+controller = NAP
 culture = neapolitan 
 religion = catholic 
 hre = no 
@@ -11,7 +11,7 @@ trade_goods = wine
 base_manpower = 1
 capital = "Cosenza"
 is_city = yes 
-add_core = SIC
+add_core = NAP
 
 
 

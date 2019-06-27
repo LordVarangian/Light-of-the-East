@@ -3,7 +3,6 @@
 owner = BOH
 controller = BOH 
 add_core = BOH 
-add_core = LSA
 capital = "Cottbus"
 culture = sorbian
 religion = catholic

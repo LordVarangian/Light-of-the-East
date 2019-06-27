@@ -1,6 +1,0 @@
-government = republic
-government_rank = 3
-capital = 522
-primary_culture = hindustani
-technology_group = indian
-religion = hinduism

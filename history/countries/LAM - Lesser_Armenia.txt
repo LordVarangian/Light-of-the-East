@@ -5,7 +5,7 @@ religion = coptic
 primary_culture = armenian
 capital = 327
 
-1380.1.1 = {
+1380.7.5 = {
 	monarch = {
 		name = "Constantin IV"
 		dynasty = "Lusignan"

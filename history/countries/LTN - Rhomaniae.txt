@@ -16,8 +16,4 @@ fixed_capital = 151
 		dip = 2
 		mil = 6
 	}
-	add_country_modifier = {
-		name = roman_pretender_modifier
-		duration = -1
-	}
 }

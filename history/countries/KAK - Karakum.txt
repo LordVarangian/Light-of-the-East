@@ -4,6 +4,7 @@ government_rank = 1
 primary_culture = turkmeni
 technology_group = nomad_group
 religion = sunni
+capital = 445
 
 1380.1.1 = {
 	monarch = {

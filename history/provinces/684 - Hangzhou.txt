@@ -1,8 +1,8 @@
 #684 - Hangzhou (can't change file name)
 
-owner = ZHJ
-controller = ZHJ
-add_core = ZHJ
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = wu
 religion = confucianism
 capital = "Hangzhou"

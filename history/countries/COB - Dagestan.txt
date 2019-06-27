@@ -5,3 +5,14 @@ primary_culture = dagestani
 religion = orthodox
 technology_group = muslim
 capital = 425
+
+1380.1.1 = {
+	monarch = {
+		name = "Constantine I"
+		dynasty = "Bagrationi"
+		birth_date = 1358.1.1
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}

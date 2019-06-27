@@ -3,7 +3,7 @@
 owner = LIU
 controller = LIU
 add_core = LIU
-culture = daomin
+culture = filipino
 religion = confucianism
 capital = "Ilocos"
 trade_goods = unknown

@@ -2,5 +2,5 @@ government = republic
 government_rank = 1
 religion = confucianism
 technology_group = chinese
-primary_culture = daomin
+primary_culture = filipino
 capital = 4348

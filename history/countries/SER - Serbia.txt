@@ -5,7 +5,7 @@ religion = orthodox
 technology_group = eastern
 capital = 4176	# Krusevac
 
-1380.1.1 = {
+1380.7.5 = {
 	monarch = {
 		name = "Dusan IV"
 		dynasty = "Uros"
@@ -13,9 +13,5 @@ capital = 4176	# Krusevac
 		adm = 4
 		dip = 4
 		mil = 6
-	}
-	add_country_modifier = {
-		name = roman_pretender_modifier
-		duration = -1
 	}
 }

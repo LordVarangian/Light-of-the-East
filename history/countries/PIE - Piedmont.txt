@@ -4,7 +4,7 @@ religion = catholic
 technology_group = western
 capital = 103
 
-1380.1.1 = {
+1380.7.5 = {
 	monarch = {
 		name = "Giovanni"
 		dynasty = "Bocelli"

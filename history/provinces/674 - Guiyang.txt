@@ -1,8 +1,8 @@
 #674 - Guiyang
 
-owner = HNN
-controller = HNN
-add_core = HNN
+owner = CDL
+controller = CDL
+add_core = CDL
 culture = yi
 religion = animism
 capital = "Guiyang"

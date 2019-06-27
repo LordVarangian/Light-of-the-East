@@ -1,8 +1,8 @@
 # 2148 - Shaoxin
 
-owner = ZHJ
-controller = ZHJ
-add_core = ZHJ
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = wu
 religion = confucianism
 capital = "Shaoxin"

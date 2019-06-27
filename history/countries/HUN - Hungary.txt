@@ -7,7 +7,7 @@ technology_group = eastern
 capital = 153 # Buda
 historical_rival = POL
 
-1380.1.1 = {
+1380.7.5 = {
 	monarch = {
 		name = "Louis I"
 		dynasty = "d'Anjou"
@@ -18,13 +18,16 @@ historical_rival = POL
 	}
 }
 
-1387.3.31 = {
-	monarch = {
-		name = "Sigismund I"
+1380.1.1 = {
+	heir = {
+		name = "Siegmund"
+		monarch_name = "Siegmund"
 		dynasty = "von Luxemburg"
 		birth_date = 1368.2.14	
+		death_date= 1437.1.1
 		adm = 5
 		dip = 5
 		mil = 2
+		claim = 50
 	}
 }

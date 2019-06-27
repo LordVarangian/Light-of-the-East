@@ -1,8 +1,8 @@
 #4196 - Haizhou
 
-owner = JSU
-controller JSU
-add_core = JSU
+owner = SNG
+controller SNG
+add_core = SNG
 culture = jianghuai
 religion = confucianism
 capital = "Haizhou"
