@@ -560,3 +560,43 @@ KKY_ideas = {
         free_leader_pool = 1
     }
 }
+
+VRA_ideas = {
+    start = {
+        global_tax_modifier = 0.15
+        province_warscore_cost = -0.1
+    }
+    
+    bonus = {
+        hostile_attrition = 1
+    }
+    
+    trigger = {
+        tag = VRA
+    }
+    free = yes
+    
+    VRA_mercs = {
+        merc_maintenance_modifier = -0.15
+    }
+    VRA_beautification = {
+        development_cost = -0.1
+    }
+    VRA_independence = {
+        land_morale = 0.1
+    }
+    VRA_fratricide = {
+        heir_chance = 0.33
+        }
+    VRA_forty_eight_towers = {
+        defensiveness = 0.15
+    }
+    VRA_verona_diocese = {
+        papal_influence = 2
+        church_power_modifier = 0.1
+        monthly_fervor_increase = 0.25
+    }
+    VRA_lombard_league = {
+        prestige = 1
+    }
+}
