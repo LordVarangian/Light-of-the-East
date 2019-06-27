@@ -1,7 +1,7 @@
 #2981 - Montferrat
 
-owner = PIE
-controller = PIE
+owner = MFA
+controller = MFA
 culture = piedmontese
 religion = catholic
 hre = yes
@@ -11,7 +11,7 @@ trade_goods = wine
 base_manpower = 2
 capital = Montferrat
 is_city = yes
-add_core = PIE
+add_core = MFA
 
 
 

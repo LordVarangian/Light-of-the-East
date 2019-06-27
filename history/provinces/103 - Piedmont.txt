@@ -1,7 +1,7 @@
 #103 - Piedmont
 
-owner = PIE
-controller = PIE
+owner = SAV
+controller = SAV
 culture = piedmontese
 religion = catholic
 hre = yes
@@ -11,7 +11,7 @@ trade_goods = wine
 base_manpower = 3
 capital = "Torino"
 is_city = yes
-add_core = PIE
+add_core = SAV
 
 
 
