@@ -4,6 +4,7 @@ primary_culture = ligurian
 religion = catholic
 capital = 119
 technology_group = western
+historical_rival = VEN
 
 1380.7.5 = {
 	monarch = {
