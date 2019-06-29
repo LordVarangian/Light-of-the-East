@@ -600,3 +600,44 @@ VRA_ideas = {
         prestige = 1
     }
 }
+
+ANC_ideas = {
+    start = {
+        global_trade_power = 0.15
+        transport_power = 0.2
+    }
+
+    bonus = {
+        global_ship_repair  = 0.2
+    }
+
+    trigger = {
+        tag = ANC
+    }
+    free = yes
+
+    ANC_six_elders = {
+        republican_tradition = 0.5
+        legitimacy = 0.5
+        devotion = 0.5
+    }
+    ANC_guelphs = {
+        papal_influence = 1
+        tolerance_own = 1
+    }
+    ANC_hre_resistance = {
+        prestige = 1
+    }
+    ANC_navigators = {
+        leader_naval_manuever = 1
+    }
+    ANC_byz_military = {
+        discipline = 0.05
+    }
+    ANC_foreign_merchants = {
+        num_accepted_cultures = 1
+    }
+    ANC_jewish_tolerance = {
+        tolerance_heathen = 1
+    }
+}
