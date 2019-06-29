@@ -1,11 +1,12 @@
 government = monarchy
+add_government_reform = principality
 government_rank = 1
 primary_culture = russian
 religion = orthodox
 technology_group = eastern
 capital = 307
 
-1376.1.1 = {
+1380.1.1 = {
 	monarch = {
 		name = "Dmitry"
 		dynasty = "Vasilevsky"

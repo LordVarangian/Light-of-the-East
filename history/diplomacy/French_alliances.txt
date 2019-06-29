@@ -25,10 +25,3 @@ union = {
 	start_date = 1380.1.1
 	end_date = 1820.1.1
 }
-
-union = {
-	first = BUR
-	second = HOL
-	start_date = 1380.1.1
-	end_date = 1820.1.1
-}

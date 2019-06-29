@@ -1,0 +1,5 @@
+government = republic
+primary_culture = madagascan
+capital = 1792
+technology_group = east_african
+religion = totemism
