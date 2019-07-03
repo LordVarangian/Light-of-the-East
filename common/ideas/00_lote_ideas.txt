@@ -367,87 +367,6 @@ QCH_ideas {
 	}
 }
 
-SAS_ideas = {
-    start = {
-        cavalry_power = 0.20
-        cav_to_inf_ratio = 0.50
-    }
-    
-    bonus = {
-        global_unrest = -1
-    }
-    
-    trigger = {
-        tag = SAS
-    }
-    free = yes
-    
-    breakers_of_parthia = {
-        army_tradition_decay = -0.01
-    }
-    enemies_of_the_romans = {
-        army_tradition = 0.50
-    }
-    sas_king_of_kings = {
-        prestige = 0.5
-        legitimacy = 0.5
-    }
-    reform_the_immortals = {
-        discipline = 0.05
-    }
-    reclamation_of_iranian_trade = {
-        trade_efficiency = 0.10
-    }
-    three_great_fires_zoroastrianism = {
-        missionaries = 1
-        global_missionary_strength = 0.02
-    }
-    sassanian_literature_and_art = {
-        prestige_decay = -0.01
-    }
-}
-
-QRL_ideas = {
-    start = {
-        cavalry_power = 0.20
-        cavalry_cost = -0.15
-    }
-    
-    bonus = {
-        global_manpower_modifier = 0.25
-    }
-    
-    trigger = {
-        tag = QRL 
-    }
-    free = yes
-    
-    autonomous_under_the_gokturks = {
-        global_autonomy = -0.05
-    }
-    contention_from_central_asia = {
-        fabricate_claims_cost = -0.25
-        core_creation = -0.10
-    }
-    system_of_districts_and_cities = {
-        development_cost = -0.10
-    }
-    in_union_with_several_cultuers = {
-        num_accepted_cultures = 1
-    }
-    fighting_off_turkic_and_other_foes = {
-        army_tradition = 0.5
-    }
-    promote_international_trade = {
-        trade_efficiency = 0.10
-        trade_steering = 0.10
-    }
-    the_questions_of_traditions = {
-        legitimacy = 1
-        horde_unity = 1
-    }
-}
-
 NAI_ideas = {
     start = {
         cavalry_power = 0.20
@@ -598,5 +517,46 @@ VRA_ideas = {
     }
     VRA_lombard_league = {
         prestige = 1
+    }
+}
+
+ANC_ideas = {
+    start = {
+        global_trade_power = 0.15
+        transport_power = 0.2
+    }
+
+    bonus = {
+        global_ship_repair  = 0.2
+    }
+
+    trigger = {
+        tag = ANC
+    }
+    free = yes
+
+    ANC_six_elders = {
+        republican_tradition = 0.5
+        legitimacy = 0.5
+        devotion = 0.5
+    }
+    ANC_guelphs = {
+        papal_influence = 1
+        tolerance_own = 1
+    }
+    ANC_hre_resistance = {
+        prestige = 1
+    }
+    ANC_navigators = {
+        leader_naval_manuever = 1
+    }
+    ANC_byz_military = {
+        discipline = 0.05
+    }
+    ANC_foreign_merchants = {
+        num_accepted_cultures = 1
+    }
+    ANC_jewish_tolerance = {
+        tolerance_heathen = 1
     }
 }
