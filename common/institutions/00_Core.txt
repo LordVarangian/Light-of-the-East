@@ -2125,7 +2125,7 @@ enlightenment = {
 gunpowder = {
 	penalty = 0
 	bonus = {
-		land_fire_damage = 1
+		fire_damage = 0.1
 	}
 
 

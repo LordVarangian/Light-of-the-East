@@ -1,8 +1,8 @@
 # - Angoche
 
-owner = KIL
-controller = KIL
-add_core = KIL
+owner = ZAN
+controller = ZAN
+add_core = ZAN
 culture = swahili
 religion = sunni
 capital = "Angoche"

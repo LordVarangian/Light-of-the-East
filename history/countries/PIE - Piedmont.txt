@@ -1,16 +1,16 @@
 government = republic
+add_government_reform = oligarchy_reform
 primary_culture = piedmontese
 religion = catholic
 technology_group = western
-capital = 103
+capital = 102
 
-1380.7.5 = {
+1380.1.1 = {
 	monarch = {
-		name = "Giovanni"
-		dynasty = "Bocelli"
+		name = "Repubblica"
 		adm = 2
-		dip = 4
-		mil = 3
-		birth_date = 1337.1.14
+		dip = 2
+		mil = 2	
+		regent = yes
 	}
 }

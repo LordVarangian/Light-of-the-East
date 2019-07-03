@@ -2883,7 +2883,7 @@ turko_semitic = { #Levantine
 	graphical_culture = muslimgfx
 	
 	turkish = {
-		primary = TUR
+		primary = RUM
 		dynasty_names = {
 			"Osmanoglu" "Karamanoglu" "Menteseoglu" "Ramazanoglu" "Saruhanoglu"
 			"Dulkadiroglu" "Candaroglu" "Germiyanoglu" "Aydinoglu" "Eretnaoglu"
@@ -2955,7 +2955,7 @@ turko_semitic = { #Levantine
 		}
 	}
 	al_iraqiya_arabic = { #Mashriqi Arab
-		primary = IRQ
+		primary = ABS
 		dynasty_names = {
 			"Saadun" "Jalili" "Hasanid" "Sabah" Javid
 			"Yaruba" "al-Said" "Usfurid" "Jarwanid" "Hashim"
@@ -3418,7 +3418,7 @@ iranian	= {
 		}
 	}
 	afghani= {
-		primary = AFG
+		primary = QRL
 		male_names = {
 			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
 			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
@@ -3549,7 +3549,7 @@ altaic = {
 	graphical_culture = muslimgfx
 
 	khitan = {
-		primary = KHA
+		primary = QRA
 		male_names = {
 			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan 
 			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Köke Ligdan Markörgis Möngke 

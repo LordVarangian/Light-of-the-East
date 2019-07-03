@@ -1,8 +1,8 @@
 #625 - Ciamis
 
-owner = GAU
-controller = GAU
-add_core = GAU
+owner = SIN
+controller = SIN
+add_core = SIN
 culture = javanese
 religion = hinduism
 capital = "Ciamis"

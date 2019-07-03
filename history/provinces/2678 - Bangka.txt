@@ -1,8 +1,8 @@
 #2678 - Bangka
 
-owner = SUN
-controller = SUN
-add_core = SUN
+owner = SIN
+controller = SIN
+add_core = SIN
 culture = sumatran
 religion = sunni
 capital = "Bangka"

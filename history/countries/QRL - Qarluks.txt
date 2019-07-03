@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = steppe_horde
 government_rank = 1
 primary_culture = qarluk
-capital = 2226
+capital = 451
 religion = sunni
 technology_group = nomad_group
 

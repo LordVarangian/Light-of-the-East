@@ -1,8 +1,8 @@
 #2687 - Pakuan
 
-owner = SUN
-controller = SUN
-add_core = SUN
+owner = SIN
+controller = SIN
+add_core = SIN
 culture = javanese
 religion = hinduism
 capital = "Pakuan"

@@ -1,7 +1,7 @@
 union = {
-	first = SUN
+	first = SIN
 	second = GAU
-	start_date = 1355.1.1
-	end_date = 1400.1.1
+	start_date = 1380.1.1
+	end_date = 1821.1.1
 }
 

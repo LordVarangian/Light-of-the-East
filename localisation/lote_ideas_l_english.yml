@@ -16,6 +16,7 @@
  kwm6_desc:0 "Persia is known for being a tolerant country when it comes to differing beliefs. We should embrace the reputation and allow people to practice whatever they want to."
  kwm7:0 "Expand the Local Guards"
  kwm7_desc:0 "About 200 years ago, our country had a weak army. We could have been invaded by any nomad seeking glory. But now we have grown stronger, and our army must grow stronger too. Expanding our military would serve to both improve our country's morale and strengthen our defenses."
+ 
  VLB_ideas:0 "Volga Bulgarian Ideas"
  VLB_ideas_start:0 "Volga Bulgarian Traditions"
  VLB_ideas_bonus:0 "Volga Bulgarian Ambition"
@@ -33,16 +34,24 @@
  fine_craftsmenship_desc:0 "Our crafts are some of the best in Russia! Let's preserve this tradition of fine craftsmanship among our people."
  turkic_heritage:0 "Turkic Heritage"
  turkic_heritage_desc:0 "Our people were originally Turkic. Although we have developed our own culture and have strayed much from original Turkic values, we're still damn good with horses."
+ 
  BAG_ideas:0 "Pagan Ideas"
  BAG_ideas_start:0 "Pagan Traditions"
  BAG_ideas_bonus:0 "Pagan Ambition"
  bag_granary_of_south_asia:0 "Granary of South Asia"
+ bag_granary_of_south_asia_desc: "Pagan is the most populous and fertile country in the Orient. Our rice feeds the mouths of millions, and it is our duty to feed millions more."
  bag_grand_temples:0 "Grand Temples"
+ bag_grand_temples: "King Anawratha began the tradition of building great works to the Buddha, a tradition that continues to even today. Let us rejoice for our temples are the most complex and splendid in all Asia!"
  bag_royal_armed_forces:0 "The Palace Guards"
+ bag_royal_armed_forces_desc: "The palace guards are an elite corps meant for protecting the king, but their training shouldn't be restricted to just a handful of soldiers. Rather, they should set an example for all soldiers so that our army can have iron discipline!"
  bag_burmese_patronage:0 "Burmese Patronage"
+ bag_burmese_patronage_desc: "The Pagan Kingdom is not just a granary or a temple, but a showcase of all the fine arts and sciences that Burma has to offer. Let us patronize these crafts to become a beacon of enlightenment!"
  bag_curb_the_clergymen:0 "Curb the Clergymen"
+ bag_curb_the_clergymen_desc: "For several years the clergymen have dominated the country; it is time to put an end to this. The king must feel like a king again, and extend rule over his subjects without the meddling of the priests."
  bag_reconquer_the_homeland:0 "Reconquer Rightful Lands"
+ bag_reconquer_the_homeland_desc: "Our kingdom has fractured since its heyday, with the Mon to the south and Shan to the north rebelling against us. The reconquest must be swift and brutal, lest they rise up again."
  bag_restore_the_golden_age:0 "Restore the Golden Age"
+ bag_restore_the_golden_age_desc: "There is a dream throughout our kingdom of the age of Anawratha, the greatest king of Burma. It was the golden age of Pagan, and all learned men wish that it be so again. We must rise from the ashes and make Pagan a player on the world stage once more."
  
  CUM_ideas:0 "Cuman Ideas"
  CUM_ideas_start:0 "Cuman Traditions"
@@ -116,38 +125,111 @@
  QRA_salaried_soldiers: "Salaried Soldiers"
  QRA_salaried_soldiers_desc: "Who fights well on an empty stomach?  Unlike our neighbors, we pay our great warriors a salary for their service.  We should continue this practice to keep our soldiers well motivated and ready for battle."
 
- KKY_ideas:0 “Kakatiyan Ideas”
- KKY_ideas_start:0 “Kakatiyan Traditions”
- KKY_ideas_bonus:0 “Kakatiyan Ambition”
- KKY_descent_of_durjaya:0 “Descent of Durjaya”
- KKY_descent_of_durjaya_desc:0 “The Kakatiya Dynasty has laid claim to be descendents of the legendary chief known as Durjaya. Other great dynasties preceding us, such as the Rashtrakuta dynasty, have claimed to be of their descent.”
- KKY_peasant_warriors:0 “The Peasants of the Warrior Class”
- KKY_peasant_warriors_desc:0 “Our society has little regard for the barriers produced from the Indian castes. This allows us to recruit peasants to the army, spawning a new warrior class for our realm.”
- KKY_widespread_irrigation:0 “Widespread Irrigation”
- KKY_widespread_irrigation_desc:0 “Warrior families in our realm have contructed thousands of reservoirs for irrigation. These reservoirs forged the opportunity to more easily develop dry and sparsely populated regions in our Kingdom.”
- KKY_hindu_temple_donations:0 “Donations to Hindu temples”
- KKY_hindu_temple_donations_desc:0 “The Kings of Kakatiya donated great sums to the Hindu temples. Our promotion of these temples has increased our connection to our Hindu population.”
- KKY_unification_of_cultures:0 “Unification of Cultures”
- KKY_unification_of_cultures_desc:0 “Our uplands and lowlands have expressed quite different cultures. During the Kakatiyan rule, however, the flow of these cultures brought cultural affinity and unification among our population. This is truly an astounding achievement.”
- KKY_waning_noble_influence:0 “Waning Noble Influence”
- KKY_waning_noble_influence_desc:0 “Our kings have little regard for the hierarchy constructed by castes. Several of our Kings have gifted noble lands to locals of lesser status.”
- KKY_nayaka_war_chiefs:0 “Nayaka War Chiefs”
- KKY_nayaka_war_chiefs_desc:0 “Anyone, regardless of origins, were able to attain the title of Nayaka. This has led us to attain a larger pool of military talent.”
-
- VRA_ideas:0 “Veronese Ideas”
- VRA_ideas_start:0 “Veronese Traditions”
- VRA_ideas_bonus:0 “Veronese Ambitions”
- VRA_mercs:0 “Excessive Hiring of Mercenaries”
- VRA_mercs_desc:0 “Our nation has a long history with the hiring of Mercenaries. One of our previous princes, Cangrande II, in his paranoia, hired many Brandenburg mercenaries to surround himself.”
- VRA_beautification:0 “Beautification of Cities”
- VRA_beautification_desc:0 “During the rule of the late Casignario, construction of many palaces, aqueducts, and bridges were underway. We still carry the duty of beautification with us.
- VRA_independence:0 “Zeal for Independence”
- VRA_independence_desc:0 “Our people are adamant in deterring Milanese rule. The people of Verona will fight to excessive lengths to ensure our independence.”
- VRA_fratricide:0 “Fratricide for the Throne”
- VRA_fratricide_desc:0 “The princes have a long history of Fratricide, the killing of siblings. If one of our heirs were to fall victim in a \“hunting accident,\” their siblings would be next in line to the throne.”
- VRA_forty_eight_towers:0 “The Fort-Eight Towers of Verona”
- VRA_forty_eight_towers_desc:0 “The City of Verona is famous for its forty-eight towers. This system of defense transforms Verona into a more easily defendable city.”
- VRA_verona_diocese:0 “Diocese of Verona”
- VRA_verona_diocese_desc:0 “The Diocese of Verona holds great influence upon the Catholic Church. No matter what religion we are the Diocese will hold great religious influence upon the church.”
- VRA_lombard_league:0 “The Legacy of the Lombard League”
- VRA_lombard_league_desc:0 “Verona had led the Lombard league, which challenged Barbarossa. We carry this prestigious fact upon the rest of our legacy.”
+ KKY_ideas:0 "Kakatiyan Ideas"
+ KKY_ideas_start:0 "Kakatiyan Traditions"
+ KKY_ideas_bonus:0 "Kakatiyan Ambition"
+ KKY_descent_of_durjaya:0 "Descent of Durjaya"
+ KKY_descent_of_durjaya_desc:0 "The Kakatiya Dynasty has laid claim to be descendents of the legendary chief known as Durjaya. Other great dynasties preceding us, such as the Rashtrakuta dynasty, have claimed to be of their descent."
+ KKY_peasant_warriors:0 "The Peasants of the Warrior Class"
+ KKY_peasant_warriors_desc:0 "Our society has little regard for the barriers produced from the Indian castes. This allows us to recruit peasants to the army, spawning a new warrior class for our realm."
+ KKY_widespread_irrigation:0 "Widespread Irrigation"
+ KKY_widespread_irrigation_desc:0 "Warrior families in our realm have contructed thousands of reservoirs for irrigation. These reservoirs forged the opportunity to more easily develop dry and sparsely populated regions in our Kingdom."
+ KKY_hindu_temple_donations:0 "Donations to Hindu temples"
+ KKY_hindu_temple_donations_desc:0 "The Kings of Kakatiya donated great sums to the Hindu temples. Our promotion of these temples has increased our connection to our Hindu population."
+ KKY_unification_of_cultures:0 "Unification of Cultures"
+ KKY_unification_of_cultures_desc:0 "Our uplands and lowlands have expressed quite different cultures. During the Kakatiyan rule, however, the flow of these cultures brought cultural affinity and unification among our population. This is truly an astounding achievement."
+ KKY_waning_noble_influence:0 "Waning Noble Influence"
+ KKY_waning_noble_influence_desc:0 "Our kings have little regard for the hierarchy constructed by castes. Several of our Kings have gifted noble lands to locals of lesser status."
+ KKY_nayaka_war_chiefs:0 "Nayaka War Chiefs"
+ KKY_nayaka_war_chiefs_desc:0 "Anyone, regardless of origins, were able to attain the title of Nayaka. This has led us to attain a larger pool of military talent."
+ 
+ BKG_ideas: "Niceaean Ideas"
+ BKG_ideas_start: "Nicaean Traditions"
+ BKG_ideas_bonus: "Nicaean Ambition"
+ bkg_last_bastion_of_rome: "Last Bastion of Rome"
+ bkg_last_bastion_of_rome_desc: "Ever since the Bulgarian Crusade our nation has been spiraling into collapse. The Genoese have seized countless ports and Constantinople is owned by a false pretender. We will not falter. We are still the true heirs of Rome, and like a phoenix from the ashes we will reclaim our birthright from every single pretender surrounding us."
+ bkg_georgian_ties: "Georgian Ties"
+ bkg_georgian_ties_desc: "Georgia is our one true ally in these trying times. Our courts have intermingled for a century now, and often advisors of the Roman court come from the Kingdom of Georgia."
+ bkg_rebuild_administration: "Rebuild the Administration"
+ bkg_rebuild_administration_desc: "The Fall of Constantinople, while tragic, was no mere slip of fate. The people let the Bulgarians in because they knew that they would be better off under their management. The administration of Rome has declined to a point worse than that of Romulus Augustus, and it desparately needs to be reformed."
+ bkg_lydians_to_cappadocians: "Lydians to the Cappadocians"
+ bkg_lydians_to_cappadocians_desc: "Every Greek in Anatolia must be freed by us. The Ponts, the Lydians, the Cappadocians, all have been ravaged by heathens and heretics alike. These minorities must feel the joy of freedom once again."
+ bkg_true_roman_heir: "True Heir to Rome"
+ bkg_true_roman_heir_desc: "Regardless of how far we have fallen, we are stil the Roman Empire. We shall never forget this fact, despite what the pretenders have to say. It is only a matter of time before we reach Constantinople once again."
+ bkg_great_genoese_war: "The Great Genoese War"
+ bkg_great_genoese_war_desc: "The Genoese control a vast number of previously Roman ports, and to take them back our navy will need to improve remarkably."
+ bkg_ad_infinitum: "Ad Infinitum"
+ bkg_ad_infinitum_desc: "We are a strong nation, forged by centuries of resistance against those who wish to destroy us. Every victory gives us hope that one day Rome will be ours again, and every conquest brings us one step closer."
+ 
+ LTN_ideas: "Latin Ideas"
+ LTN_ideas_start: "Latin Traditions"
+ LTN_ideas_bonus: "Latin Ambition"
+ ltn_catholic_rome: "A Catholic Roman Empire"
+ ltn_catholic_rome_desc: "The Orthodox pretenders do not know God as we do, and that is very, very bad. We must convert all of Greece to the one, holy, Catholic church."
+ ltn_greeks_and_sicilians: "The Greeks and Sicilians"
+ ltn_greeks_and_sicilians_desc: "Rhomania is known for having some of the greatest mercenaries in the Mediterranean due to the melting pot of Greek and Italian cultures."
+ ltn_filippian_reforms: "Filippian Reforms"
+ ltn_filippian_reforms_desc: "The Filippian Reforms were a series of reforms to the army turning it into an elite corps. The reforms turned the Latin Empire from a Greek pretender kingdom to a force to be reckoned with."
+ ltn_italian_ties: "Italian Ties"
+ ltn_italian_ties_desc: "Although we are located in Greece, we mustn't forget the Sicilians who brought us to this position of power. Without help from Italy, Greece would still be a lot of squabbling crusader kingdoms paying tribute to the Serbian tsar."
+ ltn_second_sack: "Second Sack of Constantinople"
+ ltn_second_sack_desc: "Sacking it once wasn't enough. The Bulgarians, puppets to the Serbs, have proclaimed themselves the true Roman emperors, ignorant of the enemies surrounding them. Constantinople needs another lesson."
+ ltn_venice_trade_rivalry: "Venetian Trade Rivalry"
+ ltn_venice_trade_rivalry_desc: "Although the previous Latin Empire was practically a Venetian client state, our empire has grown to be a fully independent kingdom, capable of competing with the Serene Republic itself."
+ ltn_greco_italian_adm: "Greco-Italian Administration"
+ ltn_greco_italian_adm_desc: "Although our vision of a Catholic Roman Empire remains unblurred, the Greeks do have their uses. Greek administration is commonplace throughout Europe since the days of Pericles, and what better place to benefit from it than Greece itself?"
+ 
+ LAM_ideas: "Cilician Ideas"
+ LAM_ideas_start: "Cilician Traditions"
+ LAM_ideas_bonus: "Cilician Ambition"
+ lam_roots_in_armenia: "Roots in Armenia"
+ lam_roots_in_armenia_desc: "Our relatives in Armenia are always eager to assist us in times of war, said times being very common nowadays. With the Caucasus Armenians by our side, we have enough soliders to face off the fiercest of foes."
+ lam_promote_armenian_culture: "Promote Armenian Culture"
+ lam_promote_armenian_culture_desc: "We are far from home, and that makes it all the more important to stress our culture and heritage."
+ lam_ally_of_crusaders: "Last Crusader State"
+ lam_ally_of_crusaders_desc: "Lesser Armenia is the last crusader state, and so many noble Christians flock to us to protect us from the heathen. This means our pool of recruits expands exponentially from these eager zealots."
+ lam_center_of_trade_at_ayas: "Trade at Ayas"
+ lam_center_of_trade_at_ayas_desc: "Ayas is the main hub for trade in Lesser Armenia; the city is located in a prime position for commerce, making Cilicia very rich indeed!"
+ lam_adopting_western_customs: "Adoption of Western Customs"
+ lam_adopting_western_customs_desc: "There is much to learn from the west. The French Lusignan dynasty has brought a piece of the west into Cilicia, but there is still more to be discovered."
+ lam_tensions_with_byzantium: "Tensions with Byzantium"
+ lam_tensions_with_byzantium_desc: "The Byzantines sure have gotten on our last nerve! Ever since they were kicked out of the Balkans by the tsar they have been obsessed with "liberating" the Greeks in Anatolia, or as we see it, disrupting the flow of balance where it doesn't need to be disruputed. We should show them a piece of our mind!"
+ lam_import_and_adopt_western_firearms: "Western Firearms"
+ lam_import_and_adopt_western_firearms_desc: "There is but one secret that we have not discovered: the most efficient use of gunpowder. Both the Muslims to the east and the Franks to the west have figured it out, leaving us stuck in the middle. It is up to our French allies to teach us these mystical ways."
+ 
+ QRL_ideas: "Qarluk Ideas"
+ QRL_ideas_start: "Qarluk Traditions'
+ QRL_ideas_bonus: "Qarluk Ambition"
+ autonomous_under_the_gokturks: "Autonomy under the Khaganate"
+ autonomous_under_the_gokturks_desc: "We were one of the few nations to be fully autonomous under the first khaganate, a great privilege indeed! Such autonomy allowed us to become strong and threatening however, and we cannot let this happen to any of our subjects."
+ contention_from_central_asia: "Contenton from Central Asia"
+ contention_from_central_asia_desc: "Central Asia is a greater battlefield than meets the eye. The Cumans and Khwarezmians seek to bring us under their heel through underhanded means, so we must do the same."
+ system_of_districts_and_cities: "Urbanization of the Tribes"
+ system_of_districts_and_cities_desc: "Settling down is a rare occurence among restless tribes, but as our influence in Transoxiana and India grows, it becomes evident that clans of nomadic tribes aren't enough to hold an empire together."
+ in_union_with_several_cultures: "Cultural Unity"
+ in_union_with_several_cultures_desc: "The Qarluks coexist with people from Turks to Indians to Khitans. We are proud of our plurality and non discrimination among our peers."
+ fighting_off_turkic_and_other_foes: "The Conquest of Hindustan"
+ fighting_off_turkic_and_other_foes_desc: "Our campaigns in India have molded our army from a once ragtag corps of horse archers into an iron legion of trained men. Our army has a tradition and a story to it now."
+ promote_international_trade: "Promote International Trade"
+ promote_international_trade_desc: "Our position protects traders from bandits in the western Himalayas, which is important for brave souls undergoing the journey to the Orient. We should take the role of police and make sure all traders have the opportunity to travel between the east and west."
+ the_questions_of_traditions: "Question of Tradition"
+ the_questions_of_traditions_desc: "The time has come to ask ourselves whether or not to relinquish the old ways. The world is advancing, and we must advance with it, lest we be left in the dust. But our traditions are sacred to us, and getting rid of them rids us of part of our culture. What is a Qarluk to do in these times?"
+ 
+ SNG_ideas: "Nanzong Ideas"
+ SNG_ideas_start: "Nanzong Traditions"
+ SNG_ideas_bonus: "Nanzong Ambition"
+ sng_the_celestial_kingdom: "The Celestial Kingdom"
+ sng_the_celestial_kingdom_desc: "We have always been the rightful heir to the dragon throne! The Jurchen pretenders are falling apart at the seams, and any time is time to strike."
+ sng_imperial_examinations: "Imperial Examinations"
+ sng_imperial_examinations_desc: "The imperial examinations are an integral part of Song culture and this has not ever changed. However, we will not stop reforming it until we become a true meritocracy. Only then will we be the Light of the East."
+ sng_artillery_innovations: "Artillery Innovations"
+ sng_artillery_innovations_desc: "The Song artillery is unmatched by anyone else in the world! We pioneered the use of gunpowder and our innovations with it continue to eclipse everyone else by centuries."
+ sng_imperial_navy: "The Imperial Navy"
+ sng_imperial_navy_desc: "The imperial navy is the strong arm of Song. It is the pride of our nation and quite frankly above any other navy that sails the seas. It expands Song influence beyond the uncharted seas and into the cosmos."
+ sng_maritime_expeditions: "Maritime Expeditions"
+ sng_maritime_expeditions_desc: "What lies beyond what is on our maps? Most agree that the Byzantines live beyond the rising sun, but it is too far away to reach on one boat voyage. It doesn't stop some brave souls from trying."
+ sng_early_industry: "Early Industrial Revolution"
+ sng_early_industry_desc: "The Song dynasty boasts some of the greatest manufactories in all of Asia, and they are becoming so efficient that with a bit of manpower they can practically run themselves. Experts are calling this a "revolution in industry", but we call it easy money!"
+ sng_wu_and_wen: "Wu and Wen"
+ sng_wu_and_wen_desc: "Wu and Wen is the contrast between the military and civil branches of government, and has been gaining popularity in the Song dynasty for a long time. Embracing both militaristic and civil traditions makes for a balanced and fair government."
+ 

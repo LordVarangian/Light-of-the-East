@@ -1,0 +1,22 @@
+government = republic
+add_government_reform = merchants_reform
+government_rank = 1
+mercantilism = 25
+primary_culture = ligurian
+add_accepted_culture = pontic_greek
+add_accepted_culture = greek
+religion = catholic
+technology_group = western
+capital = 101	# Genova
+fixed_capital = 101 # Cannot move capital away from this province & no power cost to move to it
+
+1380.1.1 = {
+	monarch = {
+		name = "Nicolo"
+		dynasty = "Guarco"
+		birth_date = 1325.1.1
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+}

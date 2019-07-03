@@ -1,8 +1,8 @@
 #2690 - Pajang
 
-owner = KEI
-controller = KEI
-add_core = KEI
+owner = SIN
+controller = SIN
+add_core = SIN
 culture = javanese
 religion = hinduism
 capital = "Pajang"

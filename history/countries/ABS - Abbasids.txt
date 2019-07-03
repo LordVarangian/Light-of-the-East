@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = caliphate_reform
+add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = al_iraqiya_arabic
 religion = sunni
@@ -16,10 +16,5 @@ historical_rival = MAM
 		dip = 4
 		mil = 3
 		birth_date = 1346.8.7
-	}
-	add_legitimacy = -70
-	add_country_modifier = {
-		name = lote_caliphate_modifier
-		duration = -1
 	}
 }

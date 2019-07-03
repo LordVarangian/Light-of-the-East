@@ -3,4 +3,4 @@ government_rank = 2
 primary_culture = panjabi
 technology_group = indian
 religion = sunni
-capital = 507
+capital = 454

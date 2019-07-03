@@ -117,6 +117,13 @@ union = {
 	end_date = 1821.1.1
 }
 
+union = {
+	first = HOL
+	second = HAI
+	start_date = 1380.1.1
+	end_date = 1821.1.1
+}
+
 dependency = {
     subject_type = "tributary_state"
     first = CUM
