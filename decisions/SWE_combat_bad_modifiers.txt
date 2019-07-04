@@ -1,0 +1,99 @@
+country_decisions = {
+	LOTE_root_out_upset_peasants = {
+		potential = {
+			tag = SWE
+			has_country_modifier = 	LOTE_upset_peasants_swe
+		}
+		
+		allow = {
+			treasury = 500
+			NOT = {	 stability = -2 }
+		}
+		
+		effect = {
+			add_treasury = -500
+			add_stability = -2
+			remove_country_modifier = LOTE_upset_peasants_swe
+		}
+	}
+	
+	LOTE_root_out_upset_nobles = {
+		potential = {
+			tag = SWE
+			has_country_modifier = LOTE_upset_nobles_swe
+		}
+		
+		allow = {
+			treasury = 500
+			NOT = {	 stability = -2 }
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 60
+			}
+		}
+		
+		effect = {
+			add_treasury = -500
+			add_stability = -2
+			remove_country_modifier = LOTE_upset_nobles_swe
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = "EST_VAL_CURTAILED_NOBLES"
+				influence = -5
+				duration = 10950		
+			}
+		}
+	}
+	
+	LOTE_root_out_defeatism1 = {
+		potential = {
+			tag = SWE
+			has_country_modifier = LOTE_recent_civilwar_swe
+			NOT = {
+				has_country_modifier = LOTE_upset_nobles_swe
+				has_country_modifier = LOTE_upset_peasants_swe
+			}
+		}
+		
+		allow = {
+			legitimacy = 100
+			NOT = {	 stability = -2 }
+			NOT = { had_recent_war = 10 }
+		}
+		
+		effect = {
+			add_stability = -2
+			hidden_effect = {
+				remove_country_modifier = LOTE_recent_civilwar_swe
+				add_country_modifier = {
+					name = LOTE_recent_civilwar_swe2
+				}
+			}
+			custom_tooltip = modify_recent_civilwar.tooltip
+		}
+	}
+	
+	LOTE_root_out_defeatism2 = {
+		potential = {
+			tag = SWE
+			has_country_modifier = LOTE_recent_civilwar_swe2
+			NOT = {
+				has_country_modifier = LOTE_upset_nobles_swe
+				has_country_modifier = LOTE_upset_peasants_swe
+			}
+		}
+		
+		allow = {
+			treasury = 1000
+			legitimacy = 100
+			NOT = {	 stability = -3 }
+			NOT = { had_recent_war = 10 }
+		}
+		
+		effect = {
+			add_stability = -1
+			add_treasury = -1000
+			remove_country_modifier = LOTE_recent_civilwar_swe2
+		}
+	}
+}
