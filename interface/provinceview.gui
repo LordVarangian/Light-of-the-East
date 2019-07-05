@@ -5652,13 +5652,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_guild_hall"
+			name = "build_guildhall"
 			position = { x = 320 y = 317 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "guild_hall_cost"
+			name = "guildhall_cost"
 			position = {x = 320 y = 371 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
