@@ -1,0 +1,16 @@
+guildhall = {
+	cost = 100
+	time = 12
+	
+	trigger = {
+		has_country_flag = build_guild_hall_ability
+	}
+	
+	modifier = {
+		state_maintenance_modifier = -0.1 #placeholder, change it whenever you feel like
+	}
+	
+	ai_will_do = {
+		factor = 1.5 # Because hard-coded AI only considers what it will gain, not what its enemies will lose.
+	}
+}

@@ -560,3 +560,49 @@ ANC_ideas = {
         tolerance_heathen = 1
     }
 }
+
+SWE_ideas = {
+	start = {
+		development_cost = -0.1 #Expansion of Scandinavian Land
+		defensiveness = = 0.15 #Defense of Our Lands
+	}
+	
+	bonus = {
+		trade_efficiency = 0.1 #Domination Over Baltic Trade
+	}
+	
+	trigger = {
+		tag = SWE
+	}
+	free = yes
+	
+	SWE_1 = { #Dealing with Disloyal Vassals
+		reform_progress_growth = 0.1
+	}
+	
+	SWE_2 = { #Absolute Ruler Power
+		max_absolutism = 10
+		yearly_absolutism = 0.05
+	}
+	
+	SWE_3 = { #Connections with Mainland European dynasties
+		diplomatic_reputation = 1
+	}
+	
+	SWE_4 = { #Modernizing Swedish Architecture
+		build_cost = -0.2
+	}
+	
+	SWE_5 = { #Incorruptible Officials 
+		yearly_corruption = -0.05
+	}
+	
+	SWE_6 = { #Encircled by Great Powers
+		shock_damage_received = -0.05
+		fire_damage_received = -0.05
+	}
+	
+	SWE_7 = { #Teachings of the West
+		technology_cost = -0.05
+	}
+}

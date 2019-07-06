@@ -1,0 +1,26 @@
+country_decisions = {
+	LOTESWEDIS = {
+		potential = {
+			always = no
+		}
+		allow = {
+			always = no
+		}
+		effect = {
+			add_country_modifier = {
+				name = LOTE_upset_nobles_swe
+				duration = -1
+			}
+			
+			add_country_modifier = {
+				name = LOTE_upset_peasants_swe
+				duration = -1
+			}
+			
+			add_country_modifier = {
+				name = LOTE_recent_civilwar_swe
+				duration = -1
+			}
+		}
+	}
+}

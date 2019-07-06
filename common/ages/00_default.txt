@@ -81,8 +81,9 @@ age_of_feudalism = {
 		
 		ab_lower_autonomy = {
 			effect = {
-				custom_tooltip = lower_autonomy_ability.tooltip
-				set_country_flag = lower_autonomy_ability
+				every_owned_province = {
+					add_local_autonomy = -10
+				}
 			}
 			ai_will_do = {
 				factor = 10
@@ -119,7 +120,7 @@ age_of_feudalism = {
 		
 		ab_merchantilism = {
 			effect = {
-				add_mercantilism = 3
+				add_mercantilism = 6
 			}
 			ai_will_do = {
 				factor = 10
