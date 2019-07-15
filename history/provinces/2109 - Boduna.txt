@@ -1,8 +1,8 @@
 # 2109 - Boduna
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = NUZ
+controller = NUZ
+add_core = NUZ
 culture = manchu
 religion = confucianism
 capital = "Boduna"

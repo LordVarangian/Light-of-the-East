@@ -1,8 +1,8 @@
 # 2179 - Yan'an
 
-owner = HTD
-controller = HTD
-add_core = HTD
+owner = MGG
+controller = MGG
+add_core = MGG
 culture = jin
 religion = confucianism
 capital = "Yan'an"

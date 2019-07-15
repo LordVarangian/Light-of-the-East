@@ -1,8 +1,8 @@
 #4196 - Haizhou
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = HTD
+controller = HTD
+add_core = HTD
 culture = jianghuai
 religion = confucianism
 capital = "Haizhou"

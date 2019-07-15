@@ -1,8 +1,8 @@
 # 4202 - Taining
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = NUZ
+controller = NUZ
+add_core = NUZ
 culture = mongol
 religion = confucianism
 capital = "Baichungtze"

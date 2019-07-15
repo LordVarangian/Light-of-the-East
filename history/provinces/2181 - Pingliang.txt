@@ -1,8 +1,8 @@
 # 2181 - Pingliang
 
-owner = HTD
-controller = HTD
-add_core = HTD
+owner = MGG
+controller = MGG
+add_core = MGG
 culture = xibei
 religion = confucianism
 capital = "Pingliang"

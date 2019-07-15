@@ -1,8 +1,8 @@
 #725 - Hinggan
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = NUZ
+controller = NUZ
+add_core = NUZ
 culture = manchu
 religion = tengri_pagan_reformed
 capital = "Cicigar"
