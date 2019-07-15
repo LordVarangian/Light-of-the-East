@@ -6,7 +6,7 @@ estate_holy_order = {
 	keep_on_conquest = no
 	
 	trigger = {
-		government = theocracy
+		has_country_flag = can_use_holy_order
 	}
 	
 	province_trigger = {

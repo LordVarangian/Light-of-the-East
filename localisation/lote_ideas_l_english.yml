@@ -233,41 +233,41 @@
  sng_wu_and_wen: "Wu and Wen"
  sng_wu_and_wen_desc: "Wu and Wen is the contrast between the military and civil branches of government, and has been gaining popularity in the Song dynasty for a long time. Embracing both militaristic and civil traditions makes for a balanced and fair government."
  
- VRA_ideas:0 “Veronese Ideas”
- VRA_ideas_start:0 “Veronese Traditions”
- VRA_ideas_bonus:0 “Veronese Ambitions”
- VRA_mercs:0 “Excessive Hiring of Mercenaries”
- VRA_mercs_desc:0 “Our nation has a long history with the hiring of Mercenaries. One of our previous princes, Cangrande II, in his paranoia, hired many Brandenburg mercenaries to surround himself.”
- VRA_beautification:0 “Beautification of Cities”
- VRA_beautification_desc:0 “During the rule of the late Casignario, construction of many palaces, aqueducts, and bridges were underway. We still carry the duty of beautification with us.
- VRA_independence:0 “Zeal for Independence”
- VRA_independence_desc:0 “Our people are adamant in deterring Milanese rule. The people of Verona will fight to excessive lengths to ensure our independence.”
- VRA_fratricide:0 “Fratricide for the Throne”
- VRA_fratricide_desc:0 “The princes have a long history of Fratricide, the killing of siblings. If one of our heirs were to fall victim in a \“hunting accident,\” their siblings would be next in line to the throne.”
- VRA_forty_eight_towers:0 “The Fort-Eight Towers of Verona”
- VRA_forty_eight_towers_desc:0 “The City of Verona is famous for its forty-eight towers. This system of defense transforms Verona into a more easily defendable city.”
- VRA_verona_diocese:0 “Diocese of Verona”
- VRA_verona_diocese_desc:0 “The Diocese of Verona holds great influence upon the Catholic Church. No matter what religion we are the Diocese will hold great religious influence upon the church.”
- VRA_lombard_league:0 “The Legacy of the Lombard League”
- VRA_lombard_league_desc:0 “Verona had led the Lombard league, which challenged Barbarossa. We carry this prestigious fact upon the rest of our legacy.”
+ VRA_ideas:0 "Veronese Ideas"
+ VRA_ideas_start:0 "Veronese Traditions"
+ VRA_ideas_bonus:0 "Veronese Ambition"
+ VRA_mercs:0 "Excessive Hiring of Mercenaries"
+ VRA_mercs_desc:0 "Our nation has a long history with the hiring of Mercenaries. One of our previous princes, Cangrande II, in his paranoia, hired many Brandenburg mercenaries to surround himself."
+ VRA_beautification:0 "Beautification of Cities"
+ VRA_beautification_desc:0 "During the rule of the late Casignario, construction of many palaces, aqueducts, and bridges were underway. We still carry the duty of beautification with us."
+ VRA_independence:0 "Zeal for Independence"
+ VRA_independence_desc:0 "Our people are adamant in deterring Milanese rule. The people of Verona will fight to excessive lengths to ensure our independence."
+ VRA_fratricide:0 "Fratricide for the Throne”
+ VRA_fratricide_desc:0 "The princes have a long history of Fratricide, the killing of siblings. If one of our heirs were to fall victim in a "hunting accident", their siblings would be next in line to the throne."
+ VRA_forty_eight_towers:0 "The Forty-Eight Towers of Verona"
+ VRA_forty_eight_towers_desc:0 "The City of Verona is famous for its forty-eight towers. This system of defense transforms Verona into a more easily defendable city."
+ VRA_verona_diocese:0 "Diocese of Verona"
+ VRA_verona_diocese_desc:0 "The Diocese of Verona holds great influence upon the Catholic Church. No matter what religion we are the Diocese will hold great religious influence upon the church."
+ VRA_lombard_league:0 "The Legacy of the Lombard League"
+ VRA_lombard_league_desc:0 "Verona had led the Lombard league, which challenged Barbarossa. We carry this prestigious fact upon the rest of our legacy."
 
- ANC_ideas:0 “Anconan Ideas”
- ANC_ideas_start:0 “Anconan Traditions”
- ANC_ideas_bonus:0 “Anconan Ambitions”
- ANC_six_elders:0 “Six Elders of Ancona”
- ANC_six_elders_desc:0 “Ancona is led by a council of six elders, of which are elected from our three subdivisions of towns. Our system ensures all of our people get a fair say in our government.”
- ANC_guelphs:0 “Supporters if the Guelphs”
- ANC_guelphs_desc:0 “Italian cities have been divided between the two factions of the Guelphs and Ghibellines. Ancona had consistently supported the Guelphs, supporters of Papal Authority over Holy Roman Authority.”
- ANC_hre_resistance:0 “Legacy of Resistance”
- ANC_hre_resistance_desc:0 “During the 12th Century, Ancona was able to push back Holy Roman forces several times. This feat can be boasted for centuries.”
- ANC_navigators:0 “Legendary Navigators”
- ANC_navigators_desc:0 “Ancona has been known to produce many talented navigators, such as Cyriac of Ancona. Navigators such as Cyriac would go on to make a vast number of voyages througout the Mediterranean.”
- ANC_byz_military:0 “Byzantine Military Influence”
- ANC_byz_military_desc:0 “Ancona has had a long history of connections with Byzantines, politically and diplomatically. Anconan Military has been Influence by the Byzantines too, adopting very disciplined armies.”
- ANC_foreign_merchants:0 “Foreign Merchant Communities”
- ANC_foreign_merchants_desc:0 “Ancona has been a very important destination for many merchants, especially Greek. These merchants have formed their own communities within our realm.”
- ANC_jewish_tolerance:0 “Jewish Tolerance”
- ANC_jewish_tolerance_desc:0 “Ancona was one of the last remaining cities under Papal Influence to allow Jews to stay. They live within the Anconan ghettos, but we certainly display greater tolerance for them than our neighbors.”
+ ANC_ideas:0 "Anconan Ideas"
+ ANC_ideas_start:0 "Anconan Traditions"
+ ANC_ideas_bonus:0 "Anconan Ambition"
+ ANC_six_elders:0 "Six Elders of Ancona"
+ ANC_six_elders_desc:0 "Ancona is led by a council of six elders, of which are elected from our three subdivisions of towns. Our system ensures all of our people get a fair say in our government."
+ ANC_guelphs:0 "Supporters if the Guelphs"
+ ANC_guelphs_desc:0 "Italian cities have been divided between the two factions of the Guelphs and Ghibellines. Ancona had consistently supported the Guelphs, supporters of Papal Authority over Holy Roman Authority."
+ ANC_hre_resistance:0 "Legacy of Resistance"
+ ANC_hre_resistance_desc:0 "During the 12th Century, Ancona was able to push back Holy Roman forces several times. This feat can be boasted for centuries."
+ ANC_navigators:0 "Legendary Navigators"
+ ANC_navigators_desc:0 "Ancona has been known to produce many talented navigators, such as Cyriac of Ancona. Navigators such as Cyriac would go on to make a vast number of voyages througout the Mediterranean."
+ ANC_byz_military:0 "Byzantine Military Influence"
+ ANC_byz_military_desc:0 "Ancona has had a long history of connections with Byzantines, politically and diplomatically. Anconan Military has been Influence by the Byzantines too, adopting very disciplined armies."
+ ANC_foreign_merchants:0 "Foreign Merchant Communities"
+ ANC_foreign_merchants_desc:0 "Ancona has been a very important destination for many merchants, especially Greek. These merchants have formed their own communities within our realm."
+ ANC_jewish_tolerance:0 "Jewish Tolerance"
+ ANC_jewish_tolerance_desc:0 "Ancona was one of the last remaining cities under Papal Influence to allow Jews to stay. They live within the Anconan ghettos, but we certainly display greater tolerance for them than our neighbors."
  
  JIN_ideas: "Jin Ideas"
  JIN_ideas_start: "Jin Traditions"

@@ -21,6 +21,7 @@ BAM = "countries/Bamberg.txt"
 CRH = "countries/Carinthia.txt"
 
 #Spain
+GUN = "countries/Guanche.txt"
 
 #Italy
 ANC = "countries/Ancona.txt"
@@ -93,6 +94,7 @@ TTR = "countries/Tatar.txt"
 KHR = "countries/Khereid.txt"
 NAI = "countries/Naiman.txt"
 MEK = "countries/Merkit.txt"
+JLI = "countries/Jalair.txt"
 
 #Far Eastern
 SNG = "countries/Song.txt"
@@ -105,6 +107,11 @@ CNT = "countries/Canton.txt"
 JSU = "countries/Jiangsu.txt"
 HNN = "countries/Hunan.txt"
 GHN = "countries/Han.txt"
+NUZ = "countries/Nuzhentudi.txt"
+HTD = "countries/Hantudi.txt"
+MGG = "countries/Menggutudi.txt"
+GSG = "countries/GreatSong.txt"
+ONG = "countries/Ongud.txt"
 KMK = "countries/Kamakura.txt"
 IMC = "countries/ImperialCourt.txt"
 LIA = "countries/Liao.txt"
