@@ -1,0 +1,139 @@
+namespace = lote_nav
+
+country_event = {
+	id = lote_nav.1
+	title = lote_nav.1.t 
+	desc = lote_nav.1.d 
+	picture = DIPLOMACY_eventPicture
+	
+	trigger = {
+		tag = NAV
+		is_year = 1381
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = { #No more of his madness. Force him to resign.
+		name = lote_nav.1.a 
+		set_country_flag = lote_nav_normal
+		add_stability = 1
+		kill_ruler = yes
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = { #We will take back what has been stolen!
+		name = lote_nav.1.b 
+		set_country_flag = lote_nav_claims
+		add_stability = -1
+		add_country_modifier = {
+			name = lote_nav_diplomatic_outrage
+			duration = 3650
+		}
+		champagne_area = {
+			type = all
+			add_permanent_claim = ROOT
+		}
+		normandy_area = {
+			type = all
+			add_permanent_claim = ROOT
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+		
+country_event = {
+	id = lote_nav.2
+	title = lote_nav.2.t 
+	desc = lote_nav.2.d 
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = lote_nav.2.a 
+		pyrennes_area = {	
+			type = all
+			cede_province = NAV
+			limit = {
+				owned_by = FRA
+			}
+		}
+		
+		guyenne_area = {	
+			type = all
+			cede_province = NAV
+			limit = {
+				owned_by = FRA
+			}
+		}
+		
+		FRA = {
+			add_liberty_desire = 10
+		}
+	}
+	
+	option = {
+		name = lote_nav.2.b 
+		FRA = {
+			add_liberty_desire = -10
+		}
+		add_legitimacy = 20
+	}
+}
+
+country_event = {
+	id = lote_nav.3 
+	title = lote_nav.3.t 
+	desc = lote_nav.3.d 
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		NAV = {
+			country_event = {
+				id = lote_nav.4
+			}
+		}
+		add_prestige = 10
+		209 = {
+			cede_province = NAV
+		}
+	}
+	
+	option = {
+		209 = {
+			add_core = NAV
+		}
+	}
+}
+
+country_event = {
+	id = lote_nav.4
+	title = lote_nav.4.t 
+	desc = lote_nav.4.d 
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { 
+		add_treasury = -200
+		209 = {
+			add_core = ROOT
+		}
+	}
+}

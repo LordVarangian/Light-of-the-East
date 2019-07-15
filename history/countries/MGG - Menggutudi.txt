@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = autocracy_reform
+religion = vajrayana
+primary_culture = mongol
+capital = 701
+technology_group = chinese

@@ -3,8 +3,8 @@
 owner = QCH
 controller = QCH
 add_core = QCH
-culture = oirats
-religion = vajrayana
+culture = mongol
+religion = mahayana
 capital = "Yumen"
 trade_goods = livestock
 hre = no

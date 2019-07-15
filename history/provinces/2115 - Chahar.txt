@@ -3,8 +3,8 @@
 owner = TTR
 controller = TTR
 add_core = TTR
-culture = chahar
-religion = vajrayana
+culture = mongol
+religion = tengri_pagan_reformed
 capital = "Chahar"
 trade_goods = livestock
 hre = no

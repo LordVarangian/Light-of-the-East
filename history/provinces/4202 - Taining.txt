@@ -3,8 +3,8 @@
 owner = JIN
 controller = JIN
 add_core = JIN
-culture = chahar
-religion = vajrayana
+culture = mongol
+religion = confucianism
 capital = "Baichungtze"
 trade_goods = livestock
 hre = no

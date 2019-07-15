@@ -3,7 +3,7 @@
 owner = XIX
 controller = XIX
 add_core = XIX
-culture = oirats
+culture = tangut
 religion = vajrayana
 capital = "Anding"
 trade_goods = livestock

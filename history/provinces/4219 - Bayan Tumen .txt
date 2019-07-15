@@ -1,9 +1,9 @@
 #4219 - Bayan Tu'men 
 
-owner = TTR
-controller = TTR
-add_core = TTR
-culture = khalkha
+owner = KMG
+controller = KMG
+add_core = KMG
+culture = mongol
 religion = tengri_pagan_reformed
 capital = "Bayan Tu'men"
 trade_goods = livestock

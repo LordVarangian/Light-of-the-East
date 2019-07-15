@@ -3,8 +3,8 @@
 owner = XIX
 controller = XIX
 add_core = XIX
-culture = xibei
-religion = confucianism
+culture = tangut
+religion = vajrayana
 capital = "Taozhou"
 trade_goods = chinaware
 hre = no

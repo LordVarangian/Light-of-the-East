@@ -1,8 +1,8 @@
 #687 - Zhoujiakou
 
-owner = SNG
-controller = SNG
-add_core = SNG
+owner = JIN
+controller = JIN
+add_core = JIN
 culture = zhongyuan
 religion = confucianism
 capital = "Nanyang"

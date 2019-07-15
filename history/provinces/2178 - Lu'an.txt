@@ -1,8 +1,8 @@
 # 2178 - Lu'an
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = HTD
+controller = HTD
+add_core = HTD
 culture = jin
 religion = confucianism
 capital = "Lu'an"

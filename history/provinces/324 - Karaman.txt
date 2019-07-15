@@ -1,9 +1,9 @@
 #324 - Karaman
 
-owner = LAM
-controller = LAM
+owner = RUM
+controller = RUM
 culture = turkish
-religion = coptic
+religion = sunni
 capital = "Karaman"
 trade_goods = livestock
 hre = no
@@ -11,7 +11,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 4
 is_city = yes
-add_core = LAM
+add_core = RUM
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

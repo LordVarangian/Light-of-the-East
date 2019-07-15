@@ -6,6 +6,7 @@ technology_group = western
 historical_rival = BKG 
 capital = 146
 fixed_capital = 151
+add_historical_friend = SIC
 
 1380.1.1 = {
 	monarch = {

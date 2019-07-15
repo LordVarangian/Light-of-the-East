@@ -1,8 +1,8 @@
 # 2157 - Waichow
 
-owner = CNT
-controller = CNT
-add_core = CNT
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = hakka
 religion = confucianism
 capital = "Waichow"

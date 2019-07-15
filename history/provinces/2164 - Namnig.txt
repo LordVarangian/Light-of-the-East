@@ -1,8 +1,8 @@
 # 2164 - Namning
 
-owner = GNX
-controller = GNX
-add_core = GNX
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = zhuang
 religion = confucianism
 capital = "Namning"

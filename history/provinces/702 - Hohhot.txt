@@ -1,10 +1,10 @@
 #702 - Ulanqab
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = ONG
+controller = ONG
+add_core = ONG
 culture = mongol
-religion = vajrayana
+religion = confucianism
 capital = "Hohhot"
 trade_goods = iron
 hre = no

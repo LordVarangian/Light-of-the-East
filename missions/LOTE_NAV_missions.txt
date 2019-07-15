@@ -1,0 +1,412 @@
+lote_nav_one = {
+	slot = 1
+	generic = no 
+	ai = yes
+	potential = {
+		tag = NAV
+	}
+	has_country_shield = yes
+	
+	lote_nav_develop_navarra = {
+		icon = mission_early_game_buildings
+		trigger = {
+			210 = {
+				grown_by_development = 15
+			}
+		}
+		effect = {
+			210 = {
+				add_province_modifier = {
+					name = lote_nav_navarrese_growth
+					duration = 7300
+				}
+			}
+		}
+	}
+	
+	lote_nav_basque_fisheries = {
+		icon = mission_invade_island
+		required_missions = { lote_nav_develop_navarra }
+		position = 2
+		trigger = {
+			dock = 2
+			marketplace = 2
+		}
+		effect = {
+			add_country_modifier = {
+				name = lote_nav_basque_fishing_industry
+				duration = 10950
+			}
+			add_adm_power = 50
+		}
+	}
+}
+
+lote_nav_two = {
+	slot = 2
+	generic = no 
+	ai = yes
+	potential = {
+		tag = NAV
+	}
+	has_country_shield = yes
+	
+	lote_nav_basque_firearms = {
+		icon = mission_landsknecht_soldier
+		required_missions = { lote_nav_develop_navarra }
+		position = 2
+		trigger = {
+			has_institution = gunpowder
+			total_development = 50
+		}
+		effect = {
+			change_mil = 1
+			add_country_modifier = {
+				name = lote_nav_basque_firearm_industry
+				duration = -1
+			}
+		}
+	}
+}
+
+lote_nav_three = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = NAV
+	}
+	has_country_shield = yes
+	
+	lote_nav_mad_king = {
+		icon = mission_empire
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = LOTE_NAV_COMPLETED_EVENT_TT
+				OR = {
+					has_country_flag = lote_nav_normal
+					has_country_flag = lote_nav_claims
+				}
+			}
+		}
+		effect = {
+			swap_non_generic_missions = yes
+		}
+	}
+}
+
+lote_nav_claims_two = {
+	slot = 2
+	generic = no 
+	ai = yes
+	potential = {
+		tag = NAV
+		has_country_flag = lote_nav_claims
+	}
+	has_country_shield = yes
+	
+	lote_nav_papal_blessing = {
+		icon = mission_european_church
+		required_missions = { lote_nav_calm_before_the_storm }
+		position = 3
+		trigger = {
+			PAP = {
+				has_opinion = {
+					who = ROOT
+					value = 125
+				}
+			}
+			papal_influence = 10
+		}
+		effect = {
+			add_country_modifier = {
+				name = lote_nav_papal_approval
+				duration = 18250
+			}
+		}
+	}
+	
+	lote_nav_duke_of_champagne = {
+		icon = mission_unite_home_region
+		required_missions = { lote_nav_duke_of_aquitaine }
+		position = 4
+		trigger = {
+			186 = {
+				owned_by = ROOT
+			}
+			4390 = {
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			every_owned_province = {
+				limit = {
+					area = champagne_area
+				}
+				add_province_modifier = {
+					name = lote_nav_royal_domain
+					duration = -1
+				}
+			}
+			186 = {
+				add_building_construction = {
+					building = fort_15th
+					speed = 1
+					cost = 0
+				}
+			}
+			add_casus_belli = {
+				target = BUR
+				type = cb_restore_personal_union
+				months = 120
+			}
+		}
+	}
+	
+	lote_nav_king_of_france = {
+		icon = mission_empire
+		required_missions = { lote_nav_duke_of_champagne lote_nav_duke_of_normandy }
+		position = 5
+		trigger = {
+			OR = {	
+				FRA = {
+					junior_union_with = ROOT
+				}
+				AND = {
+					183 = {
+						owned_by = ROOT
+					}
+					179 = {
+						owned_by = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = lote_nav.2
+			}
+			add_prestige = 50
+		}
+	}
+}
+		
+lote_nav_claims_three = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = NAV
+		has_country_flag = lote_nav_claims
+	}
+	has_country_shield = yes
+	
+	lote_nav_calm_before_the_storm = {
+		icon = mission_alliances
+		required_missions = { lote_nav_mad_king }
+		position = 2
+		trigger = {
+			any_known_country = {
+				alliance_with = ROOT
+				total_development = 150
+			}
+		}
+		effect = {
+			add_prestige = 30
+			add_country_modifier = {
+				name = lote_nav_renewed_vigor
+				duration = 7300
+			}
+		}
+	}
+	
+	lote_nav_duke_of_aquitaine = {
+		icon = mission_cannons_firing
+		required_missions = { lote_nav_calm_before_the_storm lote_nav_unfounded_claims }
+		position = 3
+		trigger = {
+			174 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			173 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_sailors = 500
+			174 = {
+				light_ship = 3
+			}
+		}
+	}
+
+	lote_nav_purchase_of_vizcaya = {
+		icon = mission_alliances
+		required_missions = { lote_nav_duke_of_aquitaine }
+		position = 4
+		trigger = { 
+			OR = {
+				treasury = 200
+				209 = {
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+					culture = basque
+				}
+				add_province_modifier = {
+					name = lote_nav_basque_excellence
+					duration = -1
+				}
+			}
+			if = {
+				NOT = {
+					209 = {
+						owned_by = ROOT
+					}
+				}
+			}
+			209 = {
+				owner = {
+					country_event = {
+						id = lote_nav.3
+					}
+				}
+			}
+		}
+	}
+}
+
+lote_nav_normal_three = {
+	slot = 3
+	generic = no 
+	ai = yes
+	potential = {
+		tag = NAV
+		has_country_flag = lote_nav_normal 
+	}
+	has_country_shield = yes
+	
+	lote_nav_mend_relations_with_france = {
+		icon = mission_alliances
+		required_missions = { lote_nav_mad_king }
+		position = 2
+		trigger = {
+			FRA = {
+				has_opinion = {
+					who = ROOT
+					value = 100
+				}
+			}
+		}
+		effect = {
+			add_historical_friend = FRA
+			FRA = {
+				add_historical_friend = NAV
+			}
+			add_prestige = 10
+		}
+	}
+
+}
+
+lote_nav_claims_four = {
+	slot = 4
+	generic = no 
+	ai = yes
+	potential = {
+		tag = NAV
+		has_country_flag = lote_nav_claims
+	}
+	has_country_shield = yes
+	
+	lote_nav_unfounded_claims = {
+		icon = mission_unite_home_region
+		required_missions = { lote_nav_mad_king }
+		position = 2
+		trigger = {
+			prestige = 20
+		}
+		effect = {
+			champagne_area = {
+				type = all 
+				remove_claim = ROOT
+				add_core = ROOT
+			}
+			normandy_area = {
+				type = all
+				remove_claim = ROOT
+				add_core = ROOT
+			}
+			174 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+						NOT = { is_core = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+	}
+	
+	lote_nav_duke_of_normandy = {
+		icon = mission_war_chest 
+		required_missions = { lote_nav_duke_of_aquitaine }
+		position = 4
+		trigger = {
+			normandy_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 15
+			add_country_modifier = {
+				name = lote_nav_birthright_reclaimed
+				duration = 7300
+			}
+			add_accepted_culture = normand
+			add_casus_belli = {
+				target = FRA
+				type = cb_restore_personal_union
+				months = 120
+			}
+		}
+	}
+
+	lote_nav_king_of_lotharingia = {
+		icon = mission_empire
+		required_missions = { lote_nav_duke_of_champagne lote_nav_duke_of_normandy }
+		position = 5
+		trigger = {
+			OR = {	
+				BUR = {
+					junior_union_with = ROOT
+				}
+				AND = {
+					192 = {
+						owned_by = ROOT
+					}
+					89 = {
+						owned_by = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			add_dip_power = 150
+			add_country_modifier = {
+				name = lote_nav_holy_roman_diplomacy
+				duration = 7300
+			}
+		}
+	}
+}
+			

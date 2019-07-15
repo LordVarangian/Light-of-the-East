@@ -606,3 +606,93 @@ SWE_ideas = {
 		technology_cost = -0.05
 	}
 }
+SRI_ideas = {
+	start = {
+		global_ship_trade_power = 0.15
+		num_accepted_cultures = 1
+	}
+	
+	bonus = {
+		naval_morale = 0.1
+	}
+	
+	trigger = {
+		tag = SRI
+	}
+	free = yes
+	
+	sri_thalassocracy = {
+		naval_forcelimit_modifier = 0.33
+	}
+	
+	sri_loose_administration = {
+		state_maintenance_modifier = -0.2
+	}
+	
+	sri_straits_of_malacca = {
+		technology_cost = -0.1
+		embracement_cost = -0.25
+	}
+	
+	sri_south_asian_piracy = {
+		privateer_efficiency = 0.1
+		light_ship_power = 0.2
+	}
+	
+	sri_mediator_of_asia = {
+		diplomats = 1
+	}
+	
+	sri_centralize_the_empire = {
+		stability_cost_modifier = -0.1
+		global_autonomy = -0.025
+	}
+}
+
+JIN_ideas = {
+	start = {
+		promote_culture_cost = -0.33
+		advisor_cost = -0.2
+	}
+	
+	bonus = {
+		diplomatic_annexation_cost = -0.2
+	}
+	
+	trigger = {
+		tag = JIN 
+	}
+	free = yes 
+	
+	jin_jurchen_traditions = {
+		cavalry_power = 0.1
+		cavalry_shock = 0.1
+	}
+	
+	jin_siege_engineering = {
+		artillery_bonus_vs_fort = 1
+	}
+	
+	jin_court_of_eunuchs = {
+		yearly_corruption = -0.1
+		advisor_pool = 1
+	}
+	
+	jin_code_of_laws = {
+		stability_cost_modifier = -0.1
+		global_autonomy = -0.025
+	}
+	
+	jin_expanded_great_wall = {
+		defensiveness = 0.1
+	}
+	
+	jin_golden_dynasty = {
+		prestige = 1
+		imperial_mandate = 0.1
+	}
+	
+	jin_religious_syncretism = {
+		tolerance_heathen = 2
+	}
+}

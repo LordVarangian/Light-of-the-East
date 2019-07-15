@@ -1,8 +1,8 @@
 #698 - Guyuan
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = MGG
+controller = MGG
+add_core = MGG
 culture = mongol
 religion = confucianism
 capital = "Ningxia"

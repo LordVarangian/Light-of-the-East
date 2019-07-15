@@ -1,8 +1,8 @@
 #667 - Guangzhou
 
-owner = CNT
-controller = CNT
-add_core = CNT
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = cantonese
 religion = confucianism
 capital = "Canton"

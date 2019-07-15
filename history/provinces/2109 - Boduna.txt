@@ -3,8 +3,8 @@
 owner = JIN
 controller = JIN
 add_core = JIN
-culture = chahar
-religion = vajrayana
+culture = manchu
+religion = confucianism
 capital = "Boduna"
 trade_goods = iron
 hre = no

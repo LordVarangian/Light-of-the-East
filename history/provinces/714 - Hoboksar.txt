@@ -3,7 +3,7 @@
 owner = NAI
 controller = NAI
 add_core = NAI
-culture = nestorian
+culture = naiman
 religion = nestorian
 capital = "Hoboksar"
 trade_goods = livestock

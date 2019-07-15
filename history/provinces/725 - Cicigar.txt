@@ -3,7 +3,7 @@
 owner = JIN
 controller = JIN
 add_core = JIN
-culture = chahar
+culture = manchu
 religion = tengri_pagan_reformed
 capital = "Cicigar"
 trade_goods = naval_supplies

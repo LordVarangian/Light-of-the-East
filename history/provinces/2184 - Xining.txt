@@ -3,7 +3,7 @@
 owner = XIX
 controller = XIX
 add_core = XIX
-culture = xibei
+culture = tangut
 religion = vajrayana
 capital = "Xining"
 trade_goods = salt

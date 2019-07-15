@@ -1,0 +1,68 @@
+namespace = lote_ltn
+
+country_event = {
+	id = lote_ltn.1
+	title = lote_ltn.1.t 
+	desc = lote_ltn.1.d 
+	picture = ADVISOR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = LTN
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lote_ltn.1.a
+		set_variable = {
+			which = hellenization_variable
+			value = 0
+		}
+	}
+}
+
+country_event = {
+	id = lote_ltn.2
+	title = lote_ltn.2.t 
+	desc = lote_ltn.2.d 
+	picture = REVOLUTION_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		check_variable = {
+			which = hellenization_variable
+			value = 10
+		}
+		tag = LTN 
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = lote_ltn.2.a 
+		change_tag = GRE
+		add_stability = -2
+		if = {
+			limit = { has_custom_ideas = no }
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+	}
+}
+
+country_event = {
+	id = lote_ltn.3
+	title = lote_ltn.3.t 
+	desc = lote_ltn.3.d 
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lote_ltn.3.a 
+	}
+}

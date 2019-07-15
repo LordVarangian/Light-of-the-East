@@ -1,8 +1,8 @@
 #2446 - Chara
 
-owner = KMG
-controller = KMG
-add_core = KMG
+owner = JLI
+controller = JLI
+add_core = JLI
 culture = buryat
 religion = tengri_pagan_reformed
 capital = "Chara"

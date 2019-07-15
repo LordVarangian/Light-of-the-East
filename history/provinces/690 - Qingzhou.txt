@@ -1,8 +1,8 @@
 #690 - Shandong Bandao
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = HTD
+controller = HTD
+add_core = HTD
 culture = shandong_culture
 religion = confucianism
 capital = "Qingzhou"

@@ -1,8 +1,8 @@
 #4214 - Kalar
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = MYR
+controller = MYR
+add_core = MYR
 culture = manchu
 religion = tengri_pagan_reformed
 capital = "Kalar"

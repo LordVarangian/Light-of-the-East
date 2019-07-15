@@ -3,8 +3,8 @@
 owner = JIN
 controller = JIN
 add_core = JIN
-culture = oirats
-religion = vajrayana
+culture = mongol
+religion = nestorian
 capital = "Ejin"
 trade_goods = livestock
 hre = no

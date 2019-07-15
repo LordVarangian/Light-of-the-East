@@ -1,0 +1,4 @@
+guanche_refused_crusade = {
+	opinion = -75
+	yearly_decay = 3
+}

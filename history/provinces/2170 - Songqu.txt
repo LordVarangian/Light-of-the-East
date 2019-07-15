@@ -3,7 +3,7 @@
 owner = XIX
 controller = XIX
 add_core = XIX
-culture = tibetan
+culture = tangut
 religion = vajrayana
 capital = "Songqu"
 trade_goods = livestock

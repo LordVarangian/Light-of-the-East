@@ -27,3 +27,23 @@
  
  #hussite modifiers 
  lote_hussite_angered_hussites: "Angered Hussites"
+ 
+ #navarra modifiers
+ lote_nav_diplomatic_outrage: "Diplomatic Outrage"
+ lote_nav_renewed_vigor: "Renewed Vigor"
+ lote_nav_royal_domain: "Royal Domain"
+ lote_nav_birthright_reclaimed: "Birthright Reclaimed"
+ lote_nav_holy_roman_diplomacy: "Holy Roman Diplomacy"
+ lote_nav_basque_firearm_industry: "Basque Firearm Industry"
+ lote_nav_basque_fishing_industry: "Fishing Boom"
+ lote_nav_navarrese_growth: "Navarrese Growth"
+ lote_nav_papal_approval: "Papal Approval"
+ 
+ #latin empire modifiers
+ lote_ltn_ties_with_italy: "Ties with Italy"
+ lote_ltn_accepts_greek: "Assimilating the Greeks"
+ lote_ltn_aegean_merchants: "Aegean Merchants"
+ lote_ltn_fortress_of_corfu: "Fortress of Corfu"
+ lote_ltn_roman_claims: "Roman Claims"
+ lote_ltn_constantinople: "The Second Rome"
+ 

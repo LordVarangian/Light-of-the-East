@@ -1,8 +1,8 @@
 #697 - Datong
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = ONG
+controller = ONG
+add_core = ONG
 culture = jin
 religion = confucianism
 capital = "Datong"

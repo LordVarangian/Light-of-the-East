@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = autocracy_reform
+religion = tengri_pagan_reformed
+primary_culture = manchu
+capital = 730
+technology_group = chinese

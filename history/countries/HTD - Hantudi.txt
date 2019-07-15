@@ -1,0 +1,6 @@
+primary_culture = jin
+technology_group = chinese
+capital = 700
+religion = confucianism
+government = monarchy
+add_government_reform = autocracy_reform

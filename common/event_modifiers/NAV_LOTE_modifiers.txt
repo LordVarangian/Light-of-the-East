@@ -1,0 +1,39 @@
+lote_nav_diplomatic_outrage = {
+	diplomatic_reputation = -3
+	improve_relation_modifier = -0.15
+}
+
+lote_nav_renewed_vigor = {
+	land_morale = 0.1
+}
+
+lote_nav_royal_domain = {
+	local_tax_modifier = 0.15
+	local_autonomy = -0.025
+}
+
+lote_nav_birthright_reclaimed = {
+	improve_relation_modifier = 0.25
+}
+
+lote_nav_holy_roman_diplomacy = {
+	diplomatic_upkeep = 2
+}
+
+lote_nav_basque_firearm_industry = {
+	leader_land_fire = 1
+	fire_damage = 0.05
+}
+
+lote_nav_basque_fishing_industry = {
+	global_tax_modifier = 0.15
+}
+
+lote_nav_navarrese_growth = {
+	build_cost = -0.25
+}
+
+lote_nav_papal_approval = {
+	ae_impact = -0.2
+	papal_influence = 1
+}

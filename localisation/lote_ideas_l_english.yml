@@ -268,4 +268,22 @@
  ANC_foreign_merchants_desc:0 “Ancona has been a very important destination for many merchants, especially Greek. These merchants have formed their own communities within our realm.”
  ANC_jewish_tolerance:0 “Jewish Tolerance”
  ANC_jewish_tolerance_desc:0 “Ancona was one of the last remaining cities under Papal Influence to allow Jews to stay. They live within the Anconan ghettos, but we certainly display greater tolerance for them than our neighbors.”
-
+ 
+ JIN_ideas: "Jin Ideas"
+ JIN_ideas_start: "Jin Traditions"
+ JIN_ideas_bonus: "Jin Ambition"
+ jin_jurchen_traditions: "Jurchen Traditions"
+ jin_jurchen_traditions_desc: "Our roots are in the horse archers of Manchuria, the scourge of the northern frontier. The Jin continue this tradition with a well organized cavalry, skilled with the bow."
+ jin_siege_engineering: "Siege Innovations"
+ jin_siege_engineering_desc: "The first use of artillery was in our war against the Song. Since then, our cannons have always been the most modern in all the Orient. We must continue to be the primary innovators in siege warfare."
+ jin_court_of_eunuchs: "Court of Eunuchs"
+ jin_court_of_eunuchs_desc: "The Jin court is one of the most talented and well administrated in all of China. Our combination of Chinese bureaucrats and local chiefs makes for an efficient government."
+ jin_code_of_laws: "Taihe Code of Laws"
+ jin_code_of_laws_desc: "The code of laws developed by Emperor Zhangzong serves as the basis for our country's legal system. It is based on the Tang dynasty's legal code, updated for today's system. Our government should continue to evolve to meet the world's advancing standards."
+ jin_expanded_great_wall: "Expand the Great Wall"
+ jin_expanded_great_wall_desc: "Our efforts to expand the Great Wall have succeeded wonderfully. When Jamukha invaded, the wall held off the Mongols and it must be reinforced and extended to fully protect the nation for any outside threat."
+ jin_golden_dynasty: "The Golden Dynasty"
+ jin_golden_dynasty_desc: "Jin is a dynasty of gold, founded on the element of earth with great gold artworks and constructions. Being the golden dynasty of China, our nation rises above all others in prestige."
+ jin_religious_syncretism: "Religious Syncretism"
+ jin_religious_syncretism_desc: "The Jin has always been a blend of different cultures and religions, and it is important that they remain so. Using a live and let live policy will ensure peace among the people of our nation."
+ 

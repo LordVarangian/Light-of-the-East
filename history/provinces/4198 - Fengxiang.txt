@@ -1,8 +1,8 @@
 #4198 - Fengxiang
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = HTD
+controller = HTD
+add_core = HTD
 culture = xibei
 religion = confucianism
 capital = "Fengxiang"

@@ -1,8 +1,8 @@
 #1033 - Sakhalin
 
-owner = JIN
-controller = JIN
-add_core = JIN
+owner = ANU
+controller = ANU
+add_core = ANU
 culture = ainu
 religion = animism
 capital = "Sakhalin"

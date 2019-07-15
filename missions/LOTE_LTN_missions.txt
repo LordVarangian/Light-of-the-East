@@ -1,0 +1,275 @@
+lote_ltn_one = {
+	slot = 1
+	generic = no 
+	ai = yes
+	potential = {
+		tag = LTN 
+	}
+	has_country_shield = yes
+	
+	lote_ltn_justify_roman_claims = {
+		icon = mission_monarch_in_throne_room
+		trigger = {
+			prestige = 25
+			legitimacy = 100
+		}
+		effect = {
+			add_country_modifier = {
+				name = lote_ltn_roman_claims
+				duration = -1
+			}
+		}
+	}
+	
+	lote_ltn_latin_navy = {
+		icon = mission_sea_battles
+		position = 2
+		trigger = {
+			navy_size_percentage = 1
+			num_of_galley = 10
+		}
+		effect = {
+			add_navy_tradition = 15
+			add_country_modifier = {
+				name = lote_ltn_fleet
+				duration = 7300
+			}
+		}
+	}
+	
+	lote_ltn_conquer_corfu = {
+		icon = mission_invade_island 
+		required_missions = { lote_ltn_conquer_epirus lote_ltn_latin_navy }
+		position = 3
+		trigger = {
+			142 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 5
+			142 = {
+				add_province_modifier = {
+					name = lote_ltn_fortress_of_corfu
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+lote_ltn_two = {
+	slot = 2
+	generic = no 
+	ai = yes
+	potential = {
+		tag = LTN 
+	}
+	has_country_shield = yes
+	
+	lote_ltn_conquer_epirus = {
+		icon = mission_italian_condottiere
+		required_missions = { lote_ltn_latin_diplomacy lote_ltn_justify_roman_claims }
+		position = 2
+		trigger = {
+			144 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			hidden_effect = {
+				add_accepted_culture = greek 
+				add_country_modifier = {
+					name = lote_ltn_accepts_greek
+					duration = -1
+				}
+			}
+			custom_tooltip = lote_ltn_accepts_greek_tt
+			add_prestige = 5
+			142 = {
+				if = {
+					NOT = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+lote_ltn_three = {
+	slot = 3
+	generic = no 
+	ai = yes
+	potential = {
+		tag = LTN
+	}
+	has_country_shield = yes
+	
+	lote_ltn_latin_diplomacy = {
+		icon = mission_alliances
+		trigger = {
+			alliance_with = SIC
+			marriage_with = SIC
+			num_of_allies = 3
+		}
+		effect = {
+			144 = {
+				if = {
+					NOT = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			macedonia_area = {
+				if = {
+					NOT = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = lote_ltn_ties_with_italy
+				duration = 7300
+			}
+		}
+	}
+	
+	lote_ltn_knights_templar = {
+		icon = mission_teutonic_knights
+		required_missions = { lote_ltn_latin_diplomacy }
+		position = 2
+		trigger = {
+			PAP = {
+				has_opinion = {
+					who = ROOT
+					value = 100
+				}
+			}
+			religion = catholic
+			religious_unity = 0.5
+		}
+		effect = {
+			set_country_flag = can_use_holy_order
+			custom_tooltip = can_use_holy_order_tt
+			add_papal_influence = 25
+		}
+	}
+	
+	lote_ltn_conquer_rhodes = {
+		icon = mission_invade_island 
+		required_missions = { lote_ltn_conquer_epirus lote_ltn_conquer_macedonia }
+		position = 3
+		trigger = { 
+			320 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			163 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			321 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 5
+			add_country_modifier = {
+				name = lote_ltn_aegean_merchants
+				duration = 10950
+			}
+			add_mercantilism = 5
+		}
+	}
+	
+	
+	lote_ltn_restore_constantinople = {
+		icon = mission_hagia_sophia
+		required_missions = { lote_ltn_conquer_corfu lote_ltn_conquer_rhodes lote_ltn_conquer_thrace }
+		position = 4
+		trigger = {
+			151 = {
+				development = 30
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			has_building = marketplace
+		}
+		effect = {
+			151 = {
+				change_culture = ROOT
+				add_province_modifier = {
+					name = lote_ltn_constantinople
+					duration = -1
+				}
+			}
+			add_prestige = 20
+		}
+	}
+}
+
+lote_ltn_four = {
+	slot = 4
+	generic = no 
+	ai = yes
+	potential = {
+		tag = LTN
+	}
+	has_country_shield = yes
+	
+	lote_ltn_conquer_macedonia = {
+		icon = mission_unite_home_region
+		required_missions = { lote_ltn_latin_diplomacy }
+		position = 2
+		trigger = {
+			macedonia_area = {
+				type = all 
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+}
+
+lote_ltn_five = {
+	slot = 5
+	generic = no 
+	ai = yes
+	potential = {
+		tag = LTN
+	}
+	has_country_shield = yes
+	
+	lote_ltn_conquer_thrace = {
+		icon = mission_pf_cross
+		required_missions = { lote_ltn_conquer_macedonia }
+		position = 3
+		trigger = {
+			thrace_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 20
+			add_papal_influence = 25
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+		}
+	}
+}

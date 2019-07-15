@@ -1,8 +1,8 @@
 #665 - Jiangmen
 
-owner = CNT
-controller = CNT
-add_core = CNT
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = cantonese
 religion = confucianism
 capital = "Shiuhing"
