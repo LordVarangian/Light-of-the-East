@@ -4,7 +4,7 @@ government_rank = 3
 technology_group = chinese
 religion = confucianism
 primary_culture = manchu
-capital = 693	#Taiyuan
+capital = 1816	#Taiyuan
 
 1380.7.5 = {
 	monarch = {

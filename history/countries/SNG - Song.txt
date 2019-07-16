@@ -4,7 +4,7 @@ government_rank = 3
 technology_group = chinese
 religion = confucianism
 primary_culture = wu
-capital = 685
+capital = 684
 
 1380.7.5 = {
 	monarch = {

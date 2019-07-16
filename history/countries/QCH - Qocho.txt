@@ -2,8 +2,8 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = uyghur
-capital = 739
-religion = vajrayana
+capital = 4207
+religion = mahayana
 technology_group = chinese
 
 1380.1.1 = {

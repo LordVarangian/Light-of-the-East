@@ -3,10 +3,10 @@ add_government_reform = steppe_horde
 government_rank = 2
 primary_culture = khitan
 capital = 715
-religion = tengri_pagan_reformed
+religion = mahayana
 technology_group = nomad_group
 
-1380.7.5 = {
+1380.1.1 = {
 	monarch = {
 		name = "Feng"
 		dynasty = "Yelu"
