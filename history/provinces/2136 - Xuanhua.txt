@@ -3,7 +3,7 @@
 owner = ONG
 controller = ONG
 add_core = ONG
-culture = jin
+culture = khereid
 religion = confucianism
 capital = "Xuanhua"
 trade_goods = grain

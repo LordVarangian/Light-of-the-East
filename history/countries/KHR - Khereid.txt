@@ -2,5 +2,5 @@ government = tribal
 add_government_reform = steppe_horde
 technology_group = nomad_group
 religion = nestorian
-primary_culture = khalkha
+primary_culture = khereid
 capital = 2190

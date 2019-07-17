@@ -3,7 +3,7 @@
 owner = ONG
 controller = ONG
 add_core = ONG
-culture = mongol
+culture = khereid
 religion = confucianism
 capital = "Hohhot"
 trade_goods = iron

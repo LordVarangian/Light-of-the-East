@@ -3,7 +3,7 @@
 owner = KHR
 controller = KHR
 add_core = KHR
-culture = mongol
+culture = khereid
 religion = nestorian
 capital = "Qaraqorum"
 trade_goods = cloth
