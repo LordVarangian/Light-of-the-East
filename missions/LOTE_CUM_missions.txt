@@ -408,5 +408,34 @@ cuman_mongols_group = {
 				add_permanent_claim = ROOT
 			}
 		}
-	}	
+	}
+
+	cum_conquer_mongolia = {
+		icon = mission_rb_a_mighty_fleet
+		required_missions = { cum_break_naimans }
+		position = 4
+		
+		provinces_to_highlight = {
+			area = uliastai_area		
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		
+		trigger = {
+			uliastai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			uliastai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
 }

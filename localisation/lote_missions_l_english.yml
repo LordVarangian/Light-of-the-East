@@ -41,14 +41,31 @@
  mongol_claims_tt: "Gain claims on all other Mongol tribes."
 
 #Cuman Missions
+cum_mobilize_tribes_title: "Mobilize Our Forces"
+cum_mobilize_tribes_desc: "Europeans are closing on our territory, with the Vlachs and Crimeans already firmly under outsider control.  We can no longer afford to be mere raiders inconveniencing our neighbors as they grow in strength.  Cumania will prepare for war and seize its destiny!"
+
+cum_unite_tribes_title: "Unite the Tribes"
+cum_unite_tribes_desc: "The time has come to consolidate the Confederation under our Khan's rule.  Tribal nobles and disgruntled commoners alike may not understand the need for a united Cuman people, but we will show them that a united government is the way forward."
+
 cum_eat_moldavia_title: "Subjugate the Moldavian Vlachs"
 cum_eat_moldavia_desc: "Once one of the many peoples of the Cuman-Kypchak Confederation, the Vlachs of Moldavia have broken off and refuse to recognize our Khan's supremacy.  If we are to prove to our own tribes the benefits of a united Cuman nation, we must force the Moldavian Vlachs to submit to the Khan."
 cum_retake_wallachia_title: "Reconquer Wallachia"
 cum_retake_wallachia_desc: "Wallachia once emcompassed the west-most edge of the Confederation.  Now, feuding Hungary and Bulgaria have made the region their battleground, with the Vlachs caught in the middle of endless warfare.  Only our return can bring stability to battered Wallachia."
 cum_smash_bulgaria_title: "Invade Bulgaria"
-cum_smash_bulgaria_desc: "Less than two centuries ago, Bulgarian tsar Kaloyan married a Cuman princess, and Cuman mercenaries under his command won great victories in the Balkans.  However, the fickle nature of European dynastic politics means that the Bulgarians view us with distrust and comtempt rather than as effective allies.  If the Bulgarians will not stand with us in our conquests, we will force their obedience."
+cum_smash_bulgaria_desc: "Less than two centuries ago, Bulgarian tsar Kaloyan married a Cuman princess, and Cuman mercenaries under his command won great victories in the Balkans.  However, many Bulgarians blame the Tsaritsa, and our people by extension, for Kaloyan's untimely demise.  If the Bulgarians will so eagerly forsake our old alliance, we will force their obedience by bow and sword."
 cum_cumstantinople_title: "Capture Constantinople"
 cum_cumstantinople_desc: "Cuman mercenaries under Kaloyan came closer to the legendary city of Constantinople than any others of our people, but Kaloyan himself failed to capture the legendary capital of the eastern Romans.  We will succeed where many have failed; Constantinople will be ours!"
 
 cum_take_transylvania_title: "Conquer Transylvania"
 cum_take_transylvania_desc: "The Hungarians maintain loose control over the Vlach relatives of Transylvania.  Now that the Vlachs have returned to our realm, we should reunite the Transylvanians with their brethren under our rule."
+
+cum_take_kiev_title: "Dominate Kiev"
+cum_take_kiev_desc: "For generations, the stalwart Rus of Kiev repulsed numerous Cuman raids.  Kievan Rus has since fractured, leaving Kiev open for attack.  We will succeed where our ancestors failed and burn Kiev to the ground!"
+
+cum_reclaim_crimea_title: "Reclaim Crimea"
+cum_reclaim_crimea_desc: "The inhabitants of Crimea, an area that has long formed a core of our trade network, now swear fealty to foreign overlords in Genoa.  The Crimeans are rejecting our requests for tribute and obstructing our trade in the Black Sea.  With a show of force, we will remind Genoa who owns Crimea."
+
+cum_break_naimans_title: "Break the Naimans"
+cum_break_naimans_desc: "The aggressive Naimans are stirring up trouble to our east and threatening our Kypchak tribes.  If these brutes will not relent in their assaults, we will pacify the Naimans by any means necessary."
+cum_conquer_mongolia_title: "Conquer Mongolia"
+cum_conquer_mongolia_desc: "Beyond the Naimans lies their culture brethren, vicious tribes that claw at each other day and night.  Worse, our shamans bring omens of a great khan among these people who would rip our people apart and destroy everything we have achieved.  Mere superstition or not, it is our destiny to assert our dominance of the Asian steppes."
