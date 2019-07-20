@@ -1,58 +1,6 @@
-cuman_mobilize_block = {
-
-	slot = 2
-	generic = no
-	ai = yes
-	
-	potential = {
-		tag = CUM
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-	cum_mobilize_tribes = {
-		icon = mission_assemble_an_army
-		required_missions = {  }
-		position = 1
-
-		# free mission
-
-		trigger = {
-			army_size_percentage = 1
-			manpower_percentage = 0.6
-			num_of_generals = 1
-		}
-
-		effect = {
-			moldavia_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			crimea_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			
-			west_dniepr_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
-}
-
 cuman_unite_block = {
 
-	slot = 4
+	slot = 5
 	generic = no
 	ai = yes
 	
@@ -87,7 +35,17 @@ cuman_unite_block = {
 		position = 2
 		
 		provinces_to_highlight = {
-			area = balchasj_area
+			OR = {
+				area = balchasj_area
+				province_id = 2354
+				province_id = 476
+				province_id = 2361
+				province_id = 469
+				province_id = 465
+				province_id = 471
+				province_id = 439
+			}
+			
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
@@ -95,7 +53,28 @@ cuman_unite_block = {
 		trigger = {
 			balchasj_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				owned_by = ROOT
+			}
+			2354 = {
+				owned_by = ROOT
+			}
+			476 = {
+				owned_by = ROOT
+			}
+			2361 = {
+				owned_by = ROOT
+			}
+			469 = {
+				owned_by = ROOT
+			}
+			465 = {
+				owned_by = ROOT
+			}
+			471 = {
+				owned_by = ROOT
+			}
+			439 = {
+				owned_by = ROOT
 			}
 		}
 		
@@ -132,13 +111,16 @@ cuman_vlachs_conq = {
 	}
 	has_country_shield = yes
 	
-	cum_eat_moldavia = {
+	cum_reconquer_vlachs = {
 		icon = mission_rb_a_mighty_fleet
-		required_missions = { cum_mobilize_tribes }
+		required_missions = {  }
 		position = 2
 		
 		provinces_to_highlight = {
-			area = moldavia_area
+			OR = {
+				area = moldavia_area
+				area = wallachia_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
@@ -148,31 +130,6 @@ cuman_vlachs_conq = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-		}
-		
-		effect = {
-			wallachia_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
-	
-	cum_retake_wallachia = {
-		icon = mission_rb_a_mighty_fleet
-		required_missions = { cum_eat_moldavia }
-		position = 3
-		
-		provinces_to_highlight = {
-			area = wallachia_area
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		
-		
-		trigger = {
 			wallachia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -181,6 +138,13 @@ cuman_vlachs_conq = {
 		
 		effect = {
 			southern_transylvania_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			transylvania_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -199,17 +163,24 @@ cuman_vlachs_conq = {
 	
 	cum_take_transylvania = {
 		icon = mission_rb_a_mighty_fleet
-		required_missions = { cum_retake_wallachia }
+		required_missions = { cum_reconquer_vlachs }
 		position = 3
 		
 		provinces_to_highlight = {
-			area = southern_transylvania_area
+			OR = {
+				area = southern_transylvania_area
+				area = transylvania_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
 		
 		trigger = {
 			southern_transylvania_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			transylvania_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -240,8 +211,8 @@ cuman_slavs_conq = {
 	
 	cum_take_kiev = {
 		icon = mission_rb_a_mighty_fleet
-		required_missions = { cum_mobilize_tribes }
-		position = 2
+		required_missions = {  }
+		position = 1
 		
 		provinces_to_highlight = {
 			province_id = 280
@@ -256,20 +227,86 @@ cuman_slavs_conq = {
 		}
 		
 		effect = {
-			ruthenia_region = {
+			sloboda_ukraine_area = {
 				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			west_dniepr_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			east_dniepr_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			podolia_volhynia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 		}
 	}
 	
+	cum_ravage_rus = {
+		icon = mission_rb_a_mighty_fleet
+		required_missions = { cum_take_kiev }
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+				area = zaporizhia_area
+				area = yedisan_area
+				area = sloboda_ukraine_area
+				area = west_dniepr_area
+				area = east_dniepr_area
+				area = podolia_volhynia_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			sloboda_ukraine_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			west_dniepr_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_dniepr_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			podolia_volhynia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_adm_power = 100
+			add_mil_power = 100
+			add_prestige = 25
+			add_horde_unity = 25
+		}
+	}
+	
 	cum_smash_bulgaria = {
 		icon = mission_rb_a_mighty_fleet
-		required_missions = { cum_retake_wallachia }
-		position = 4
+		required_missions = { cum_reconquer_vlachs }
+		position = 3
 		
 		provinces_to_highlight = {
 			area = bulgaria_area
@@ -298,7 +335,7 @@ cuman_slavs_conq = {
 	cum_cumstantinople = {
 		icon = mission_rb_a_mighty_fleet
 		required_missions = { cum_smash_bulgaria }
-		position = 5
+		position = 4
 		
 		provinces_to_highlight = {
 			area = thrace_area
@@ -336,8 +373,8 @@ cuman_crimea_group = {
 	
 	cum_reclaim_crimea = {
 		icon = mission_rb_a_mighty_fleet
-		required_missions = { cum_mobilize_tribes }
-		position = 2
+		required_missions = {  }
+		position = 1
 		
 		provinces_to_highlight = {
 			area = crimea_area
@@ -346,12 +383,44 @@ cuman_crimea_group = {
 		
 		
 		trigger = {
-			bulgaria_area = {
+			crimea_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		
+		effect = {
+			add_country_modifier = {
+				name = "army_enthusiasm"
+				duration = 9125 #25 years
+			}
+		}
+	}
+
+	cum_dominate_crimean_trade = {
+		icon = mission_consulate_of_the_sea
+		required_missions = { cum_reclaim_crimea }
+		position = 2
+		provinces_to_highlight = {
+			province_id = 285				
+			OR = {
+				NOT = { has_building = marketplace }
+				NOT = { owned_by = ROOT }
+			}
+		}
+			
+		trigger = {
+			1322 = {
+				trade_share = {
+					country = ROOT
+					share = 33
+				}
+			}
+			285 = {
+				has_building = marketplace
+				owned_by = ROOT
+			}
+		}
 		effect = {
 			add_country_modifier = {
 				name = "army_enthusiasm"
@@ -372,8 +441,8 @@ cuman_mongols_group = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
-	
-	cum_break_naimans = {
+
+	cum_conquer_mongolia = {
 		icon = mission_rb_a_mighty_fleet
 		required_missions = { cum_cumans_and_kypchaks }
 		position = 3
@@ -382,8 +451,9 @@ cuman_mongols_group = {
 			OR = {
 				area = north_zungaria
 				area = altai_sayan_area
+				area = uliastai_area
 			}
-			
+					
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
@@ -397,31 +467,6 @@ cuman_mongols_group = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-		}
-		
-		effect = {
-			uliastai_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
-
-	cum_conquer_mongolia = {
-		icon = mission_rb_a_mighty_fleet
-		required_missions = { cum_break_naimans }
-		position = 4
-		
-		provinces_to_highlight = {
-			area = uliastai_area		
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		
-		
-		trigger = {
 			uliastai_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -429,12 +474,9 @@ cuman_mongols_group = {
 		}
 		
 		effect = {
-			uliastai_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
+			add_country_modifier = {
+				name = "army_enthusiasm"
+				duration = 9125 #25 years
 			}
 		}
 	}
