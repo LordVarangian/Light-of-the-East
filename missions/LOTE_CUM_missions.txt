@@ -253,7 +253,7 @@ cuman_slavs_conq = {
 	has_country_shield = yes
 	
 	cum_take_kiev = {
-		icon = mission_rb_a_mighty_fleet
+		icon = mission_cossack_cavalry
 		required_missions = {  }
 		position = 1
 		
@@ -302,7 +302,7 @@ cuman_slavs_conq = {
 	}
 	
 	cum_ravage_rus = {
-		icon = mission_rb_a_mighty_fleet
+		icon = mission_steppe_warriors
 		required_missions = { cum_take_kiev }
 		position = 2
 		
@@ -441,7 +441,7 @@ cuman_crimea_group = {
 	}
 
 	cum_dominate_crimean_trade = {
-		icon = mission_consulate_of_the_sea
+		icon = mission_market_place_with_asian_traders
 		required_missions = { cum_reclaim_crimea }
 		position = 2
 		provinces_to_highlight = {
@@ -486,7 +486,7 @@ cuman_mongols_group = {
 	has_country_shield = yes
 
 	cum_conquer_mongolia = {
-		icon = mission_rb_a_mighty_fleet
+		icon = mission_non-western_cavalry_raid
 		required_missions = { cum_cumans_and_kypchaks }
 		position = 3
 		
