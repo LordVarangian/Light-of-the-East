@@ -11,7 +11,7 @@ cuman_unite_block = {
 	has_country_shield = yes
 	
 	cum_unite_tribes = {
-		icon = mission_assemble_an_army
+		icon = mission_cossack_cavalry
 		required_missions = {  }
 		position = 1
 
@@ -30,7 +30,7 @@ cuman_unite_block = {
 	}
 	
 	cum_cumans_and_kypchaks = {
-		icon = mission_rb_a_mighty_fleet
+		icon = mission_cossack_cavalry
 		required_missions = { cum_unite_tribes }
 		position = 2
 		
@@ -112,7 +112,7 @@ cuman_vlachs_conq = {
 	has_country_shield = yes
 	
 	cum_reconquer_vlachs = {
-		icon = mission_rb_a_mighty_fleet
+		icon = mission_noble_council
 		required_missions = {  }
 		position = 2
 		
@@ -162,7 +162,7 @@ cuman_vlachs_conq = {
 	}
 	
 	cum_take_transylvania = {
-		icon = mission_rb_a_mighty_fleet
+		icon = mission_eastern_european_city
 		required_missions = { cum_reconquer_vlachs }
 		position = 3
 		
@@ -205,7 +205,7 @@ cuman_vlachs_conq = {
 	}
 	
 	cum_smash_hungary = {
-		icon = mission_rb_a_mighty_fleet
+		icon = mission_unite_home_region
 		required_missions = { cum_take_transylvania }
 		position = 4
 		
@@ -253,7 +253,7 @@ cuman_slavs_conq = {
 	has_country_shield = yes
 	
 	cum_take_kiev = {
-		icon = mission_cossack_cavalry
+		icon = mission_non-western_cavalry_raid
 		required_missions = {  }
 		position = 1
 		
@@ -347,7 +347,7 @@ cuman_slavs_conq = {
 	}
 	
 	cum_smash_bulgaria = {
-		icon = mission_rb_a_mighty_fleet
+		icon = mission_crusade_for_varna
 		required_missions = { cum_reconquer_vlachs }
 		position = 3
 		
@@ -376,7 +376,7 @@ cuman_slavs_conq = {
 	}
 	
 	cum_cumstantinople = {
-		icon = mission_rb_a_mighty_fleet
+		icon = mission_conquer_50_development
 		required_missions = { cum_smash_bulgaria }
 		position = 4
 		
@@ -415,7 +415,7 @@ cuman_crimea_group = {
 	has_country_shield = yes
 	
 	cum_reclaim_crimea = {
-		icon = mission_rb_a_mighty_fleet
+		icon = mission_arabian_fort
 		required_missions = {  }
 		position = 1
 		
