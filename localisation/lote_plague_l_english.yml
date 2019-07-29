@@ -8,3 +8,4 @@
  plague_variable_modifier: "Plague Progress"
  desc_plague_variable_modifier: "The Plague Progress is [Root.Getplaguevariable]"
  lote_plague_events.3.t: "Plague in $PROVINCECAPITAL$"
+ plague_variable: "Plague Progress"

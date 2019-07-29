@@ -1,3 +1,7 @@
 plague_variable_modifier = {
 
 }
+
+lote_plague_increase = {
+
+}

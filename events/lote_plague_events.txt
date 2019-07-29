@@ -89,13 +89,21 @@ province_event = {
 	title = lote_plague_events.3.t
 	desc = lote_plague_events.3.d
 	picture = DIPLOMACY_eventPicture
+	hidden = yes
 		
 	trigger = {
+		NOT = {
+			has_province_modifier = lote_plague_increase
+		}
 		owner = { has_global_flag = lote_plague_flag }
+		OR = {
+			province_has_center_of_trade_of_level = 2
+			development = 20
+		}
 	}
 	
 	mean_time_to_happen = {
-		months = 80
+		months = 1
 	}
 	
 	option = {
@@ -103,7 +111,23 @@ province_event = {
 		
 		ai_chance = { factor = 100 }
 		
-		change_variable = { which = plague_variable value = 5 }
+		add_province_modifier = {
+			name = lote_plague_increase
+			duration = 365
+			hidden = yes
+		}
+		
+		if = {
+			limit = {
+				province_has_center_of_trade_of_level = 2
+			}
+			change_variable = { which = plague_variable  value = 3 }
+		}
+		if = {
+			limit = {
+				development = 20
+			}
+			change_variable = { which = plague_variable  value = 1 }
+		}
 	}
 }
-		
