@@ -1,0 +1,17 @@
+defined_text = {
+    name = Getplaguevariable
+    random = no
+    
+    text = {
+        trigger = {
+            check_variable = { plague_variable = 0 }
+        }
+        localisation_key = string_PV_progress_green
+    }
+    text = {
+        trigger = {
+           always = yes
+        }
+        localisation_key = string_PV_progress_red
+    }
+}

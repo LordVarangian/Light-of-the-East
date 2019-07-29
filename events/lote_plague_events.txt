@@ -1,0 +1,109 @@
+namespace = lote_plague_events
+
+country_event = {
+	id = lote_plague_events.1
+	title = lote_plague_events.1.t
+	desc = lote_plague_events.1.d
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 80
+	}
+	
+	trigger = {
+		is_year = 1450
+		capital_scope = {
+			continent = europe
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			every_province = {
+				limit = {
+					continent = europe
+				}
+				set_variable = {
+					which = plague_variable
+					value = 0
+				}
+				add_province_modifier = {
+					name = plague_variable_modifier
+					duration = -1
+					desc = variable_desc
+				}
+			}
+			set_global_flag = lote_plague_flag
+		}
+	}
+	
+	option = {
+		name = lote_plague_events.1.a
+		
+		ai_chance = { factor = 100 }
+		
+		custom_tooltip = lote_plague1.tooltip
+	}
+}
+
+province_event = { #hidden event for every province that has the plague
+	id = lote_plague_events.2
+	title = lote_plague_events.2.t
+	desc = lote_plague_events.2.d
+	picture = DIPLOMACY_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		check_variable = { which = plague_variable value = 100 }
+		owner = { has_global_flag = lote_plague_flag }
+	}
+	
+	option = {
+		name = lote_plague_events.2.a
+		
+		ai_chance = { factor = 100 }
+		
+		add_province_modifier = {
+			name = lote_plague_modifier
+			duration = -1
+		}
+		if = {
+			limit = {
+				development = 10
+			}
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		else = {
+			add_local_autonomy = 25
+		}
+	}
+}
+
+province_event = {
+	id = lote_plague_events.3
+	title = lote_plague_events.3.t
+	desc = lote_plague_events.3.d
+	picture = DIPLOMACY_eventPicture
+		
+	trigger = {
+		owner = { has_global_flag = lote_plague_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 80
+	}
+	
+	option = {
+		name = lote_plague_events.3.a
+		
+		ai_chance = { factor = 100 }
+		
+		change_variable = { which = plague_variable value = 5 }
+	}
+}
+		

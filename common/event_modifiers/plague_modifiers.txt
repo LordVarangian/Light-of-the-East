@@ -1,0 +1,3 @@
+plague_variable_modifier = {
+
+}
