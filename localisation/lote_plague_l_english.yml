@@ -1,0 +1,10 @@
+﻿l_english:
+ string_PV_progress_red: "§G[This.plague_variable.GetValue]§!"
+ string_PV_progress_green: "§R[This.plague_variable.GetValue]§!"
+ lote_plague_events.1.t: "A New Deadly Plague"
+ lote_plague_events.1.d: " "
+ lote_plague_events.1.a: "This is getting out of hand."
+ lote_plague1.tooltip: "The plague is now present in Europe"
+ plague_variable_modifier: "Plague Progress"
+ desc_plague_variable_modifier: "The Plague Progress is [Root.Getplaguevariable]"
+ lote_plague_events.3.t: "Plague in $PROVINCECAPITAL$"
